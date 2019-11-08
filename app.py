@@ -9,8 +9,7 @@ import os
 import dash_table
 import plotly.io as pio
 import plotly.graph_objs as go
-
-#pio.templates.default = "plotly_white"
+import base64
 
 df=pd.read_table("data/table_for_maps.tsv")
 
@@ -27,7 +26,6 @@ app = dash.Dash(__name__)
 PAGE_SIZE = 20
 
 
-#gapminder = px.data.gapminder()
 
 
 col_options = [dict(label=x, value=x) for x in df.columns[1:-9]]
@@ -47,11 +45,19 @@ dimensions2= ["Feature"]
 dimensions3= [ "Environmental parameters"]
 app = dash.Dash(__name__)
 
+
+image_filename = 'images/resistomedblogo.png' 
+encoded_image = base64.b64encode(open(image_filename, 'rb').read())
+
+
+    
+
 app.layout = html.Div(
     [   # app header
+        html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode())),
         html.Div(
         className="app-header",
-        children=[html.Div('ResistomeDB explorer', className="app-header--title")]
+#         children=[html.Div('ResistomeDB explorer', className="app-header--title")]
                 ),
         html.Br(),
                
@@ -113,6 +119,8 @@ app.layout = html.Div(
         page_current=0,
         page_size=PAGE_SIZE,
         page_action='custom'),
+        html.H4("Table 1: Tara Ocean ORFs extracted from co-assembled contigs (from Oceanic regions), annotated by deepARG."),
+        html.P("ptn_id: identifier of the protein predicted from Tara Ocean co-assembly; sample: ID of the co-assembly; predicted_ARG-class: antibiotic class; probability: DeepARG probability of the ARG annotation; plasmid: yes when the ARG was predicted to be in a plasmid by PlasFlow tool; taxon_name_kaiju: taxonomic classification of the ARG by Kaiju tool (in the deeptest level); expressed: yes if RPKG > 5 in at least one metatranscriptomic sample from TARA Oceans"),
         html.Br(),      
         html.A(id='download-link', children='Download Protein Fasta File',style={'marginBottom': '1.5em'},
                ),

@@ -1,4 +1,3 @@
-# resistome_dash
 ## Dash app for exploring Tara Oceans resistome data
 
 After cloning, please install the requirments:

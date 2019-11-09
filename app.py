@@ -55,11 +55,8 @@ encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 app.layout = html.Div(
     [   # app header
         html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode())),
-        html.Div(
-        className="app-header",
-#         children=[html.Div('ResistomeDB explorer', className="app-header--title")]
-                ),
         html.Br(),
+        
                
         html.Div(
             [
@@ -119,7 +116,7 @@ app.layout = html.Div(
         page_current=0,
         page_size=PAGE_SIZE,
         page_action='custom'),
-        html.H4("Table 1: Tara Ocean ORFs extracted from co-assembled contigs (from Oceanic regions), annotated by deepARG."),
+        html.H5("Table 1: Tara Ocean ORFs extracted from co-assembled contigs (from Oceanic regions), annotated by deepARG."),
         html.P("ptn_id: identifier of the protein predicted from Tara Ocean co-assembly; sample: ID of the co-assembly; predicted_ARG-class: antibiotic class; probability: DeepARG probability of the ARG annotation; plasmid: yes when the ARG was predicted to be in a plasmid by PlasFlow tool; taxon_name_kaiju: taxonomic classification of the ARG by Kaiju tool (in the deeptest level); expressed: yes if RPKG > 5 in at least one metatranscriptomic sample from TARA Oceans"),
         html.Br(),      
         html.A(id='download-link', children='Download Protein Fasta File',style={'marginBottom': '1.5em'},

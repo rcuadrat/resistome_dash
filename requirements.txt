@@ -1,3 +1,4 @@
+gunicorn
 plotly_express==0.4.1
 dash==1.6.0
 dash-bio==0.4.0

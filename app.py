@@ -4,7 +4,7 @@ import dash_html_components as html
 import dash_core_components as dcc
 from dash.dependencies import Input, Output
 import pandas as pd
-import flask
+#import flask
 import os
 import dash_table
 import plotly.io as pio
@@ -44,6 +44,7 @@ dimensions = ["ARG"]
 dimensions2= ["Feature"]
 dimensions3= [ "Environmental parameters"]
 app = dash.Dash(__name__)
+server = app.server
 
 
 image_filename = 'images/resistomedblogo.png' 
@@ -239,4 +240,5 @@ def make_env_fig(arg,env_var2,feat22):
     fig = px.scatter(env, x=arg, y=env_var2,  marginal_y="violin",
            marginal_x="box", trendline="ols",template='plotly_white',color=feat22).for_each_trace(lambda t: t.update(name=t.name.replace(str(feat22)+"=","")))
     return fig
-app.run_server(debug=True,host='0.0.0.0')
+if __name__ == '__main__':
+        app.run_server(debug=True,host='0.0.0.0')

@@ -60,7 +60,7 @@ server = app.server
 
 app.layout = html.Div(
     [   # app header
-        html.Div(className="eleven columns",children=[
+        
         html.Div(className="pretty_container",
         children=[
         html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()))
@@ -161,7 +161,7 @@ app.layout = html.Div(
       #html.Div(html.A(id='download-link2', children='Download Nucleotide Fasta File',style={'marginBottom': '1.5em'},
         #))
          
-        ])   
+        
     ]
 )
 #########################################################################################################  

@@ -11,6 +11,8 @@ import plotly.io as pio
 import plotly.graph_objs as go
 import base64
 
+
+#### Load data ########################################
 df=pd.read_table("data/table_for_maps.tsv")
 
 deep=pd.read_csv("data/deep_with_tax_levels.tsv",sep='\t')
@@ -21,7 +23,6 @@ deep[' index'] = range(1, len(deep) + 1)
 
 env=pd.read_csv("data/table_env.tsv",sep='\t')
 
-app = dash.Dash(__name__)
 
 PAGE_SIZE = 20
 
@@ -43,31 +44,40 @@ col_options3=[dict(label=x, value=x) for x in ['Mean_Lat*','Mean_Long*','Mean_De
 dimensions = ["ARG"]
 dimensions2= ["Feature"]
 dimensions3= [ "Environmental parameters"]
-app = dash.Dash(__name__)
-server = app.server
 
 
 image_filename = 'images/resistomedblogo.png' 
 encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 
 
-    
+#######################################################
+
+
+app = dash.Dash(__name__)
+server = app.server
+
+######### Create app layout ###############   
 
 app.layout = html.Div(
     [   # app header
-        html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode())),
+        html.Div(className="eleven columns",children=[
+        html.Div(className="pretty_container",
+        children=[
+        html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()))
+        ]),
         html.Br(),
         
                
-        html.Div(
-            [
+        html.Div(className="pretty_container",
+                            children=[
                 html.P([d + ":", dcc.Dropdown(id="arg", options=col_options,value='MCR-1')])
                 for d in dimensions
             ],
             style={"width": "25%", "float": "left"},
                 ),
         
-        html.Div(
+        html.Div(className="pretty_container",
+                            children=
             [
                 html.P([d2 + ":", dcc.Dropdown(id="feat", options=col_options2,value='Environmental_Feature')])
                 for d2 in dimensions2
@@ -75,24 +85,43 @@ app.layout = html.Div(
             style={"width": "25%", "float": "left"},
                 ),
         
-        dcc.Graph(id="graph", style={"width": "75%", "display": "inline-block"}),
         
-        dcc.Graph(id="graph2", style={"width": "75%", "display": "inline-block"}),
-        
-        
-        
+
         html.Div(
-            [   
-                html.H2('Taxonomic classification of Tara Oceans ARGs'),
-                                
-                html.P(dcc.Slider(id="slider",min=1,max=6,marks={1:"Phylum",2:"Order",3:"Class",4:"Family",5:"Genus",6:"Species"},value=4),style={"width": "75%", "display": "inline-block",'marginBottom': '1.0em','marginLeft':'2.5em'}),
+                className="ten column",
+                children=[
+                dcc.Graph(id="graph", style={"width": "75%", "display": "inline-block"})
+                ]),
+
+
+        html.Div(
+                className="ten column",
+                children=[
+                dcc.Graph(id="graph2", style={"width": "75%", "display": "inline-block"})
+                ]),
                 
-                dcc.Graph(id="graph3", style={"width": "75%", "display": "inline-block",'marginBottom': '2.5em'}),
-            ]
-                ),
+        html.Br(),
+
         
         html.Div(
-            [
+                className="ten column",
+                children=[
+                html.H2('Taxonomic classification of Tara Oceans ARGs'),
+                ]),
+        html.Div(
+                className="ten column",
+                children=[         
+                html.P(dcc.Slider(id="slider",min=1,max=6,marks={1:"Phylum",2:"Order",3:"Class",4:"Family",5:"Genus",6:"Species"},value=4),
+                style={"width": "75%", "display": "inline-block",'marginBottom': '1.0em','marginLeft':'1.5em'}),
+                ]),
+        html.Div(className="ten column",
+                children=[
+                dcc.Graph(id="graph3", style={"width": "75%", "display": "inline-block",'marginBottom': '2.5em'}),
+                ]),
+
+        html.Div(
+            className="ten column",
+            children=[
                 html.P([d3 + ":", dcc.Dropdown(id="env_var", options=col_options3,value='PO4 [umol/L]**')])
                 for d3 in dimensions3
             ],
@@ -102,11 +131,18 @@ app.layout = html.Div(
         html.Br(),
         html.Br(),
         html.Br(),
-        dcc.Graph(id="graph4", style={"width": "75%", "display": "inline-block"}),
-        
+        html.Br(),
+        html.Div(
+            [
+            dcc.Graph(id="graph4", style={"width": "75%", "display": "inline-block"}),
+            ]),
+        html.Br(),
+        html.Br(),
+        html.Br(),
+        html.Br(),
        html.Div(
-        className="app-header",
-        children=[html.Div('Tara Ocean ORFs classified as ARG', className="app-header--title")] 
+        className="ten column",
+        children=[html.H2('Tara Ocean ORFs classified as ARG')] 
                ),
         
         dash_table.DataTable(
@@ -125,18 +161,23 @@ app.layout = html.Div(
       #html.Div(html.A(id='download-link2', children='Download Nucleotide Fasta File',style={'marginBottom': '1.5em'},
         #))
          
-        
+        ])   
     ]
 )
+#########################################################################################################  
 
+
+######### Create callbacks ###########
 
 @app.callback(Output("graph", "figure"), [Input("arg", "value"),Input("feat","value")])
-def make_figure(size,feat):
-    return px.scatter_geo(
+def make_figure_box(size,feat):
+        fig = px.scatter_geo(
         df,
         size=size,
-        lat="Latitude [degrees North]",lon="Longitude [degrees East]", color=feat,hover_name="Marine_provinces",projection='equirectangular',title="Antibiotic Resistance Genes (ARGs) distribution on Tara Oceans samples").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
-
+        lat="Latitude [degrees North]",lon="Longitude [degrees East]", color=feat,hover_name="Marine_provinces",projection='equirectangular',
+        title="Antibiotic Resistance Genes (ARGs) distribution on Tara Oceans samples").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
+        fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
+        return fig
 
 
 @app.callback(Output("graph2", "figure"), [Input("arg", "value"),Input("feat","value")])
@@ -150,7 +191,7 @@ def make_figure(size,feat):
         labels={size:size+"  RPKG"},template='plotly_white',color=feat
     ).for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
     fig.update_xaxes(title_text=None)
-    
+    fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
     return fig
 
 @app.callback(Output('download-link', 'href'),
@@ -162,7 +203,7 @@ def update_href(dropdown_value):
         'data/ptn',
         '{}.edit.fasta'.format(dropdown_value)
     )
-    absolute_filename = relative_filename
+    
 
     return '/{}'.format(relative_filename)
 
@@ -222,13 +263,13 @@ def make_fig2(arg,taxlevel):
     b=a.groupby(levels[taxlevel]).count()[["#ARG"]]
     fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',color=levels[taxlevel]).for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
     fig.update_xaxes(title_text=None)
-    #fig.update_xaxes(automargin=True)
     fig.update_layout(autosize=False,
     height=900,
     margin=go.layout.Margin(
         b=300       
     )
 )
+    fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
     return fig
 
 @app.callback(
@@ -239,6 +280,13 @@ def make_fig2(arg,taxlevel):
 def make_env_fig(arg,env_var2,feat22):
     fig = px.scatter(env, x=arg, y=env_var2,  marginal_y="violin",
            marginal_x="box", trendline="ols",template='plotly_white',color=feat22).for_each_trace(lambda t: t.update(name=t.name.replace(str(feat22)+"=","")))
+    fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
     return fig
+
+
+
+
+
+
 if __name__ == '__main__':
         app.run_server(debug=True,host='0.0.0.0')

@@ -31,8 +31,8 @@ PAGE_SIZE = 20
 
 col_options = [dict(label=x, value=x) for x in df.columns[1:-9]]
 col_options2=[dict(label=x, value=x) for x in ['Marine_provinces','Environmental_Feature',
-                                               'Ocean_sea_regions','fraction', 'Biogeographic_biomes',
-                                               'Sampling depth [m]']]
+                                               'Ocean_sea_regions', 'Biogeographic_biomes'
+                                               ]]
 
 col_options3=[dict(label=x, value=x) for x in ['Mean_Lat*','Mean_Long*','Mean_Depth [m]*','Mean_Temperature [deg C]*',
                                                'Mean_Salinity [PSU]*', 'Mean_Oxygen [umol/kg]*', 'Mean_Nitrates[umol/L]*',
@@ -188,7 +188,7 @@ def make_figure(size,feat):
         x=feat,
         y=size,
         notched=True,
-        labels={size:size+"  RPKG"},template='plotly_white',color=feat
+        labels={size:size+"  RPKG"},template='plotly_white'
     ).for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
     fig.update_xaxes(title_text=None)
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
@@ -279,7 +279,7 @@ def make_fig2(arg,taxlevel):
      Input('feat','value')])
 def make_env_fig(arg,env_var2,feat22):
     fig = px.scatter(env, x=arg, y=env_var2,  marginal_y="violin",
-           marginal_x="box", trendline="ols",template='plotly_white',color=feat22).for_each_trace(lambda t: t.update(name=t.name.replace(str(feat22)+"=","")))
+           marginal_x="violin", trendline="ols",template='plotly_white').for_each_trace(lambda t: t.update(name=t.name.replace(str(feat22)+"=","")))
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
     return fig
 

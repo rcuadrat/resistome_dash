@@ -125,10 +125,9 @@ app.layout = html.Div(
                 html.H4('Taxonomic level'),
                 html.P(dcc.Slider(id="slider",min=1,max=6,marks={1:"Phylum",2:"Order",3:"Class",4:"Family",5:"Genus",6:"Species"},value=4),
                 style={"width": "95%", "display": "inline-block",'marginBottom': '1.0em','marginLeft':'1.5em'}),
-                ]),
+                
         
-        html.Div(className="pretty_container",
-                children=[
+        
                 dcc.Graph(id="graph3", style={"width": "75%", "display": "inline-block",'marginBottom': '2.5em'}),
                 ]),
 

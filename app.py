@@ -16,8 +16,8 @@ import base64
 df=pd.read_table("data/table_for_maps.tsv")
 
 deep=pd.read_csv("data/deep_with_tax_levels.tsv",sep='\t')
-deep=deep[['#ARG','ptn_id','sample', 'predicted_ARG-class','probability','plasmid','taxon_name_kaiju','expressed','class', 
-           'order','phylum','family', 'genus', 'species']]
+deep=deep[['#ARG','ORF_ID','contig_id', 'predicted_ARG-class','probability','plasmid','taxon_name_kaiju','expressed','class', 
+           'order','phylum','family', 'genus', 'species','All ARGs in contig','# ARGs in contig']]
 
 deep[' index'] = range(1, len(deep) + 1)
 
@@ -169,7 +169,10 @@ app.layout = html.Div(
         page_current=0,
         page_size=PAGE_SIZE,
         page_action='custom'),
-        html.P("Columns description: ptn_id: identifier of the protein predicted from Tara Ocean co-assembly; sample: ID of the co-assembly; predicted_ARG-class: antibiotic class; probability: DeepARG probability of the ARG annotation; plasmid: yes when the ARG was predicted to be in a plasmid by PlasFlow tool; taxon_name_kaiju: taxonomic classification of the ARG by Kaiju tool (in the deeptest level); expressed: yes if RPKG > 5 in at least one metatranscriptomic sample from TARA Oceans"),
+        html.P("Columns description: 'ORF_ID': identifier of the ORF predicted from Tara Ocean co-assembly; 'contig_id': ID of the contig; 'predicted_ARG-class': \
+        antibiotic class; 'probability': DeepARG probability of the ARG annotation; 'plasmid': yes when the ARG was predicted to be in a plasmid by PlasFlow tool; \
+        'taxon_name_kaiju': taxonomic classification of the ARG by Kaiju tool (in the deeptest level possible); 'expressed': yes if RPKG > 5 in at least one metatranscriptomic \
+        sample from TARA Oceans; 'All ARGs in contig': all the ARGs in that contig; '# ARGs in contig': total of ARGs in that contig"),
         html.Br(),      
         html.A(id='download-link', children='Download Protein Fasta File',style={'marginBottom': '1.5em'},
                ),

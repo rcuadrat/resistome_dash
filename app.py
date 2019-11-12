@@ -17,7 +17,7 @@ df=pd.read_table("data/table_for_maps.tsv")
 
 deep=pd.read_csv("data/deep_with_tax_levels.tsv",sep='\t')
 deep=deep[['#ARG','ORF_ID','contig_id', 'predicted_ARG-class','probability','plasmid','taxon_name_kaiju','expressed','class', 
-           'order','phylum','family', 'genus', 'species','All ARGs in contig','# ARGs in contig']]
+           'order','phylum','family', 'genus', 'species','All ARGs in contig','# ARGs in contig',"description"]]
 
 deep[' index'] = range(1, len(deep) + 1)
 
@@ -78,7 +78,6 @@ app.layout = html.Div(
         by average genome size, sequencing sample deep  (number of reads) and size of ARG (expressed in RPKG - reads per kb per genome equivalent)."),
         dcc.Markdown("Please cite: [Cuadrat at al. 2019](https://doi.org/10.1101/765446)")
         ]),
-        html.Br(),
                
         html.Div(className="pretty_container",
                             children=[
@@ -96,13 +95,17 @@ app.layout = html.Div(
             ],
             style={"width": "25%", "float": "left"},
                 ),
-        
         html.Br(),
         html.Br(),
         html.Br(),
         html.Br(),
         html.Br(),
-
+        html.Div(className="pretty_container",
+        children=[
+        html.P("Description of the selected ARG:"),
+        html.P(id="desc"),
+        ]),
+        html.Br(),
         html.Div(
                 className="pretty_container",
                 children=[
@@ -155,13 +158,13 @@ app.layout = html.Div(
         
         html.Div(
         className="pretty_container",
-        children=[html.H4('Table 1: Tara Ocean ORFs extracted from co-assembled contigs (from Oceanic regions), annotated by deepARG.'
+        children=[html.H4('Tara Ocean ORFs extracted from co-assembled contigs (from Oceanic regions), annotated by deepARG.'
                ),
         
         dash_table.DataTable(
         id='datatable-paging',
         columns=[
-        {"name": i, "id": i} for i in deep.drop([" index",'order','phylum','family', 'genus', 'species','class'],axis=1).columns
+        {"name": i, "id": i} for i in deep.drop([" index",'order','phylum','family', 'genus', 'species','class','description'],axis=1).columns
                 ],
         page_current=0,
         page_size=PAGE_SIZE,
@@ -187,13 +190,19 @@ app.layout = html.Div(
 
 ######### Create callbacks ###########
 
+@app.callback(Output("desc", "children"), [Input("arg", "value")])
+def get_desc(desc):
+        desctext=deep[deep["#ARG"]==desc][["#ARG","description"]].drop_duplicates()["description"]
+        return desctext
+
+
 @app.callback(Output("graph", "figure"), [Input("arg", "value"),Input("feat","value")])
 def make_figure_box(size,feat):
         fig = px.scatter_geo(
         df,
         size=size,
         lat="Latitude [degrees North]",lon="Longitude [degrees East]", color=feat,hover_name="Marine_provinces",projection='equirectangular',
-        title="Antibiotic Resistance Genes (ARGs) distribution and abundance (RPKG) on Tara Oceans samples.").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
+        title=str(size)+" distribution and abundance (RPKG) on Tara Oceans samples.").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
         #fig.update_xaxes(title_text="Abundance of ARG (RPKG) is proportional to the size of the bubbles")
         fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
     "size": 22})

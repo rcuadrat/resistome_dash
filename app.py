@@ -66,7 +66,18 @@ app.layout = html.Div(
         html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()))
         ]),
         html.Br(),
-        
+
+        html.Div(className="pretty_container",
+        children=[
+        html.H4("Global ocean resistome revealed: exploring Antibiotic Resistance Genes (ARGs) abundance and distribution on TARA oceans samples through machine learning tools."),
+        html.P("This app allows the user to explore and visualize the Antibiotic Resistance Genes (ARGs) found on Tara Oceans samples."),
+        html.P("In short, Tara Oceans contigs (from regional samples co-assembled) were used to screening for ARGs using deepARG tool."),
+        html.P("Then, the results were manually curated in order to remove false positives and miss annotations."),
+        html.P("The extracted environmental ARGs were then used as reference for mapping reads from individual Tara Oceans samples and the read counts were normalized by average genome size, sequencing sample deep (number of reads) and size of ARG"),
+        html.P("All the abundances are expressed in RPKG (reads per kb per genome equivalent)."),
+        dcc.Markdown("Please cite: [Cuadrat at al. 2019](https://doi.org/10.1101/765446)")
+        ]),
+        html.Br(),
                
         html.Div(className="pretty_container",
                             children=[
@@ -90,7 +101,8 @@ app.layout = html.Div(
         html.Div(
                 className="ten column",
                 children=[
-                dcc.Graph(id="graph", style={"width": "75%", "display": "inline-block"})
+                dcc.Graph(id="graph", style={"width": "75%", "display": "inline-block"}),
+                
                 ]),
 
 
@@ -142,7 +154,7 @@ app.layout = html.Div(
         html.Br(),
        html.Div(
         className="ten column",
-        children=[html.H2('Tara Ocean ORFs classified as ARG')] 
+        children=[html.H3('Tara Ocean ORFs classified as ARG')] 
                ),
         
         dash_table.DataTable(
@@ -175,7 +187,8 @@ def make_figure_box(size,feat):
         df,
         size=size,
         lat="Latitude [degrees North]",lon="Longitude [degrees East]", color=feat,hover_name="Marine_provinces",projection='equirectangular',
-        title="Antibiotic Resistance Genes (ARGs) distribution on Tara Oceans samples").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
+        title="Antibiotic Resistance Genes (ARGs) distribution and abundance (RPKG) on Tara Oceans samples").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
+        #fig.update_xaxes(title_text="Abundance of ARG (RPKG) is proportional to the size of the bubbles")
         fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
         return fig
 
@@ -188,10 +201,10 @@ def make_figure(size,feat):
         x=feat,
         y=size,
         notched=True,
-        labels={size:size+"  RPKG"},template='plotly_white'
+        labels={size:size+"  RPKG"},template='plotly_white',title="Antibiotic Resistance Genes (ARGs) abundance on "+str(feat)
     ).for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
-    fig.update_xaxes(title_text=None)
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
+    
     return fig
 
 @app.callback(Output('download-link', 'href'),
@@ -261,7 +274,7 @@ def make_fig2(arg,taxlevel):
     levels={1:"phylum",2:"order",3:"class",4:"family",5:"genus",6:"species"}
     a=deep[deep["#ARG"]==arg]
     b=a.groupby(levels[taxlevel]).count()[["#ARG"]]
-    fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',color=levels[taxlevel]).for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
+    fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',color=levels[taxlevel],title="Number of ARGs per taxonomic group.").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
     fig.update_xaxes(title_text=None)
     fig.update_layout(autosize=False,
     height=900,

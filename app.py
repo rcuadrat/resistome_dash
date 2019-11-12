@@ -69,12 +69,13 @@ app.layout = html.Div(
 
         html.Div(className="pretty_container",
         children=[
+        
         html.H4("Global ocean resistome revealed: exploring Antibiotic Resistance Genes (ARGs) abundance and distribution on TARA oceans samples through machine learning tools."),
-        html.P("This app allows the user to explore and visualize the Antibiotic Resistance Genes (ARGs) found on Tara Oceans samples."),
-        html.P("In short, Tara Oceans contigs (from regional samples co-assembled) were used to screening for ARGs using deepARG tool."),
-        html.P("Then, the results were manually curated in order to remove false positives and miss annotations."),
-        html.P("The extracted environmental ARGs were then used as reference for mapping reads from individual Tara Oceans samples and the read counts were normalized by average genome size, sequencing sample deep (number of reads) and size of ARG"),
-        html.P("All the abundances are expressed in RPKG (reads per kb per genome equivalent)."),
+        html.P("This app allows the user to explore and visualize the Antibiotic Resistance Genes (ARGs) found on Tara Oceans samples."), 
+        html.P("In short, Tara Oceans contigs (from regional samples co-assembled) \
+        were used to screening for ARGs using deepARG tool. Then, the results were manually curated in order to remove false positives and miss annotations. \
+        The extracted environmental ARGs were then used as reference for mapping reads from individual Tara Oceans samples and the read counts were normalized \
+        by average genome size, sequencing sample deep  (number of reads) and size of ARG. All the abundances are expressed in RPKG (reads per kb per genome equivalent)."),
         dcc.Markdown("Please cite: [Cuadrat at al. 2019](https://doi.org/10.1101/765446)")
         ]),
         html.Br(),
@@ -96,10 +97,14 @@ app.layout = html.Div(
             style={"width": "25%", "float": "left"},
                 ),
         
-        
+        html.Br(),
+        html.Br(),
+        html.Br(),
+        html.Br(),
+        html.Br(),
 
         html.Div(
-                className="ten column",
+                className="pretty_container",
                 children=[
                 dcc.Graph(id="graph", style={"width": "75%", "display": "inline-block"}),
                 
@@ -107,32 +112,28 @@ app.layout = html.Div(
 
 
         html.Div(
-                className="ten column",
+                className="pretty_container",
                 children=[
                 dcc.Graph(id="graph2", style={"width": "75%", "display": "inline-block"})
                 ]),
                 
-        html.Br(),
 
         
         html.Div(
-                className="ten column",
+                className="pretty_container",
                 children=[
-                html.H2('Taxonomic classification of Tara Oceans ARGs'),
-                ]),
-        html.Div(
-                className="ten column",
-                children=[         
+                html.H4('Taxonomic level'),
                 html.P(dcc.Slider(id="slider",min=1,max=6,marks={1:"Phylum",2:"Order",3:"Class",4:"Family",5:"Genus",6:"Species"},value=4),
-                style={"width": "75%", "display": "inline-block",'marginBottom': '1.0em','marginLeft':'1.5em'}),
+                style={"width": "95%", "display": "inline-block",'marginBottom': '1.0em','marginLeft':'1.5em'}),
                 ]),
-        html.Div(className="ten column",
+        
+        html.Div(className="pretty_container",
                 children=[
                 dcc.Graph(id="graph3", style={"width": "75%", "display": "inline-block",'marginBottom': '2.5em'}),
                 ]),
 
         html.Div(
-            className="ten column",
+            className="pretty_container",
             children=[
                 html.P([d3 + ":", dcc.Dropdown(id="env_var", options=col_options3,value='PO4 [umol/L]**')])
                 for d3 in dimensions3
@@ -144,19 +145,22 @@ app.layout = html.Div(
         html.Br(),
         html.Br(),
         html.Br(),
-        html.Div(
-            [
+        html.Br(),
+       
+        html.Div(className="pretty_container",
+            children=[
             dcc.Graph(id="graph4", style={"width": "75%", "display": "inline-block"}),
             ]),
         html.Br(),
         html.Br(),
-        html.Br(),
-        html.Br(),
-       html.Div(
-        className="ten column",
-        children=[html.H3('Tara Ocean ORFs classified as ARG')] 
-               ),
         
+        html.Div(
+        className="pretty_container",
+        children=[html.H4('Table 1: Tara Ocean ORFs extracted from co-assembled contigs (from Oceanic regions), annotated by deepARG.')] 
+               ),
+        html.Div(
+        className="pretty_container",
+        children=[
         dash_table.DataTable(
         id='datatable-paging',
         columns=[
@@ -165,11 +169,11 @@ app.layout = html.Div(
         page_current=0,
         page_size=PAGE_SIZE,
         page_action='custom'),
-        html.H5("Table 1: Tara Ocean ORFs extracted from co-assembled contigs (from Oceanic regions), annotated by deepARG."),
-        html.P("ptn_id: identifier of the protein predicted from Tara Ocean co-assembly; sample: ID of the co-assembly; predicted_ARG-class: antibiotic class; probability: DeepARG probability of the ARG annotation; plasmid: yes when the ARG was predicted to be in a plasmid by PlasFlow tool; taxon_name_kaiju: taxonomic classification of the ARG by Kaiju tool (in the deeptest level); expressed: yes if RPKG > 5 in at least one metatranscriptomic sample from TARA Oceans"),
+        html.P("Columns description: ptn_id: identifier of the protein predicted from Tara Ocean co-assembly; sample: ID of the co-assembly; predicted_ARG-class: antibiotic class; probability: DeepARG probability of the ARG annotation; plasmid: yes when the ARG was predicted to be in a plasmid by PlasFlow tool; taxon_name_kaiju: taxonomic classification of the ARG by Kaiju tool (in the deeptest level); expressed: yes if RPKG > 5 in at least one metatranscriptomic sample from TARA Oceans"),
         html.Br(),      
         html.A(id='download-link', children='Download Protein Fasta File',style={'marginBottom': '1.5em'},
                ),
+        ])
       #html.Div(html.A(id='download-link2', children='Download Nucleotide Fasta File',style={'marginBottom': '1.5em'},
         #))
          
@@ -187,9 +191,14 @@ def make_figure_box(size,feat):
         df,
         size=size,
         lat="Latitude [degrees North]",lon="Longitude [degrees East]", color=feat,hover_name="Marine_provinces",projection='equirectangular',
-        title="Antibiotic Resistance Genes (ARGs) distribution and abundance (RPKG) on Tara Oceans samples").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
+        title="Antibiotic Resistance Genes (ARGs) distribution and abundance (RPKG) on Tara Oceans samples.").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
         #fig.update_xaxes(title_text="Abundance of ARG (RPKG) is proportional to the size of the bubbles")
-        fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
+        fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
+    "size": 22})
+        fig.update_layout(autosize=False,
+    height=700,
+    width=1200     
+    )
         return fig
 
 
@@ -201,10 +210,14 @@ def make_figure(size,feat):
         x=feat,
         y=size,
         notched=True,
-        labels={size:size+"  RPKG"},template='plotly_white',title="Antibiotic Resistance Genes (ARGs) abundance on "+str(feat)
+        labels={size:size+"  RPKG"},template='plotly_white',title="Antibiotic Resistance Genes (ARGs) abundance on "+str(feat)+"."
     ).for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
-    fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
-    
+    fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
+    "size": 22})
+    fig.update_layout(autosize=False,
+    height=700,
+    width=1200     
+    )
     return fig
 
 @app.callback(Output('download-link', 'href'),
@@ -274,10 +287,16 @@ def make_fig2(arg,taxlevel):
     levels={1:"phylum",2:"order",3:"class",4:"family",5:"genus",6:"species"}
     a=deep[deep["#ARG"]==arg]
     b=a.groupby(levels[taxlevel]).count()[["#ARG"]]
-    fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',color=levels[taxlevel],title="Number of ARGs per taxonomic group.").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
+    if taxlevel==6:
+        fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',title="Number of Tara ARGs found per taxonomic group (Kaiju).").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
+    else:
+        fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',color=levels[taxlevel],title="Number of Tara ARGs found per taxonomic group (Kaiju).").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
+
     fig.update_xaxes(title_text=None)
-    fig.update_layout(autosize=False,
+    fig.update_layout(autosize=False,titlefont={
+    "size": 22},
     height=900,
+    width=1200,
     margin=go.layout.Margin(
         b=300       
     )
@@ -291,12 +310,15 @@ def make_fig2(arg,taxlevel):
      Input('env_var','value'),
      Input('feat','value')])
 def make_env_fig(arg,env_var2,feat22):
-    fig = px.scatter(env, x=arg, y=env_var2,  marginal_y="violin",
+    fig = px.scatter(env, x=arg, y=env_var2,  marginal_y="violin",title="ARG vs. enviromental parameters.",
            marginal_x="violin", trendline="ols",template='plotly_white').for_each_trace(lambda t: t.update(name=t.name.replace(str(feat22)+"=","")))
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
+    fig.update_layout(autosize=False,titlefont={
+    "size": 22},
+    height=700,
+    width=1200     
+    )
     return fig
-
-
 
 
 

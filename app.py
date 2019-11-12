@@ -75,7 +75,7 @@ app.layout = html.Div(
         html.P("In short, Tara Oceans contigs (from regional samples co-assembled) \
         were used to screening for ARGs using deepARG tool. Then, the results were manually curated in order to remove false positives and miss annotations. \
         The extracted environmental ARGs were then used as reference for mapping reads from individual Tara Oceans samples and the read counts were normalized \
-        by average genome size, sequencing sample deep  (number of reads) and size of ARG. All the abundances are expressed in RPKG (reads per kb per genome equivalent)."),
+        by average genome size, sequencing sample deep  (number of reads) and size of ARG (expressed in RPKG - reads per kb per genome equivalent)."),
         dcc.Markdown("Please cite: [Cuadrat at al. 2019](https://doi.org/10.1101/765446)")
         ]),
         html.Br(),
@@ -122,7 +122,7 @@ app.layout = html.Div(
         html.Div(
                 className="pretty_container",
                 children=[
-                html.H4('Taxonomic level'),
+                html.H5('   Taxonomic level:'),
                 html.P(dcc.Slider(id="slider",min=1,max=6,marks={1:"Phylum",2:"Order",3:"Class",4:"Family",5:"Genus",6:"Species"},value=4),
                 style={"width": "95%", "display": "inline-block",'marginBottom': '1.0em','marginLeft':'1.5em'}),
                 
@@ -144,22 +144,20 @@ app.layout = html.Div(
         html.Br(),
         html.Br(),
         html.Br(),
-        html.Br(),
+       
        
         html.Div(className="pretty_container",
             children=[
             dcc.Graph(id="graph4", style={"width": "75%", "display": "inline-block"}),
             ]),
         html.Br(),
-        html.Br(),
+        
         
         html.Div(
         className="pretty_container",
-        children=[html.H4('Table 1: Tara Ocean ORFs extracted from co-assembled contigs (from Oceanic regions), annotated by deepARG.')] 
+        children=[html.H4('Table 1: Tara Ocean ORFs extracted from co-assembled contigs (from Oceanic regions), annotated by deepARG.'
                ),
-        html.Div(
-        className="pretty_container",
-        children=[
+        
         dash_table.DataTable(
         id='datatable-paging',
         columns=[
@@ -168,7 +166,9 @@ app.layout = html.Div(
         page_current=0,
         page_size=PAGE_SIZE,
         page_action='custom'),
-        html.P("Columns description: 'ORF_ID': identifier of the ORF predicted from Tara Ocean co-assembly; 'contig_id': ID of the contig; 'predicted_ARG-class': \
+        html.Br(),
+
+        dcc.Markdown("Columns description: 'ORF_ID': identifier of the ORF predicted from Tara Ocean co-assembly; 'contig_id': ID of the contig; 'predicted_ARG-class': \
         antibiotic class; 'probability': DeepARG probability of the ARG annotation; 'plasmid': yes when the ARG was predicted to be in a plasmid by PlasFlow tool; \
         'taxon_name_kaiju': taxonomic classification of the ARG by Kaiju tool (in the deeptest level possible); 'expressed': yes if RPKG > 5 in at least one metatranscriptomic \
         sample from TARA Oceans; 'All ARGs in contig': all the ARGs in that contig; '# ARGs in contig': total of ARGs in that contig"),

@@ -11,9 +11,8 @@ import plotly.io as pio
 import plotly.graph_objs as go
 import base64
 
-
 #### Load data ########################################
-df=pd.read_table("data/table_for_maps.tsv")
+#df=pd.read_table("data/table_for_maps.tsv")
 
 deep=pd.read_csv("data/deep_with_tax_levels.tsv",sep='\t')
 deep=deep[['#ARG','ORF_ID','contig_id', 'predicted_ARG-class','probability','plasmid','taxon_name_kaiju','expressed','class', 
@@ -23,13 +22,14 @@ deep[' index'] = range(1, len(deep) + 1)
 
 env=pd.read_csv("data/table_env.tsv",sep='\t')
 
+arg_count=len(set(deep["#ARG"]))
+class_count=len(set(deep["predicted_ARG-class"]))
+
 
 PAGE_SIZE = 20
 
 
-
-
-col_options = [dict(label=x, value=x) for x in df.columns[1:-9]]
+col_options = [dict(label=x, value=x) for x in env.columns[1:-9]]
 col_options2=[dict(label=x, value=x) for x in ['Marine_provinces','Environmental_Feature',
                                                'Ocean_sea_regions', 'Biogeographic_biomes'
                                                ]]
@@ -45,13 +45,10 @@ dimensions = ["ARG"]
 dimensions2= ["Feature"]
 dimensions3= [ "Environmental parameters"]
 
-
 image_filename = 'images/resistomedblogo.png' 
 encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 
-
 #######################################################
-
 
 app = dash.Dash(__name__)
 server = app.server
@@ -95,6 +92,17 @@ app.layout = html.Div(
             ],
             style={"width": "25%", "float": "left"},
                 ),
+        
+        html.Div(className="pretty_container",
+                            children=
+            [
+                dcc.Markdown("**Total Antibiotic Resistance Genes (ARGs):** "+ str(arg_count)),
+                dcc.Markdown("**Total  antibiotic classes: **" + str(class_count),style={"padding": "2.8px"})             
+            ],
+            style={"width": "39.4%","float": "right"},
+                ),
+
+
         html.Br(),
         html.Br(),
         html.Br(),
@@ -113,15 +121,12 @@ app.layout = html.Div(
                 
                 ]),
 
-
         html.Div(
                 className="pretty_container",
                 children=[
                 dcc.Graph(id="graph2", style={"width": "75%", "display": "inline-block"})
                 ]),
                 
-
-        
         html.Div(
                 className="pretty_container",
                 children=[
@@ -148,7 +153,6 @@ app.layout = html.Div(
         html.Br(),
         html.Br(),
        
-       
         html.Div(className="pretty_container",
             children=[
             dcc.Graph(id="graph4", style={"width": "75%", "display": "inline-block"}),
@@ -173,7 +177,7 @@ app.layout = html.Div(
 
         dcc.Markdown("Columns description: 'ORF_ID': identifier of the ORF predicted from Tara Ocean co-assembly; 'contig_id': ID of the contig; 'predicted_ARG-class': \
         antibiotic class; 'probability': DeepARG probability of the ARG annotation; 'plasmid': yes when the ARG was predicted to be in a plasmid by PlasFlow tool; \
-        'taxon_name_kaiju': taxonomic classification of the ARG by Kaiju tool (in the deeptest level possible); 'expressed': yes if RPKG > 5 in at least one metatranscriptomic \
+        'taxon_name_kaiju': taxonomic classification of the ARG by Kaiju tool (in the deeptest level possible); 'expressed': yes if FPKM > 5 in at least one metatranscriptomic \
         sample from TARA Oceans; 'All ARGs in contig': all the ARGs in that contig; '# ARGs in contig': total of ARGs in that contig"),
         html.Br(),      
         html.A(id='download-link', children='Download Protein Fasta File',style={'marginBottom': '1.5em'},
@@ -187,7 +191,6 @@ app.layout = html.Div(
 )
 #########################################################################################################  
 
-
 ######### Create callbacks ###########
 
 @app.callback(Output("desc", "children"), [Input("arg", "value")])
@@ -199,11 +202,10 @@ def get_desc(desc):
 @app.callback(Output("graph", "figure"), [Input("arg", "value"),Input("feat","value")])
 def make_figure_box(size,feat):
         fig = px.scatter_geo(
-        df,
+        env,
         size=size,
         lat="Latitude [degrees North]",lon="Longitude [degrees East]", color=feat,hover_name="Marine_provinces",projection='equirectangular',
         title=str(size)+" distribution and abundance (RPKG) on Tara Oceans samples.").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
-        #fig.update_xaxes(title_text="Abundance of ARG (RPKG) is proportional to the size of the bubbles")
         fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
     "size": 22})
         fig.update_layout(autosize=False,
@@ -212,12 +214,11 @@ def make_figure_box(size,feat):
     )
         return fig
 
-
 @app.callback(Output("graph2", "figure"), [Input("arg", "value"),Input("feat","value")])
 def make_figure(size,feat):
    
     fig= px.box(
-        df,
+        env,
         x=feat,
         y=size,
         notched=True,
@@ -244,16 +245,12 @@ def update_href(dropdown_value):
 
     return '/{}'.format(relative_filename)
 
-
 @app.server.route('/data/ptn/<path:path>')
 def serve_static(path):
     root_dir = os.getcwd()
     return flask.send_from_directory(
         os.path.join(root_dir, 'data/ptn'), path
     )
-
-
-
 
 ##
 # @app.callback(Output('download-link2', 'href'),
@@ -330,8 +327,6 @@ def make_env_fig(arg,env_var2,feat22):
     width=1200     
     )
     return fig
-
-
 
 
 if __name__ == '__main__':

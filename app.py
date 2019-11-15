@@ -22,6 +22,7 @@ deep[' index'] = range(1, len(deep) + 1)
 
 env=pd.read_csv("data/table_env.tsv",sep='\t')
 
+
 arg_count=len(set(deep["#ARG"]))
 class_count=len(set(deep["predicted_ARG-class"]))
 
@@ -29,7 +30,7 @@ class_count=len(set(deep["predicted_ARG-class"]))
 PAGE_SIZE = 20
 
 
-col_options = [dict(label=x, value=x) for x in env.columns[1:-9]]
+col_options = [dict(label=x, value=x) for x in env.columns[0:-45]]
 col_options2=[dict(label=x, value=x) for x in ['Marine_provinces','Environmental_Feature',
                                                'Ocean_sea_regions', 'Biogeographic_biomes'
                                                ]]

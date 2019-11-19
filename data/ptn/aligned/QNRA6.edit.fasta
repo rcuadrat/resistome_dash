@@ -1,0 +1,47 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_499272_TARA_ASE_RAW_Pleur      MK--PLLFLTLACAVLI-YDI--AAMA---FDDIHFE--QFKNKNVCPKC 40
+gene_989917_TARA_IOS_RAW_Pleur      -------------------------MA---FDDIHFE--QFKNKNVCPKC 20
+gene_851002_TARA_ANW_RAW_Pseud      MRGCDLRDFTIESANLSGADLSRANLSGADLTDVDFTGVNLENTNLR-EA 49
+                                                             ::   : *:.*   :::*.*:  :.
+
+gene_499272_TARA_ASE_RAW_Pleur      DLSNSNFNKADLRKAVLRHANLRDSVLR---FTD--FRGATLEKASLRQA 85
+gene_989917_TARA_IOS_RAW_Pleur      DLSNSNFNKADLRKAVLRHANLRDSVLR---FTD--FRGATLEKASLRQA 65
+gene_851002_TARA_ANW_RAW_Pseud      NLTRANIREANLTRANFTRANFRGADLTGANLTGAILRGADLTGANLTGA 99
+                                    :*:.:*:.:*:* :* : :**:*.: *    :*.  :*** *  *.*  *
+
+gene_499272_TARA_ASE_RAW_Pleur      DLSGAQLQK-----------VNLKNANLE----KTTLQY-ANLSSANLEG 119
+gene_989917_TARA_IOS_RAW_Pleur      DLSGAQLQK-----------VNLKNANLE----KTTLQY-ANLSSANLEG 99
+gene_851002_TARA_ANW_RAW_Pseud      NLTGARLAQRQYDNTRGDRSANFTEANLAGVDFSTAFLYGVNFTRAILTG 149
+                                    :*:**:* :           .*:.:***     .*:: * .*:: * * *
+
+gene_499272_TARA_ASE_RAW_Pleur      ANFREADLT-----GANLARTNLSGAN-----FAQANLIKTNL------- 152
+gene_989917_TARA_IOS_RAW_Pleur      ADIREADLT-----GANLARTNLSGAN-----FAQANLIKTNL------- 132
+gene_851002_TARA_ANW_RAW_Pseud      ANFREANLTRARATNADLTDVDFTGANLAGVDFEEANLTRANLTTTVLGV 199
+                                    *::***:**     .*:*: .:::***     * :*** ::**       
+
+gene_499272_TARA_ASE_RAW_Pleur      ---RG-AKM-IG-ANLLGVNLIKADLKGAKLSGAHLLKANLVKANLSGAD 196
+gene_989917_TARA_IOS_RAW_Pleur      ---RG-AKM-IG-ANLLGVNLIKADLKGAKLSGAHLLKANLVKANLSGAD 176
+gene_851002_TARA_ANW_RAW_Pseud      GFSRGNPKVYISTANFKGANLTDANLEGANLTDEYLFETNFTGANLTDVD 249
+                                       ** .*: *. **: *.** .*:*:**:*:. :*:::*:. ***:..*
+
+gene_499272_TARA_ASE_RAW_Pleur      LSHAIFKKSTLDEVNLVGADLTQTDFSSASMKTVSFYG---AKLCQ---T 240
+gene_989917_TARA_IOS_RAW_Pleur      LSHAIFTKSTLDEVNLVGADLTQTDFSSASMKTVSFYG---AKLCK---T 220
+gene_851002_TARA_ANW_RAW_Pseud      LRNATLTRANLTEANLTNADLTNADLTDANLTGANL-GELISVMVRGETA 298
+                                    * :* :.::.* *.**..****::*::.*.:. ..: *   : : :   :
+
+gene_499272_TARA_ASE_RAW_Pleur      KMP--WGIEN---PLCK--------------------------------- 252
+gene_989917_TARA_IOS_RAW_Pleur      KMP--WGIEN---PLCK--------------------------------- 232
+gene_851002_TARA_ANW_RAW_Pseud      HLPDGWSIVRDWRALTGLLTFDESESAATPAEENTIELDYDSSFNNIRHE 348
+                                    ::*  *.* .   .*                                   
+
+gene_499272_TARA_ASE_RAW_Pleur      --------------------------------------------------
+gene_989917_TARA_IOS_RAW_Pleur      --------------------------------------------------
+gene_851002_TARA_ANW_RAW_Pseud      IDRVFDEKRNYSLFKKIDITGDAQIEWRELVRIIGEDGIESISIDQFDNF 398
+                                                                                      
+
+gene_499272_TARA_ASE_RAW_Pleur      ------
+gene_989917_TARA_IOS_RAW_Pleur      ------
+gene_851002_TARA_ANW_RAW_Pseud      ILQFIK 404
+                                          

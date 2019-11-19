@@ -1,0 +1,54 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_95645_TARA_PSE_RAW_Actino      LIK---R--EK----N-V--SIGYLAQ--EIV-------T---------- 19
+gene_1281222_TARA_PSE_RAW_Male      MIEIGLKDIEKYYGANKVLEDISFEVQSGEIVGILGRNGTGKTTIFKIIS 50
+                                    :*:   :  **    * *  .*.: .*  ***       *          
+
+gene_95645_TARA_PSE_RAW_Actino      ------------RKESTI--IDEVLSSYPE---AIEI--E--K------- 41
+gene_1281222_TARA_PSE_RAW_Male      RLENYNGGALSIRKNATIGYLDQI-PEYPENYRAIDVLNEAFKNVISIKE 99
+                                                **::**  :*:: ..***   **::  *  *       
+
+gene_95645_TARA_PSE_RAW_Actino      EISALSHKISK-NPSDVS-LLNQLGDKQIEYESIGGWDLVEKAKKILSGL 89
+gene_1281222_TARA_PSE_RAW_Male      ELRNMEDKMSRLQGDDLDKIMKKYGEVQIEYENQGGYEVEEKLSKVCTGL 149
+                                    *:  :..*:*: : .*:. :::: *: *****. **::: ** .*: :**
+
+gene_95645_TARA_PSE_RAW_Actino      GFNQNQSSDTTDTLSGGWRMRVALASILLKDPDVLLLDEPTNHLDLESTI 139
+gene_1281222_TARA_PSE_RAW_Male      KINEEFKERLFSRLSGGEKTTVMLGKILLQNPSILLLDEPTNHLDIESVE 199
+                                     :*:: ..   . **** :  * *..***::*.:***********:**. 
+
+gene_95645_TARA_PSE_RAW_Actino      WLEKFLSKWNGIIVIISHDRTFLDSSINCVYEISIRKISTFKGNYSSYIA 189
+gene_1281222_TARA_PSE_RAW_Male      WLEEFLREYKGTVLIISHDRYFLDAVVGKIVEIEDGKTNIYLGNYSYYVP 249
+                                    ***:** :::* ::****** ***: :. : **.  * . : **** *:.
+
+gene_95645_TARA_PSE_RAW_Actino      EKGKRLDIQKKTYKNQQKEIKETERFVERFR-Y--KSTKS---KQVQSRI 233
+gene_1281222_TARA_PSE_RAW_Male      EKERRLMQQIELYKSQQKKIKAMEEAIKRFRDWGNRGDNEMMFKKAANMQ 299
+                                    ** :**  * : **.***:**  *. ::*** :  :. :.   *:. .  
+
+gene_95645_TARA_PSE_RAW_Actino      KKIEKIELLESPIEDNSKITIQIQKGKRLPLNVVTFNRVLKTYDNLIVLK 283
+gene_1281222_TARA_PSE_RAW_Male      KRIDKMDKVDRPVVEKTNMKLDFSTDTRSGKDVVSVKGLKKAFDDKVILE 349
+                                    *:*:*:: :: *: :::::.:::....*   :**:.: : *::*: ::*:
+
+gene_95645_TARA_PSE_RAW_Actino      DLNLLIKRKEKIGLVGYNGAGKTTLLK-LIAGFEKATAGEITYGNNTEIG 332
+gene_1281222_TARA_PSE_RAW_Male      DLDFHVRYGQKVAILGKNGCGKSTLIKILLNEIDEY-QGEVRIGNGAEIG 398
+                                    **:: ::  :*:.::* **.**:**:* *:  :::   **:  **.:***
+
+gene_95645_TARA_PSE_RAW_Actino      YYAQHQLELLKKDDTVLESLSRVSEGFTELEKRTLLGSFLFSNEDIYKKV 382
+gene_1281222_TARA_PSE_RAW_Male      -YLQQEIEFDNKDNTILEVFRDVYP-VSEGEARGILARFLFYADDVFKKV 446
+                                     * *:::*: :**:*:** :  *   .:* * * :*. ***  :*::***
+
+gene_95645_TARA_PSE_RAW_Actino      RVLSGGEKARLVWGRVLSRRPNLLLLDEPTNHLDIRSRNILEEAMINFEG 432
+gene_1281222_TARA_PSE_RAW_Male      RNLSGGEKVRLKLCMLMQRDTNLLILDEPTNHLDIDSREMLEKALAEFNG 496
+                                    * ******.**    ::.* .***:********** **::**:*: :*:*
+
+gene_95645_TARA_PSE_RAW_Actino      SIVCISHDRHFLNKITTCTYEVGNEGVVKYDGNYDYYTWKKLSSAK-I-- 479
+gene_1281222_TARA_PSE_RAW_Male      TIIFISHDRYFINKIANSIANINNKKLINYVGNYDYYKEKRISEEKDIDE 546
+                                    :*: *****:*:***:..  ::.*: :::* ******. *::*. * *  
+
+gene_95645_TARA_PSE_RAW_Actino      ---ID--KK----KQESS-----------KHIEKSI--V----------- 496
+gene_1281222_TARA_PSE_RAW_Male      KPSIENAKKEKVFKKKTKTVNNNKADKRVKEIEMEIETVESKIESLDTEA 596
+                                       *:  **    *:::.           *.** .*  *           
+
+gene_95645_TARA_PSE_RAW_Actino      ------YRK-E----KKT--KN-------------- 505
+gene_1281222_TARA_PSE_RAW_Male      HSHSHDYEKLEEIHNKKSRLKQRHDELMEEWINLEA 632
+                                          *.* *    **:  *:              

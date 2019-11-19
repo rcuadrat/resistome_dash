@@ -1,0 +1,18 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_2516325_TARA_RED_RAW_--_y      LSRWLVDELNQSELQHWLDLRCLLWPGDSGDHLNEIQQYFCGQNPHIERV 50
+gene_1868224_TARA_IOS_RAW_--_n      LTRWLVDELNQSELQHWLDLRCLLWPGDSGDHLNEIQQYFCGQNPHIERV 50
+                                    *:************************************************
+
+gene_2516325_TARA_RED_RAW_--_y      WGVRSKGIPVMGFLELSLRSYAEGTSDSPVPYVEGWFVRADARGRGAGKA 100
+gene_1868224_TARA_IOS_RAW_--_n      WGVRSKGIPVMGFLELSLRSYAEGTSDSPVPYVEGWFVRADARGRGAGKA 100
+                                    **************************************************
+
+gene_2516325_TARA_RED_RAW_--_y      LMESAMGWASSRGFAYLASDTELTNEGSIHAHHAIGFKEVGRQVAFLRQL 150
+gene_1868224_TARA_IOS_RAW_--_n      LMESAMGWASSRGFAYLASDTELTNEGSIHAHHAIGFKEVGRQVAFLRQL 150
+                                    **************************************************
+
+gene_2516325_TARA_RED_RAW_--_y      KPKN 154
+gene_1868224_TARA_IOS_RAW_--_n      KPKN 154
+                                    ****

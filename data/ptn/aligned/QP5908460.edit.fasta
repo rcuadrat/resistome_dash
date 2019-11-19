@@ -1,0 +1,26 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_5419668_TARA_PSE_RAW_Terr      MELHVKGSLATLMLFVCITAHAQWQERSEWGAIFESAEVEGTIAVLDQRG 50
+gene_2538608_TARA_PSE_RAW_Pseu      MP---K-LLLCLLYILALPLQASNQERSDWATEFAAQNAVGTIVVLDERA 46
+                                    *    *  *  *: ::.:. :*. ****:*.: * : :. ***.***:*.
+
+gene_5419668_TARA_PSE_RAW_Terr      GNSRYWAHNVERAGRRYMPASTFKVPHALFALDAGVVRDEFQVFEWDGEK 100
+gene_2538608_TARA_PSE_RAW_Pseu      PNQPAWVHNPERAAQRFSPASTFKIPHTLMALDAGAVRDEFEVFPWDGVE 96
+                                     *.  *.** ***.:*: ******:**:*:*****.*****:** *** :
+
+gene_5419668_TARA_PSE_RAW_Terr      RWLDAWNRDQDLRSSMRNSVVWVYQHFARQIGEAREREYLVKVDYGNADP 150
+gene_2538608_TARA_PSE_RAW_Pseu      HSYAGHNQDQTLRTAMRNSTVWVYRGFASNIGEPRARAYLQLLDYGNADP 146
+                                    :   . *:** **::****.****: ** :***.* * **  :*******
+
+gene_5419668_TARA_PSE_RAW_Terr      SGGVDTFWLDGNLKISAIEQIEFLRRLHFNELPFKVEHQRLVKDLMINEA 200
+gene_2538608_TARA_PSE_RAW_Pseu      SVTQGDYWIDGKLAISAQEQIRFLQQLYRNKLPFKIEHQRLVKDLMIVEA 196
+                                    *   . :*:**:* *** ***.**::*: *:****:*********** **
+
+gene_5419668_TARA_PSE_RAW_Terr      GHEWTREWILRAKTGWQARVEPNVGWWVGWVEWPDGPVFFALNIDMPFGS 250
+gene_2538608_TARA_PSE_RAW_Pseu      ----QRNWILRAKTGWEGR----YGWWVGWVEWPEGPVFFALNIDTPNRM 238
+                                         *:*********:.*     **********:********** *   
+
+gene_5419668_TARA_PSE_RAW_Terr      KDAPKRTRIAREVLRSIGAL-----EE- 272
+gene_2538608_TARA_PSE_RAW_Pseu      DDLHKREDITRAILRNIQALPTPSPQQP 266
+                                    .*  **  *:* :**.* **     :: 

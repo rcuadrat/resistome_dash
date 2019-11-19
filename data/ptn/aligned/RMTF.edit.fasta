@@ -1,0 +1,26 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_1395886_TARA_RED_RAW_--_n      MASTGWSRTQRDVFAFGLSTTAVEDSAMSDLIKVESRIRGSRKYRDFHPS 50
+gene_773404_TARA_ANW_RAW_--_no      ---------------------------MLDVRQVEDRIRSSRKYGDLHPS 23
+                                                               * *: :**.***.**** *:***
+
+gene_1395886_TARA_RED_RAW_--_n      VVRRQIAELSGRYRAAKDLEQAVRKKLHQAFGAYLDGNWQRKFKTELSGI 100
+gene_773404_TARA_ANW_RAW_--_no      VVRRQVAELENRYRSEKQLEQAVRRKLHQAFGAYLHGNWLRKFRTELQRI 73
+                                    *****:***..***: *:******:**********.*** ***:***. *
+
+gene_1395886_TARA_RED_RAW_--_n      DPTDEQSVLLGSRKLMGLHASTRERAGILADFAELVADVVPDGGMVLDIA 150
+gene_773404_TARA_ANW_RAW_--_no      DPEDDDSILQGCHRLMLLHTSTRERTSILGRFLEWIAGIVPEGASVLDVA 123
+                                    ** *::*:* *.::** **:*****:.**. * * :*.:**:*. ***:*
+
+gene_1395886_TARA_RED_RAW_--_n      CGMNALSLPTIRRSRSFRYTGIDLHRGMLDQMTTFAETVQVEAEFLWDDV 200
+gene_773404_TARA_ANW_RAW_--_no      CGLNALVLPALYKSRRFRYTGVDLHREISAQLSAFAAYARVEAKFVWGDI 173
+                                    **:*** **:: :** *****:**** :  *:::**  .:***:*:*.*:
+
+gene_1395886_TARA_RED_RAW_--_n      VAVPFPQADVVLALKLLSCLEHQQEGAGLDLIRRLNADQIIVSYPTRTLG 250
+gene_773404_TARA_ANW_RAW_--_no      LDGNLPRCDVAWIFKLLPVLEHQEKGSATRLIRDLEAEVAIASFPTRSLG 223
+                                    :   :*:.**.  :***. ****::*:.  *** *:*:  *.*:***:**
+
+gene_1395886_TARA_RED_RAW_--_n      GSDVGMETNYLMQIERLASEAGRSLEAYTTDTEAFYVMK 289
+gene_773404_TARA_ANW_RAW_--_no      GADVGMEYAYHRQIEEICGETGRSFERFDCETERFYVMR 262
+                                    *:*****  *  ***.:..*:***:* :  :** ****:

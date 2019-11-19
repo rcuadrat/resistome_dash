@@ -1,0 +1,38 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_3861121_TARA_ION_RAW_Brev      M-SDNRPIWAHALPTAILLMAPFDLLASLAMDIYLPVTPAMPAALQADPP 49
+gene_3053171_TARA_PSE_RAW_Pseu      MPTTDR--RNH-L-SVILILALLVIFCPLAIDIYLPAFPDIAQALAIDEQ 46
+                                    * : :*    * * :.**::* : ::..**:*****. * :. **  *  
+
+gene_3861121_TARA_ION_RAW_Brev      VIQLTLSVYLLGLGLGQVIFGPLSDRFGRRPVLLSGALTFAVTSGLLAMA 99
+gene_3053171_TARA_PSE_RAW_Pseu      QVQLTVAIFMLTVGLGQLIAGPLADKFGRRPVALFG-ITLYGFAGMLAFL 95
+                                     :***:::::* :****:* ***:*:****** * * :*:   :*:**: 
+
+gene_3861121_TARA_ION_RAW_Brev      ASGWAFVVL-RLAQAMGAAAMLVATFATVRDVYGDKPESVRIYGLFSAML 148
+gene_3053171_TARA_PSE_RAW_Pseu      APNFSILMLARALQGFGACATFVVAFAIVRDTYG-SAKSGQMITYLNGIV 144
+                                    *..:::::* *  *.:**.* :*.:** ***.** ..:* ::   :..::
+
+gene_3861121_TARA_ION_RAW_Brev      AFVPAFGPVLGALVSAQLSWRAIFWFLAALTLPPLM-HALWRWTETRPLG 197
+gene_3053171_TARA_PSE_RAW_Pseu      CFIPALAPILGAWLTVQFGWRINFLFLAGFACVGLMITAIY-FKETRPAD 193
+                                    .*:**:.*:*** ::.*:.**  * ***.::   **  *:: :.**** .
+
+gene_3861121_TARA_ION_RAW_Brev      ---EAS----RPRPVPILRSRTFQIYTLAFGAAMGSFFVYLSTAPRILVE 240
+gene_3053171_TARA_PSE_RAW_Pseu      SHYEGHILDLR-RFIPIISTPIFLFNSLICMVAMSAILAFVTLAPGWIMT 242
+                                       *.     * * :**: :  * : :*   .**.:::.::: **  :: 
+
+gene_3861121_TARA_ION_RAW_Brev      RVGLSGLEFSLAFASTAFVMIVASHAVRPCLDRWGVAGAVQRGMGLLLAS 290
+gene_3053171_TARA_PSE_RAW_Pseu      ELGGSVSDFTFWFTLNAIVSIVASFIAPLYIKRHSQK-ALRIGMSLLIFS 291
+                                    .:* *  :*:: *: .*:* ****. .   :.* .   *:: **.**: *
+
+gene_3861121_TARA_ION_RAW_Brev      ALCFGASAAFGEPSIGSVILPSWIMAVGIVLTVSVSANGALEAFGDQAGL 340
+gene_3053171_TARA_PSE_RAW_Pseu      GVLILILGQF-KSAF-AFMLPVLIAALGFALSLGSAAGMALSHFAKQAGT 339
+                                    .: :   . * :.:: :.:**  * *:*:.*::. :*. **. *..*** 
+
+gene_3861121_TARA_ION_RAW_Brev      AVALY----FAGQSLIVSLVGTLAVILFNGSTVWPLAAYTLTLPT-LVLL 385
+gene_3053171_TARA_PSE_RAW_Pseu      ASALIGLMQMSGAGVLVMLT---QVLPFN-APEFIACHLLLLLPLWVILL 385
+                                    * **     ::* .::* *.    *: ** :. :  .   * **  ::**
+
+gene_3861121_TARA_ION_RAW_Brev      G--LNASR-KS- 393
+gene_3053171_TARA_PSE_RAW_Pseu      SNKAHAYHPKNT 397
+                                    .   :* : *. 

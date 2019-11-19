@@ -1,0 +1,30 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_68085_TARA_ION_RAW_Citrom      M-MKA-FLGAIALATAGCAAHS--APSH-PPEVSTEQ--LAAQIDGLEAA 43
+gene_513118_TARA_PSE_RAW_Citro      LRVRALFL-PLLLATAACSVNPQGSPERGEPGTSAAQQDLAARISEIETA 49
+                                    : ::* ** .: ****.*:.:.  :*.:  * .*: *  ***:*. :*:*
+
+gene_68085_TARA_ION_RAW_Citrom      SGGRLGLALFSQDEGLLFAHRGAERFAMCSTFKLALAAMTLETSGVREER 93
+gene_513118_TARA_PSE_RAW_Citro      SGGRLGLALHSPDKGLLYAYRGDERFAMCSTFKLALAAMTLDTPGLREKR 99
+                                    *********.* *:***:*:** ******************:*.*:**:*
+
+gene_68085_TARA_ION_RAW_Citrom      LDFGEDDILSYAPYAKERAQIGWMSGLEAAHHAVTLSDNTAANLLLARLG 143
+gene_513118_TARA_PSE_RAW_Citro      LHFGAGDILSYAPYAKERASSGWMSGLEAAHHAVTLSDNTAANLLLAEVG 149
+                                    *.** .*************. **************************.:*
+
+gene_68085_TARA_ION_RAW_Citrom      GPEAFTAWLRSTGDGVTRLDRNEPTLNENAPGDPRDTTTPGAKAELVGNL 193
+gene_513118_TARA_PSE_RAW_Citro      GPDGFTRWLRSMGDETTRLDRNEPALNENAPGDPRDTTTPTAHADLVGTL 199
+                                    **:.** **** ** .********:*************** *:*:***.*
+
+gene_68085_TARA_ION_RAW_Citrom      LWGDRLSATDRSILHGWLVETSTGMARLRGGLPDGWNAGDKTGTCGGEGQ 243
+gene_513118_TARA_PSE_RAW_Citro      LWGDRLAQADRALLQEWLVETTTGMNRLRAGLPGDWRAGDKTGTCGTGAQ 249
+                                    ******: :**::*: *****:*** ***.***..*.*********  .*
+
+gene_68085_TARA_ION_RAW_Citrom      PEFNDIAVFETPAGSHYVLAAFLDRPTGTSAEADAVLADAARAVAEWIRK 293
+gene_513118_TARA_PSE_RAW_Citro      GEVNDIAMFETPDGSRYILAAYLDRADGSASDAEARLAEAARALADWLQQ 299
+                                     *.****:**** **:*:***:***. *::::*:* **:****:*:*:::
+
+gene_68085_TARA_ION_RAW_Citrom      SGA 296
+gene_513118_TARA_PSE_RAW_Citro      MGA 302
+                                     **

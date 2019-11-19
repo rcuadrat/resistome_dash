@@ -1,0 +1,18 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_2007888_TARA_PON_RAW_--_y      MATCTIIEEVSTELAAYSEVPISFTVSQRLRVDLIDGGLGGFRLKTRVVD 50
+gene_2459377_TARA_PON_RAW_Cand      --------D-S--LESYAAVPIAFAVSCRFRVEPVASGLEGFSIVEEPVP 39
+                                            : *  * :*: ***:*:** *:**: : .** ** :  . * 
+
+gene_2007888_TARA_PON_RAW_--_y      PPYVKDYDAIKGEGPTRWARRFDMSNWGILSAHIDDQRVGGIIMAWNSDG 100
+gene_2459377_TARA_PON_RAW_Cand      DPYLKDYDAIKGEGPTRW-RRWDLTNWGFLAAFADQRRVGGAIIAWQTEG 88
+                                     **:************** **:*::***:*:*. *::**** *:**:::*
+
+gene_2007888_TARA_PON_RAW_--_y      VSMLEDRSDLAVIWDVRVDDAARGQGVGRTLFGAGEQWARERGCKWLKVE 150
+gene_2459377_TARA_PON_RAW_Cand      IDMLEGRADLAVLWDIRVAPDVRGQGVGARLIDHVERWARARDCRTLKIE 138
+                                    :.***.*:****:**:**   .******  *:.  *:*** *.*: **:*
+
+gene_2007888_TARA_PON_RAW_--_y      TQNINVGACRFYAKMGCHLGAIDQHAYEDLPDEVQMLWVKQL---- 192
+gene_2459377_TARA_PON_RAW_Cand      TQNINVPACRFYARSGCTLGAVFLHAYPELPEEVQMLWYKDLASQA 184
+                                    ****** ******: ** ***:  *** :**:****** *:*    

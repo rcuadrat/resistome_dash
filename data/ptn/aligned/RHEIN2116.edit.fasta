@@ -1,0 +1,26 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_2619061_TARA_ANE_RAW_Hyph      MAKAGWHPAYLLLAAFAVVLSACQSPVVSATGNLDHILENQALSPDVAAL 50
+gene_458789_TARA_ASW_RAW_Hypho      MMDS--MSGSFTRAAFAVVSSACQSPVVSATGNLDHILENQALSPDVAAL 48
+                                    * .:   .. :  ****** ******************************
+
+gene_2619061_TARA_ANE_RAW_Hyph      VIYRLEDERVWTSSGDRPAERFVAASTSKIPHTLIALETGAVSGPDELFE 100
+gene_458789_TARA_ASW_RAW_Hypho      VIYRLEDERVWTSSGDRPAERFVAASTSKIPHTLIALETGAVSGPDELFE 98
+                                    **************************************************
+
+gene_2619061_TARA_ANE_RAW_Hyph      WDGEVRFVPGWNESQDFATAFRRSTVWIYETITPRIGSATLGDWLAKFDF 150
+gene_458789_TARA_ASW_RAW_Hypho      WDGEVRFVPGWNESQDFATAFRRSTVWIYQTITPRIGSATLGDWLAKFDF 148
+                                    *****************************:********************
+
+gene_2619061_TARA_ANE_RAW_Hyph      GNANTGDADDIQTYWLKGPLEISAHEQIGFLAKLAARTLPLSAETYTQAL 200
+gene_458789_TARA_ASW_RAW_Hypho      GNANTGDADDIQTYWLKGPLEISAHEQIGFLAKLAARTLPLSAETYTQAL 198
+                                    **************************************************
+
+gene_2619061_TARA_ANE_RAW_Hyph      PIMLEKSGEGWTLYGKTGWKSVKGETDIGWYVGWLEQTAGEAPGTYAFAL 250
+gene_458789_TARA_ASW_RAW_Hypho      PIMLEKSGEGWTLYGKTGWKSVKGETDIGWYVGWLEQTAGEAPGTYAFAL 248
+                                    **************************************************
+
+gene_2619061_TARA_ANE_RAW_Hyph      NMNMRGDNPPLQKRRAAVHEALIAIGALEAPADP 284
+gene_458789_TARA_ASW_RAW_Hypho      NMNMRGDNPPLQKRRAAVHEALIAIGALEAPADP 282
+                                    **********************************

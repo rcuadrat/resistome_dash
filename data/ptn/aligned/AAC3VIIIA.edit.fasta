@@ -1,0 +1,128 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_4291168_TARA_PSE_RAW_Paen      -------------------------------------A------TD---- 3
+gene_2117200_TARA_PON_RAW_Paen      MRFAICTSVYEEARTYFSDWISCAISASDGYDTEVIIALDGLEDTDNALQ 50
+gene_1968611_TARA_RED_RAW_Beut      --------------------------------------------------
+gene_1558778_TARA_RED_RAW_Dein      --------------------------------------------------
+gene_45756_TARA_RED_RAW_--_no       --------------------------------------------------
+gene_97762_TARA_RED_RAW_Desulf      --------------------------------------------------
+gene_786214_TARA_RED_RAW_uncla      --------------------------------------------------
+                                                                                      
+
+gene_4291168_TARA_PSE_RAW_Paen      ----------------ANIAQVREAMLLRAIRSKADILIFCDIDDRLKSN 37
+gene_2117200_TARA_PON_RAW_Paen      HLAESLPISYAIPEAGANIAQVRAAMLLRAIKSEADILIFCDIDDRLKAN 100
+gene_1968611_TARA_RED_RAW_Beut      --------------------------------------------------
+gene_1558778_TARA_RED_RAW_Dein      --------------------------------------------------
+gene_45756_TARA_RED_RAW_--_no       --------------------------------------------------
+gene_97762_TARA_RED_RAW_Desulf      --------------------------------------------------
+gene_786214_TARA_RED_RAW_uncla      --------------------------------------------------
+                                                                                      
+
+gene_4291168_TARA_PSE_RAW_Paen      AFSLHAAALKDADFSYGDMQPIDQNGSILESSFFSDAAVPKRISRTESII 87
+gene_2117200_TARA_PON_RAW_Paen      AFSLHAASLRNADFSYGDMQPIGQNGSDLESSFFTDAAVPNKISRTESII 150
+gene_1968611_TARA_RED_RAW_Beut      --------------------------------------------------
+gene_1558778_TARA_RED_RAW_Dein      --------------------------------------------------
+gene_45756_TARA_RED_RAW_--_no       --------------------------------------------------
+gene_97762_TARA_RED_RAW_Desulf      --------------------------------------------------
+gene_786214_TARA_RED_RAW_uncla      --------------------------------------------------
+                                                                                      
+
+gene_4291168_TARA_PSE_RAW_Paen      DRNWLGFSNSAIWRKKIPSLIDNVPQTIAAVDWWFFTVLLKSGLKGLRVD 137
+gene_2117200_TARA_PON_RAW_Paen      DRNWLGFSNTAIWRKRIPSLTQNVPQTIAAVDWWFFTVLLKSGLRGHRAD 200
+gene_1968611_TARA_RED_RAW_Beut      --------------------------------------------------
+gene_1558778_TARA_RED_RAW_Dein      --------------------------------------------------
+gene_45756_TARA_RED_RAW_--_no       --------------------------------------------------
+gene_97762_TARA_RED_RAW_Desulf      --------------------------------------------------
+gene_786214_TARA_RED_RAW_uncla      --------------------------------------------------
+                                                                                      
+
+gene_4291168_TARA_PSE_RAW_Paen      GIVSDYRIHENNQLGFRPTATIESAKKRLHIMKKHYEEFPLDIIAQQRLS 187
+gene_2117200_TARA_PON_RAW_Paen      GVVSDYRVHENNQLGYRPTATLESTKKRLHIIRKHYEEFPSDIIARQRLS 250
+gene_1968611_TARA_RED_RAW_Beut      --------------------------------------------------
+gene_1558778_TARA_RED_RAW_Dein      --------------------------------------------------
+gene_45756_TARA_RED_RAW_--_no       --------------------------------------------------
+gene_97762_TARA_RED_RAW_Desulf      --------------------------------------------------
+gene_786214_TARA_RED_RAW_uncla      --------------------------------------------------
+                                                                                      
+
+gene_4291168_TARA_PSE_RAW_Paen      RIINLISKLDKNPTEMQKLIKPACVNARLWYEDIANLAIGPASANVTAVQ 237
+gene_2117200_TARA_PON_RAW_Paen      RVIHLISKLDKNPNEMQKLIELACANARLWYEDIANLTAGVASANVTAVQ 300
+gene_1968611_TARA_RED_RAW_Beut      ----------------------------------------VETVLVT--- 7
+gene_1558778_TARA_RED_RAW_Dein      ------------------------------------MTGPVASGIAT--- 11
+gene_45756_TARA_RED_RAW_--_no       ----------------------MLISQLLIFH--LEGRKGINMP-VT--- 22
+gene_97762_TARA_RED_RAW_Desulf      ------------------------------------------MPPLT--- 5
+gene_786214_TARA_RED_RAW_uncla      --------------------------------------------------
+                                                                                      
+
+gene_4291168_TARA_PSE_RAW_Paen      LPHYAEPNKFTTRPQLALALAKIGVKKGDILMVHVSTKSLGFIIGGLRTI 287
+gene_2117200_TARA_PON_RAW_Paen      LPDYVEPNKFTPRQQLVSALEKTGVKKGDILMVHVSTKSLGFIIGGLRTV 350
+gene_1968611_TARA_RED_RAW_Beut      ------------RSSLVRDLHAVGVEEGDRILVHTSLNKLGFVVGAARTV 45
+gene_1558778_TARA_RED_RAW_Dein      ------------VASIAQGLRALGLDAGDIVCVHAGMKSLGLVIGGPRAV 49
+gene_45756_TARA_RED_RAW_--_no       ------------KQQIISDLIALGIEPGITVMMHSSLSALGPVEGGPEAV 60
+gene_97762_TARA_RED_RAW_Desulf      ------------RLQITNQLRELGLAPGNVVMMHSSLSALGPVEGGPETV 43
+gene_786214_TARA_RED_RAW_uncla      ---------------MGAAIRRIGVQAGDRIMLHSSLSSIGYVEGGAPTV 35
+                                                   :   :   *:  *  : :* . . :* : *.  ::
+
+gene_4291168_TARA_PSE_RAW_Paen      LDALYDAIG-NGTLMMPAFTGDLTDPATWFKPPVNEKYWKTIRESLPAFD 336
+gene_2117200_TARA_PON_RAW_Paen      LDALYDAIG-DGTLMMPAFTGDLTDPSTWFKPPISKKHWKTIRESLPAFD 399
+gene_1968611_TARA_RED_RAW_Beut      VEALIGAVGENGTVVMPTYSGELSNPAEWQSPPVPKEWIEIIRQETQAYD 95
+gene_1558778_TARA_RED_RAW_Dein      VEALIATVEPDGTIMMPAFSGDLSDPAEWQHPPVPADRIDEIRAQIPAYD 99
+gene_45756_TARA_RED_RAW_--_no       VDALLDVIGPDGTLLVPAFR----D-SVWED---RSDFTNS-DCECPPVD 101
+gene_97762_TARA_RED_RAW_Desulf      IDGLFDAIGPDGTLVVPVFR----D-SVWGD---CTDFRNS-DCDCSSSD 84
+gene_786214_TARA_RED_RAW_uncla      VEAFLDVLGPQGTLMVPTFT----------------------HSATEYFD 63
+                                    ::.:  .:  :**:::*.:                              *
+
+gene_4291168_TARA_PSE_RAW_Paen      AKLTPTKD--IGALAELFRNEPGTERSNHPVSSFAARGPAASQLLKTHDI 384
+gene_2117200_TARA_PON_RAW_Paen      AKLTPTKD--IGALAELFRNEPGTERSNHPVSSFSARGPLAKHLLKTHNI 447
+gene_1968611_TARA_RED_RAW_Beut      PKLSPTRL--MGVVSEYFRHWPGTIRSPHPQSSFTALGKDAEAIVGDHPC 143
+gene_1558778_TARA_RED_RAW_Dein      PACTPTRG--IGQVAEYFRSYPGVRRSPHPQSSFAALGAAADALVAEHPY 147
+gene_45756_TARA_RED_RAW_--_no       GLCTSKQPGFQGVIPETVRQRPQSLRSCHPTHSWVGLGKSARRLLDRHHL 151
+gene_97762_TARA_RED_RAW_Desulf      GLCTSQQPGFQGVLTECVRKRSGSLRSCHKTHSWVAAGPASRQLLSGHRQ 134
+gene_786214_TARA_RED_RAW_uncla      PLRSPSKN---GAISEAARYFPDAVRSFHPTHAVTAIGPEAHELVED-DL 109
+                                       :. :    * :.*  *  .   ** *   :  . *  :  ::     
+
+gene_4291168_TARA_PSE_RAW_Paen      N-SRFGEKSPLQALCDFGGKVLLIGAPYESMTLLHLSSDK--IDD-GSLV 430
+gene_2117200_TARA_PON_RAW_Paen      D-SRFGEESPLQALCDLGGKVLLIGAPYESMTLLHLSSEK--IDD-GALV 493
+gene_1968611_TARA_RED_RAW_Beut      D-CRFGPNSPLAKLVAFGGKTIMLGAPEQTCSLYYLSQHR--LEN-NNEI 189
+gene_1558778_TARA_RED_RAW_Dein      D-NRFGPTSPLGKLVELDGKVLLIGAPHDTVSLFHMTQHL--VGD-HPQI 193
+gene_45756_TARA_RED_RAW_--_no       SPTQCGTDNPF-ELMADNDCVLTLGVMVDRVTLWHYYEEKQMVPYMGHYW 200
+gene_97762_TARA_RED_RAW_Desulf      TPAICGKGNPFEELVALDGRVLCLGVQVNTVTLWHYYEEILQVPYVGHYW 184
+gene_786214_TARA_RED_RAW_uncla      ERGPLGKDSALDRLATRGGSVFLLGVDHQVNSTIHVGEDYAGDPDRHKQW 159
+                                         *  ..:  *   .. .: :*.  :  :  :  ..           
+
+gene_4291168_TARA_PSE_RAW_Paen      NQSSPM--LINGKKR-WVDY----HDRSLSWQWF-PGAVE----NLVENN 468
+gene_2117200_TARA_PON_RAW_Paen      TQSSPI--LINGQKR-WIKY----HDRSLSWQWF-PGAVE----HLVEND 531
+gene_1968611_TARA_RED_RAW_Beut      TKQAPL--IIDGVKQ-WVQY----RDIEYTNHWF-DDVTQ----AMIDSG 227
+gene_1558778_TARA_RED_RAW_Dein      DKAAPV--LEHGERR-WVAY----RDIEYPIDWFVSGVA-----ALVDEG 231
+gene_45756_TARA_RED_RAW_--_no       PDERHLNNVVPGLRM-QYQFPGILQDVCKAAGILKTGSVGKSSSGLMSVG 249
+gene_97762_TARA_RED_RAW_Desulf      PQERHLNHCVPGLRI-QYEFPGIMQEVCRAAGILNTGPVGKSTSGVMRAS 233
+gene_786214_TARA_RED_RAW_uncla      NPDNPKRVILNHPEHGEIEV--LIRSMMGSTVAF-AKMEE----VLRTRG 202
+                                                 .          :.   .   :           :   .
+
+gene_4291168_TARA_PSE_RAW_Paen      -IAHLG-TICDSR--TIIV--DAAE----AIN-------ATCSWR----K 497
+gene_2117200_TARA_PON_RAW_Paen      -IAHLG-TICDAR--TIIV--NAAE----AIN-------ATCSWR----K 560
+gene_1968611_TARA_RED_RAW_Beut      IIAEV--RIGASR--SLII--PARE----AVE-------FVVDWR----R 256
+gene_1558778_TARA_RED_RAW_Dein      -IARTG-HLGTAA--CLAF--SAAP----AIE-------FLVAWRG---R 261
+gene_45756_TARA_RED_RAW_--_no       DFKRFMATIIADDPHCMVLRPPDRDSNDLAVDAFRKAEGMLQAWNKGPKE 299
+gene_97762_TARA_RED_RAW_Desulf      EFESFMATIMADDPYCLLLRPPSRDSDDLAVDALQKAARMLKAWQQGPQR 283
+gene_786214_TARA_RED_RAW_uncla      QINDG--YIGQAQ--CQLM--QGQNIIDATVD-------ILEPILG---G 236
+                                     :      :         .          :::                  
+
+gene_4291168_TARA_PSE_RAW_Paen      KNKC---------------------------------------------- 501
+gene_2117200_TARA_PON_RAW_Paen      KNNY---------------------------------------------- 564
+gene_1968611_TARA_RED_RAW_Beut      ANGC---------------------------------------------- 260
+gene_1558778_TARA_RED_RAW_Dein      NTG----------------------------------------------- 264
+gene_45756_TARA_RED_RAW_--_no       PKEVFYEFP-KQVEPAGPDDVVREDCPAFAGYHQAEGKDISLCKANGRHP 348
+gene_97762_TARA_RED_RAW_Desulf      PTTTF-DAPWQQHEPAGLDDVVRTDCPAFAGYHDADGKQIPLCRANGRHP 332
+gene_786214_TARA_RED_RAW_uncla      MN------------------------------------------------ 238
+                                     .                                                
+
+gene_4291168_TARA_PSE_RAW_Paen      ---------------------------
+gene_2117200_TARA_PON_RAW_Paen      ---------------------------
+gene_1968611_TARA_RED_RAW_Beut      ---------------------------
+gene_1558778_TARA_RED_RAW_Dein      ---------------------------
+gene_45756_TARA_RED_RAW_--_no       DFFGIGGVFSEHGLTTCNDCVWNTNFR 375
+gene_97762_TARA_RED_RAW_Desulf      D-------------------------- 333
+gene_786214_TARA_RED_RAW_uncla      ---------------------------
+                                                               

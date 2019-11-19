@@ -1,0 +1,26 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_1663927_TARA_PSE_RAW_Pseu      MIIVRIGGSILTNARKNITSFLAYWFVLSLSSTASAGNLVLQESFSDKER 50
+gene_1972620_TARA_PON_RAW_Bact      MV------SVPTDALQN-----A------PTPGEDAG--IAQ-IFAQHDL 30
+                                    *:      *: *:* :*     *       :.  .**  : *  *:::: 
+
+gene_1663927_TARA_PSE_RAW_Pseu      EGTVVLSSLNENGTFIFNQNRSLELFAPASTFKILNTLIALEEGIIDSEG 100
+gene_1972620_TARA_PON_RAW_Bact      NGTIVLASTSSNQRFIHNAPRATREFSPASTFKIMNTLIALEEGVANNKD 80
+                                    :**:**:* ..*  **.*  *: . *:*******:*********: :.:.
+
+gene_1663927_TARA_PSE_RAW_Pseu      TEFIWDGTIYENRNWNRNHTLRSAFQVSCVWCFQVIASNIGENVYREYLE 150
+gene_1972620_TARA_PON_RAW_Bact      EMFIWDGAQHSIQTWNRNHSLKSAFRVSCVWCYQLLAKKIGAKQYKHYLT 130
+                                      *****: :. :.*****:*:***:******:*::*.:** : *:.** 
+
+gene_1663927_TARA_PSE_RAW_Pseu      KLDYGKFGKNFDLINFWLNGDLKISAQNQIQVLERLVKQDQVFSESVYEK 200
+gene_1972620_TARA_PON_RAW_Bact      LSEYGDLDNNFSSTEFWLDGSLRISAVDQVGFIRQVIERSSPFSDSSYEE 180
+                                      :**.:.:**.  :***:*.*:*** :*: .:.:::::.. **:* **:
+
+gene_1663927_TARA_PSE_RAW_Pseu      FKGVMRTKFTPEYEMYSKTGWDGKVSWFVGFVISEKDIWLFAAN--ID-- 246
+gene_1972620_TARA_PON_RAW_Bact      LRNIMLMEETANYKLRFKTGWNGSIGWIVGYVQTRDDSWVFALNGDVEKV 230
+                                    ::.:*  : *.:*::  ****:*.:.*:**:* :..* *:** *  ::  
+
+gene_1663927_TARA_PSE_RAW_Pseu      A---------QD-------- 249
+gene_1972620_TARA_PON_RAW_Bact      SKMSLLPGVIKDIFREKGIV 250
+                                    :         :*        

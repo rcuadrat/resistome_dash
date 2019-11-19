@@ -1,0 +1,38 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_2565033_TARA_PSW_RAW_Geob      MQFAMRRIYYFSGLLCLLTLTLHTGC-SEDKPQEQ-KMPPRTVKAATAVN 48
+gene_4513186_TARA_PSE_RAW_Prot      ----M--LPLLAG-IAVLS-----GCDSSDSTKEPPKPPPAKVTCVKAIA 38
+                                        *  :  ::* :.:*:     ** *.*..:*  * ** .*....*: 
+
+gene_2565033_TARA_PSW_RAW_Geob      KTVP-Y-YFDTLGRATSLESVNIVSQVDGQIVSVHFTQGSMVKEGDLLYT 96
+gene_4513186_TARA_PSE_RAW_Prot      EDIPDYRYYP--GITQSVLEADIMARVEGYLEAMNFIEGDMVKAGQRLYL 86
+                                    : :* * *:   * : *: ..:*:::*:* : :::* :*.*** *: ** 
+
+gene_2565033_TARA_PSW_RAW_Geob      IFKPPYEAALTQAKGKLTQSIAALEIAQLDMERSGPLVPQKLISEQDYQQ 146
+gene_4513186_TARA_PSE_RAW_Prot      IQQEEYEADLVEARANLLNAQANEDFSRLTLRNVQEAYAGGAATVYEVEE 136
+                                    * :  *** *.:*:.:* :: *  ::::* :..     .    :  : ::
+
+gene_2565033_TARA_PSW_RAW_Geob      LEANVLQLEGQVEENTGILEQAQVNLDYCTIEAPVDGMVGIYEVNVGNVV 196
+gene_4513186_TARA_PSE_RAW_Prot      AQAGLKESIANVESFQAKVLNAELNLSYTDVVAPFDGQMGQTAVDVGNLV 186
+                                     :*.: :  .:**.  . : :*::**.*  : **.** :*   *:***:*
+
+gene_2565033_TARA_PSW_RAW_Geob      NSLDGQVLTTIQQMDPIYIDFIVPTTQFPEVQKYYDESGGKLLVEVSYLD 246
+gene_4513186_TARA_PSE_RAW_Prot      GPLENSTLGTLVMLDPMRVVFEPAGTELIEFLKAR-KSG-TVLVQLTIQE 234
+                                    ..*:...* *:  :**: : *  . *:: *. *   :** .:**:::  :
+
+gene_2565033_TARA_PSW_RAW_Geob      MEHG-VTRQADLTILGNRVAQNTGTVNLRATMENKDHAFWPNQPLSVKLI 295
+gene_4513186_TARA_PSE_RAW_Prot      QDGSPVIYDGAVDLVNNLVNQSTSTFLARAVFPNEKGYVLPGLYVSVRVR 284
+                                     : . *  :. : ::.* * *.*.*.  **.: *:.  . *.  :**:: 
+
+gene_2565033_TARA_PSW_RAW_Geob      LTHLDDAVVVPSGAIALGQQGPYVFVIKSDDTVEQRPVTVG--------- 336
+gene_4513186_TARA_PSE_RAW_Prot      LRTIDGAVMLPDSAMASTPTSQYVYVVDSKQTLQRRTVTTGSLYENFRHI 334
+                                    *  :*.**::*..*:*    . **:*:.*.:*:::*.**.*         
+
+gene_2565033_TARA_PSW_RAW_Geob      -QG-QDG------G-PGE--GGG--------------------------- 348
+gene_4513186_TARA_PSE_RAW_Prot      TSGLKAGDVVVVKGNPAQVKQGAKVQVNLVDAKTWVTQEKKSESDAEAVS 384
+                                     .* : *      * *.:   *.                           
+
+gene_2565033_TARA_PSW_RAW_Geob      -------------------------------------
+gene_4513186_TARA_PSE_RAW_Prot      SGTSDSNSSKKSSSNATSDKPSTNPPPSLKSRSNDPS 421
+                                                                         

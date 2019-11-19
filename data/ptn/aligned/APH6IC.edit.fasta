@@ -1,0 +1,110 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_1323821_TARA_ION_RAW_--_n      ---------------------MLTESVQSRLDAWDLTPEGELVETGSSWL 29
+gene_5924471_TARA_PSE_RAW_--_n      ---------------------MLTESVQSRLDAWDLTPEDELVETGSSWL 29
+gene_2024829_TARA_ANE_RAW_Mart      -------------------------MFDALLAEWRLIPDGAPIVTATGAL 25
+gene_653728_TARA_PSW_RAW_Marte      -------------------------VFDPLLAEWRLTPDGAPIVTATGAL 25
+gene_963904_TARA_PSW_RAW_Marte      ----------MSGAPPAGGNASAGAKFVPWIDRWRLEPDGAPIVTAAGAL 40
+gene_3362104_TARA_ION_RAW_Leis      -------------------------------------ADG------SYAA 7
+gene_6623487_TARA_PSE_RAW_Gamm      MKTLEKTVISTWGDTGKAWLEALPETIDMLVQLWQL-TEVKPVDNMSYHY 49
+                                                                         .:       :   
+
+gene_1323821_TARA_ION_RAW_--_n      VPVRCKERTFGTHSAMLKVAKPDSDERPGMALLQWWGGEGAVRVL---RR 76
+gene_5924471_TARA_PSE_RAW_--_n      VPVRCEDGAFDTAVAMLKVAKPDSDERPGMALLQWWGGEGAVRVL---RR 76
+gene_2024829_TARA_ANE_RAW_Mart      LPVL-RDG----RPAMLKRFT-DPEEAIGATLLKWWDGDGAARIFA--EA 67
+gene_653728_TARA_PSW_RAW_Marte      LPVL-RDG----RPAMLKRFT-DPEEAIGAALLEWWDGDGAVRILA--EA 67
+gene_963904_TARA_PSW_RAW_Marte      LPVR-RDA----APAMLKLFL-DEEEETGATLLGWWAGDGAAFVI---EA 81
+gene_3362104_TARA_ION_RAW_Leis      LKCYFQDD--------L------QDEAPGFDLLATQNGIGAAKVYT--RS 41
+gene_6623487_TARA_PSE_RAW_Gamm      VATAIQAG---TRPVVLKIGCDRKVITSEYNALQHYDGVGAVTVYDFNEA 96
+                                    :    .          *               *    * **. :    . 
+
+gene_1323821_TARA_ION_RAW_--_n      DADAILMPW-LDQRPALGNLD-DFDDARAFDILVTTTDRLHRQARRALGA 124
+gene_5924471_TARA_PSE_RAW_--_n      DADAILMPR-LDQRPALGNLD-DFDDARAFDILVTTTDRLHRQARRALGA 124
+gene_2024829_TARA_ANE_RAW_Mart      DN-AILMER-ATGSVSLTALSLSSEDDRACRQICATASRLHAD--RP--- 110
+gene_653728_TARA_PSW_RAW_Marte      DD-AILMER-ATGSVALTALSLGGKDDRACRQICATAAHLHAD--RP--- 110
+gene_963904_TARA_PSW_RAW_Marte      DGGAILMER-ATGRRSLNEMSADGRDHEATDILCTVAAVLHRK--RP--- 125
+gene_3362104_TARA_ION_RAW_Leis      NA-AILMEW-LDG-PLLGDLTRAGKDEKASQMLLETALTLHHA---P--- 82
+gene_6623487_TARA_PSE_RAW_Gamm      HN-ALLLQQAIPGNSLLEQFA--NKDD-VIAQYAQAVQGLHST------- 135
+                                    .  *:*:         *  :     *  .      ..  **         
+
+gene_1323821_TARA_ION_RAW_--_n      GEGRPMPAGLIPLADVRRHV--FGL------PLAQSERLARWRAFAAGFD 166
+gene_5924471_TARA_PSE_RAW_--_n      GEGRPLPAGLTPLADVRRHV--FGL------PLAQSERLARWRAFAAGFD 166
+gene_2024829_TARA_ANE_RAW_Mart      ---APLP-PLTPLDRYFRAL--LEA------TPGKHPFLDRAADEARRL- 147
+gene_653728_TARA_PSW_RAW_Marte      ---APLP-ALTPLDRYFRAL--LET------SPGEHPFLDRAAAEARRL- 147
+gene_963904_TARA_PSW_RAW_Marte      ---HPPPDNLIPLQTRFRAL--FAR------ASDFGGILPACAGHARSL- 163
+gene_3362104_TARA_ION_RAW_Leis      --VKNIP-SLDPLPRRFRAL--LDAKFTADCPDGIRAAVRKACRLAEDL- 126
+gene_6623487_TARA_PSE_RAW_Gamm      ---SQITSDFPKVNKWCEAIDRLED------PRVSPNLIAKAKELTNYL- 175
+                                          .  :  :    . :  :        .      :      :  : 
+
+gene_1323821_TARA_ION_RAW_--_n      LEGPAPL-PLHGDIHHGNLLHDPGHDPGQDPGHNPGHTPGQRDSSGGWVV 215
+gene_5924471_TARA_PSE_RAW_--_n      LGGPRPL-PLHGDIHHGNLLHDP--------GHNPGHTPGQRDSSGGWVV 207
+gene_2024829_TARA_ANE_RAW_Mart      LSDPQDLRPLHGDLHHGNIL-DF----------------GER----GFLA 176
+gene_653728_TARA_PSW_RAW_Marte      LDDPRDIRPLHGDLHHGNIL-DF----------------GER----GFLA 176
+gene_963904_TARA_PSW_RAW_Marte      LQSPTDIRPLHGDLHHDNVL-DF----------------GDR----GFLA 192
+gene_3362104_TARA_ION_RAW_Leis      LADQQDIRPLHGDLHHDNIK--A----------------GDR----GYLA 154
+gene_6623487_TARA_PSE_RAW_Gamm      LSSATDEYLCHGDLHLDNVL-QH-----------------ED----GCLV 203
+                                    * .       ***:* .*:                     :     * :.
+
+gene_1323821_TARA_ION_RAW_--_n      IDPKGYVGHPGYDFA--NLFFNP-IDQPGRVADPAR-MLRLAETIAAVSG 261
+gene_5924471_TARA_PSE_RAW_--_n      IDPKGYVGHPGYDFA--NLFFNP-IDQPGRVADPAR-MLQLAESIAAVSA 253
+gene_2024829_TARA_ANE_RAW_Mart      IDPKGLYGERAFDFA--NTFCNPDIDVPDAV--IARDESRFDRRLDIVAA 222
+gene_653728_TARA_PSW_RAW_Marte      IDPKGLYGERAFGFA--NIFCNPDIDVPDAF--VARDQNRFESRLAMIAA 222
+gene_963904_TARA_PSW_RAW_Marte      IDPKGLTGERAFDFA--NIFCNPDLADP-ALR-IARDAATFEHRLGQIAG 238
+gene_3362104_TARA_ION_RAW_Leis      FDAKGVLGERTFELA--NAFQNP-LGSK-AL---ARRPETIQRRAELWSA 197
+gene_6623487_TARA_PSE_RAW_Gamm      IDPKGIVGEMAFEAAAFDLLTKEEISHS-----DAK--TIIIDRVERLSQ 246
+                                    :*.**  *.  :  *  : : :  :         *:    :       : 
+
+gene_1323821_TARA_ION_RAW_--_n      SGGAGADGDNGVRSPGEALDFAYLYGGLSVSWGVDQ---PWFEARMG-QL 307
+gene_5924471_TARA_PSE_RAW_--_n      SGGSGADRDNGVRSP----------------------------------- 268
+gene_2024829_TARA_ANE_RAW_Mart      D--ADLDRTRLLR-------WIIAWCGLSAVWFLRD---DDPRADIPLTV 260
+gene_653728_TARA_PSW_RAW_Marte      T--ADLDRTRLLR-------WIIAWCGLSAIWFLRD---DDARADTPLTV 260
+gene_963904_TARA_PSW_RAW_Marte      R--AALDPERLLR-------WIAAWAGLSATWF---------------T- 263
+gene_3362104_TARA_ION_RAW_Leis      G--LNVSKTRLLS-------WAAAFSGLSLAWHNKSTFGPESADQMRFIS 238
+gene_6623487_TARA_PSE_RAW_Gamm      A--LSVTKDRLLA-------WFFVRAMMSAQWFIEDN--GDPTARLALAE 285
+                                             . :                                      
+
+gene_1323821_TARA_ION_RAW_--_n      SLIEELR--GARS------------------------------------- 318
+gene_5924471_TARA_PSE_RAW_--_n      --------------------------------------------------
+gene_2024829_TARA_ANE_RAW_Mart      GRLALER--LAED------------------------------------- 271
+gene_653728_TARA_PSW_RAW_Marte      GRLALDR--LAEG------------------------------------- 271
+gene_963904_TARA_PSW_RAW_Marte      --------------------------------------------------
+gene_3362104_TARA_ION_RAW_Leis      TLLKLVS--YTASDHA---------------------------------- 252
+gene_6623487_TARA_PSE_RAW_Gamm      LLYELLDNKFCLKDNVAETYEVIADWYDNHRSHDLFEKPLLDKVISMLPA 335
+                                                                                      
+
+gene_1323821_TARA_ION_RAW_--_n      --------------------------------------------------
+gene_5924471_TARA_PSE_RAW_--_n      --------------------------------------------------
+gene_2024829_TARA_ANE_RAW_Mart      --------------------------------------------------
+gene_653728_TARA_PSW_RAW_Marte      --------------------------------------------------
+gene_963904_TARA_PSW_RAW_Marte      --------------------------------------------------
+gene_3362104_TARA_ION_RAW_Leis      --------------------------------------------------
+gene_6623487_TARA_PSE_RAW_Gamm      KGKVLDLGCGTGLPIAKYFIEQGFAVTGVEGSKNLLAKAQHNIPTATLIH 385
+                                                                                      
+
+gene_1323821_TARA_ION_RAW_--_n      --------------------------------------------------
+gene_5924471_TARA_PSE_RAW_--_n      --------------------------------------------------
+gene_2024829_TARA_ANE_RAW_Mart      --------------------------------------------------
+gene_653728_TARA_PSW_RAW_Marte      --------------------------------------------------
+gene_963904_TARA_PSW_RAW_Marte      --------------------------------------------------
+gene_3362104_TARA_ION_RAW_Leis      --------------------------------------------------
+gene_6623487_TARA_PSE_RAW_Gamm      SDMRTVDLDETFDCIIAWHSFFHLSPDDQRQMFRVFEKHLKQNGLLLFTA 435
+                                                                                      
+
+gene_1323821_TARA_ION_RAW_--_n      --------------------------------------------------
+gene_5924471_TARA_PSE_RAW_--_n      --------------------------------------------------
+gene_2024829_TARA_ANE_RAW_Mart      --------------------------------------------------
+gene_653728_TARA_PSW_RAW_Marte      --------------------------------------------------
+gene_963904_TARA_PSW_RAW_Marte      --------------------------------------------------
+gene_3362104_TARA_ION_RAW_Leis      --------------------------------------------------
+gene_6623487_TARA_PSE_RAW_Gamm      GPEAGEVWSDNGGEMLYHASLSPDEYHKFLADHGFELIQHESEVESLQGA 485
+                                                                                      
+
+gene_1323821_TARA_ION_RAW_--_n      ----------
+gene_5924471_TARA_PSE_RAW_--_n      ----------
+gene_2024829_TARA_ANE_RAW_Mart      ----------
+gene_653728_TARA_PSW_RAW_Marte      ----------
+gene_963904_TARA_PSW_RAW_Marte      ----------
+gene_3362104_TARA_ION_RAW_Leis      ----------
+gene_6623487_TARA_PSE_RAW_Gamm      TYWLGRYLAQ 495
+                                              

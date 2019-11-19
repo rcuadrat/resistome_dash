@@ -1,0 +1,72 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_1727749_TARA_ASE_RAW_Clos      --------------------------------------------------
+gene_1019559_TARA_SOC_RAW_Bact      MLSVQNVSVSFGGEYLFKDISFRLGPGNRVGLVGKNGAGKSTLLHLIARD 50
+gene_7142532_TARA_PSE_RAW_Fack      --------------------------------------------------
+                                                                                      
+
+gene_1727749_TARA_ASE_RAW_Clos      --------------------------------------------------
+gene_1019559_TARA_SOC_RAW_Bact      TPVSEGSISQEKTVQLGFLKQDIDFDYGRTVLEEAYQAFTEIKVLEQQME 100
+gene_7142532_TARA_PSE_RAW_Fack      --------------------------------------------------
+                                                                                      
+
+gene_1727749_TARA_ASE_RAW_Clos      --------------------------------------------------
+gene_1019559_TARA_SOC_RAW_Bact      DINLALTTRTDYESDSYNELIIQLNEVTERYEIIGGYNYQGTTERILQGL 150
+gene_7142532_TARA_PSE_RAW_Fack      -------------MDRYSELQSMMAKS-------GGMDAAGHAQNIMQSL 30
+                                                                                      
+
+gene_1727749_TARA_ASE_RAW_Clos      --MS--------TLAPGLKLRVLLAQALFGNPDI--LLLDEPTNNLDLDT 38
+gene_1019559_TARA_SOC_RAW_Bact      GFLSSDFNKQTDTFSGGWRMRIELAKLLLQPNDI--LLLDEPTNHLDIES 198
+gene_7142532_TARA_PSE_RAW_Fack      GLGHHPLDMPLSSLSGGERAKVALARQLVGLDDIDVLFLDEPTNHLDIET 80
+                                                ::: * : :: **: *.   **  *:******:**:::
+
+gene_1727749_TARA_ASE_RAW_Clos      IGWLEDILQKSDSTMIIISHDRKFLNNICSHIADLDYGEIRLYPGNYDDF 88
+gene_1019559_TARA_SOC_RAW_Bact      IIWLEEFLKKYRGAVVLVSHDKMFLDQVTNRTIEIVGGRIYDYNKPYSKY 248
+gene_7142532_TARA_PSE_RAW_Fack      LEWLEEFLLDFQGALLIVSHDRYFLDKVANNIVEVADAKIKGFNGNYSRF 130
+                                    : ***::* .  .:::::***: **::: ..  ::  ..*  :   *. :
+
+gene_1727749_TARA_ASE_RAW_Clos      MIAATQARQTLLDENKKKKAQIDELKSFVRRFSANASKAKQATS---RAN 135
+gene_1019559_TARA_SOC_RAW_Bact      MILREEILTQQRAAQKNQEKQIQQTEKLIERFKAKASKATMAQSLMKKLD 298
+gene_7142532_TARA_PSE_RAW_Fack      MQQKELFLQTLDDRIEKAEKEIKRLTGALQSMK-RANKYDKSIS--QKRF 177
+                                    *              :: : :*..    :. :. .*.*   : *   :  
+
+gene_1727749_TARA_ASE_RAW_Clos      QINKIKLDD-IAKSS--RVYPFIRFEQ--DKKIYSDVLEVKNLTKKYE-- 178
+gene_1019559_TARA_SOC_RAW_Bact      KIDRIELD---VEDN--RAMK-LSFPV--SKQPGKMIIEAEGIKKAYG-- 338
+gene_7142532_TARA_PSE_RAW_Fack      MLNRAQGELRWLKSIKPRQRKNLHFQLTATDKASMEIADLDEAKLTFEGL 227
+                                     ::: : :    :.   *    : *     .:    : : .  .  :   
+
+gene_1727749_TARA_ASE_RAW_Clos      DLTVLNKINFSIEVGERIAILGANGIGKTTLINCLVDSSRKDSGDVNWSL 228
+gene_1019559_TARA_SOC_RAW_Bact      EKMVLQGVDFEIARGTKTAFVGQNGQGKSTLAKIIVNEIDYE-GSCCLGY 387
+gene_7142532_TARA_PSE_RAW_Fack      DRPLLDNVRVGISKGQRIGIVGGNGAGKTTLLRVLIGEIPLDSGKIDVPP 277
+                                    :  :*: : . *  * : .::* ** **:** . ::..   : *.     
+
+gene_1727749_TARA_ASE_RAW_Clos      NANIGYFSQDADEKIDSKLTLIDWMSQWTDTIDSEQKIRSILGRLLFSKD 278
+gene_1019559_TARA_SOC_RAW_Bact      NVMVGYFAQNQAEYLDGDLTLLETMQNAATDVN-RSRVRDILGSFLFRGD 436
+gene_7142532_TARA_PSE_RAW_Fack      GVQIGYFHQDHRT-LNFQATPVEQIQKLKPRME-YGDIRALLGRFQFTSE 325
+                                    .. :*** *:    :: . * :: :.:    ::    :* :** : *  :
+
+gene_1727749_TARA_ASE_RAW_Clos      DIKKSINVLSGGEKRRMLFGKLILQNPNIIIMDEPTNHLDMESIEALNSS 328
+gene_1019559_TARA_SOC_RAW_Bact      DVEKRVKVLSGGERNRLALAKLLLMPFNVLIMDEPTNHLDIDSKNVLKEA 486
+gene_7142532_TARA_PSE_RAW_Fack      QVSTKLADLSGGERARIAMLKLLLEENNVLLLDEPTNHLDIQAKEALEDA 375
+                                    ::.. :  *****: *: : **:*   *::::********::: :.*:.:
+
+gene_1727749_TARA_ASE_RAW_Clos      LSLFTGTLIVVSHDREFVSSLATRIIELAPD-KITDY-G--SGY-E---- 369
+gene_1019559_TARA_SOC_RAW_Bact      LRKFEGTLILISHDRDFLQGLSDRVLEFKDH-KLKEYLGDINLYLEQKNL 535
+gene_7142532_TARA_PSE_RAW_Fack      LAEYDGTLVIVSHDRYFLDQVCNTIWHLPSDGSLKVYPG---NY------ 416
+                                    *  : ***:::**** *:. :.  : .:  . .:. * *    *      
+
+gene_1727749_TARA_ASE_RAW_Clos      DYLLSVNARS---------------------------------------- 379
+gene_1019559_TARA_SOC_RAW_Bact      DSLVALELKEKTKAKKTIRPKNDYETQKKLKSLQNKQSKVEREIADLERA 585
+gene_7142532_TARA_PSE_RAW_Fack      SAFMQRVSK----------------------------------------- 425
+                                    . ::    :                                         
+
+gene_1727749_TARA_ASE_RAW_Clos      --------------------------------------------------
+gene_1019559_TARA_SOC_RAW_Bact      IKTMDSELEINYEQTILQPNFFENYNGKKDQLAVLLKKWEVVAEDLMEIE 635
+gene_7142532_TARA_PSE_RAW_Fack      --------------------------------------------------
+                                                                                      
+
+gene_1727749_TARA_ASE_RAW_Clos      -
+gene_1019559_TARA_SOC_RAW_Bact      G 636
+gene_7142532_TARA_PSE_RAW_Fack      -
+                                     

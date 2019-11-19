@@ -1,0 +1,62 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_1888882_TARA_ION_RAW_Cole      MKLSSTMVLFFTRLAVRFIIPVIIG-VVTFWQTPALAQLSAD--GIGTIK 47
+gene_3477952_TARA_IOS_RAW_Nost      MKLTPPVFSLLSRPAAGFIIPVILG-FFTLWVTPAFAQLSGSPWRSGTIN 49
+gene_1012940_TARA_ANE_RAW_Stre      AVVLDTNFEGANLSGANLSNTIFIGTELNVW--PAALKWKGE--TSGHQD 46
+                                      :  . .   .  .. :  .:::*  ...*  **  : ...    *  .
+
+gene_1888882_TARA_ION_RAW_Cole      D-VNGKTFEIGASRTRERTQFNELLT-----NFGGANFSGMDLRSAAFSW 91
+gene_3477952_TARA_IOS_RAW_Nost      D-VNGITFDIGARRTVQSVVINGYATSAHRFNFSGANFSGMDLHAAEFVN 98
+gene_1012940_TARA_ANE_RAW_Stre      QIINENTLFVGANFSGSSLTGMDFSGK----NLSNTNFEGADLRNAILID 92
+                                    : :*  *: :**  : .              *:..:**.* **: * :  
+
+gene_1888882_TARA_ION_RAW_Cole      AYNHSGG-SSRSVNFSNANLRGAGFYQCQLSGSNFRNADLYDAILKEGVL 140
+gene_3477952_TARA_IOS_RAW_Nost      GYNFGAGVPERPINFSNANLRGARFTECSMNGSNFSNADLEGAYLTDAAL 148
+gene_1012940_TARA_ANE_RAW_Stre      A-DLSNA-DLRGADLNNADLRGAVLIGSNLSGANLSNTILDDTNNNPFGI 140
+                                    . : . .   *  ::.**:**** :  ..:.*:*: *: * .:  .   :
+
+gene_1888882_TARA_ION_RAW_Cole      YGSNFEGANLKKSNSRRAVLYNSNFKNADLSNADFGGSTFANSDLREANL 190
+gene_3477952_TARA_IOS_RAW_Nost      ARCNFEGANLKNSSS-----YNSGFYNANLKNADLSNSQFQSSYLK---- 189
+gene_1012940_TARA_ANE_RAW_Stre      H-ENLKGKDLS----------GANLSDADLKNANFSVSNLSDADLS---- 175
+                                       *::* :*.          .:.: :*:*.**::. * : .: *     
+
+gene_1888882_TARA_ION_RAW_Cole      SNSDLWSVRFDSADLREANLSGADLTWGRMTEADLRGANLTGADLSYANL 240
+gene_3477952_TARA_IOS_RAW_Nost      -----------SADLREANLSGANFTRAFMAEADFRGANLAGADLTEANL 228
+gene_1012940_TARA_ANE_RAW_Stre      -----------NADLRGAVLIGSNLSGANLSDADLTGADLSGANL---N- 210
+                                               .**** * * *:::: . :::**: **:*:**:*   * 
+
+gene_1888882_TARA_ION_RAW_Cole      WGADLTGADLTNAKLTGTYLDNVKGYLSEKDRRITELEEQLVKVTAERDA 290
+gene_3477952_TARA_IOS_RAW_Nost      WGADLTGADLTGATLARANLGNVKGYVTEKDRRIAELEAQLSTVTAERDA 278
+gene_1012940_TARA_ANE_RAW_Stre      -GVNITGAVLTDVIFNGANLSHMN--FSNLDLQGAIFFDTFLIGTDLSNS 257
+                                     *.::*** **.. :  : *.:::  .:: * : : :   :   *   ::
+
+gene_1888882_TARA_ION_RAW_Cole      RPTEAIITDIQLAYDEVVGRKGAAEEDLVEVTPISMANTFDLLWTNSEDN 340
+gene_3477952_TARA_IOS_RAW_Nost      R-----MT--QAAHEAAIAVKTA------QIA--TLAGQLDTL------- 306
+gene_1012940_TARA_ANE_RAW_Stre      N-----LSN-AILVDANLS--DA------DLTGADLSNV--LL------- 284
+                                    .     ::      :  :.   *      :::   ::.    *       
+
+gene_1888882_TARA_ION_RAW_Cole      QDTISMVMEFPEGAITNPPSIPFGSIIKGSVLTINYKGSIATVNEPEIIF 390
+gene_3477952_TARA_IOS_RAW_Nost      QN----------GR-T-------GT-VNG------YD--IG----P---- 321
+gene_1012940_TARA_ANE_RAW_Stre      QD-------------T-------------------YLK------------ 290
+                                    *:             *                   *              
+
+gene_1888882_TARA_ION_RAW_Cole      TSNEEVDFS-QDLIGQLSDFNLFSVSIPDEGSFNGIAPFTVAGPNGSRFE 439
+gene_3477952_TARA_IOS_RAW_Nost      ----DVDLS-EVRIG--S---------P-------IA----AG------- 337
+gene_1012940_TARA_ANE_RAW_Stre      ----NTNFDGANLIN--S----------------GIMDWK---------- 308
+                                        :.::.    *.  *                 *              
+
+gene_1888882_TARA_ION_RAW_Cole      LTSMKMRVIDESKYSFLELEPLTNLYSSLTDTIDEAISERDVAIAQRDAR 489
+gene_3477952_TARA_IOS_RAW_Nost      ------------------------VFHSL------AI---------KTGG 348
+gene_1012940_TARA_ANE_RAW_Stre      ------------------------LWNSI-------L---------TNVN 318
+                                                            :: *:       :             
+
+gene_1888882_TARA_ION_RAW_Cole      PTQEAYDVVVAERDSKIESINQLQVTVEANNSKIAELEKRPTAEQLSTAI 539
+gene_3477952_TARA_IOS_RAW_Nost      -T------VVA-WGSK--S-N--GVT---------DV---P--EDLNNVI 371
+gene_1012940_TARA_ANE_RAW_Stre      ---------LS--NTKLTGAN---LS--------FYIE--N--KDLSNSI 342
+                                             ::  .:*  . *   ::          :      ::*.. *
+
+gene_1888882_TARA_ION_RAW_Cole      AERDARPTQEAYDTVVAERDARSTTDELQ 568
+gene_3477952_TARA_IOS_RAW_Nost      SV--GR---GVFH---------------- 379
+gene_1012940_TARA_ANE_RAW_Stre      FE--------------------------- 344
+                                                                 

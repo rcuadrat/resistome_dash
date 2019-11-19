@@ -1,0 +1,22 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_3270990_TARA_IOS_RAW_Meth      ----------------------SE----RVTWTADDLIFHTPFTGERVAQ 24
+gene_203398_TARA_PSW_RAW_Thala      FPLTSTFKLLACAAVLHKVDRESETLDRRITYRSDDLVTYSPITEKHVDS 50
+                                                          **    *:*: :***: ::*:* ::* .
+
+gene_3270990_TARA_IOS_RAW_Meth      GATLRELAHAAQTVSDNLAANLLLDRVGGPAGLTAFWRRLGDETSRLDRM 74
+gene_203398_TARA_PSW_RAW_Thala      GMTIGELCEAALHLSDNTAANLVLDVLGGPDVLTAYLRDIGDDVTRLDRI 100
+                                    * *: **..**  :*** ****:** :***  ***: * :**:.:****:
+
+gene_3270990_TARA_IOS_RAW_Meth      ETAVNFVPEGDVRDTTTPVAMARTLAKMLATNSESPLAAPRRRELRQWMI 124
+gene_203398_TARA_PSW_RAW_Thala      EPDLNAATPGDARDTTTPNAMRATLTYLLLGDALS-LES--RQILEDWLT 147
+                                    *. :* .. **.****** **  **: :*  :: * * :  *: *.:*: 
+
+gene_3270990_TARA_IOS_RAW_Meth      ESTTGLKRVRAGLPEDWVAGDKTGNSGAHPGMGYLRGNIGFALDPSEAPT 174
+gene_203398_TARA_PSW_RAW_Thala      GNQVGGPLLRAGLPDDWKIADRTG-AG---GFG-SRAIVAVIWPPERKPV 192
+                                     . .*   :*****:**  .*:** :*   *:*  *. :..   *.. *.
+
+gene_3270990_TARA_IOS_RAW_Meth      FFAVYHQSPVGAPIDGQRVDAAFAQVGRLLAEWAQRLDSPWPT 217
+gene_203398_TARA_PSW_RAW_Thala      IVAIY-ITQTSASME-ER-NAAIADLGQEIAAAIMR------- 225
+                                    :.*:*  : ..*.:: :* :**:*::*: :*    *       

@@ -1,0 +1,77 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_2690768_TARA_ION_RAW_Burk      --------------------------------------------------
+gene_115156_TARA_PSW_RAW_Scyto      --------------------------------------------------
+gene_4959455_TARA_PSE_RAW_--_n      LERLEQLTTRAGFVRPRYDDGTFDDALPLRERFEELFLAEQAPISQLALI 50
+                                                                                      
+
+gene_2690768_TARA_ION_RAW_Burk      --------------------------------------------------
+gene_115156_TARA_PSW_RAW_Scyto      --------------------------------------------------
+gene_4959455_TARA_PSE_RAW_--_n      GARGSGLTTTLAWLHALTAKSERTALTLKDVRSAPRRALEQLASGEGVLF 100
+                                                                                      
+
+gene_2690768_TARA_ION_RAW_Burk      --------------------------------------------------
+gene_115156_TARA_PSW_RAW_Scyto      --------------------------------------------------
+gene_4959455_TARA_PSE_RAW_--_n      LDTSVTPIAPRTWRGIRRLFSRGLPGLPGSREVLRRSRLVVTRPSDRQDR 150
+                                                                                      
+
+gene_2690768_TARA_ION_RAW_Burk      --------------------------------------------------
+gene_115156_TARA_PSW_RAW_Scyto      --------------------------------------------------
+gene_4959455_TARA_PSE_RAW_--_n      RPQQGDWPSGLSNPQRAYLAAWSDDDLLELLGSREDYRERRAELFAALRA 200
+                                                                                      
+
+gene_2690768_TARA_ION_RAW_Burk      --------------------------------------------------
+gene_115156_TARA_PSW_RAW_Scyto      --------------------------------------------------
+gene_4959455_TARA_PSE_RAW_--_n      LPHAETLLARPRTSRWLIEAALRLEPGEISLGRLYAQILARLTPGTRRLL 250
+                                                                                      
+
+gene_2690768_TARA_ION_RAW_Burk      --------------------------------------------------
+gene_115156_TARA_PSW_RAW_Scyto      --------------------------------------------------
+gene_4959455_TARA_PSE_RAW_--_n      REVQGEGLGPGALQRLLCEPPRHAEEVCTLFELPRALANVLLDPAHDLVE 300
+                                                                                      
+
+gene_2690768_TARA_ION_RAW_Burk      --------------------------------------------------
+gene_115156_TARA_PSW_RAW_Scyto      --------------------------------------------------
+gene_4959455_TARA_PSE_RAW_--_n      RAAQLGFLRPELLAQAREVHELAPKKSLVSHLIELGALSPGKLLALSGQV 350
+                                                                                      
+
+gene_2690768_TARA_ION_RAW_Burk      -------------A--NLKGAN--LTDADLTDA---N------------- 17
+gene_115156_TARA_PSW_RAW_Scyto      ------MKKIILMT--MLMSAV--FAQSDCNKD---N------------- 24
+gene_4959455_TARA_PSE_RAW_--_n      QPDLGEGTRVTASAPLSLPGLQHCLAAQECVDAVRENRCPRQIDPEHFPY 400
+                                                 :   * .    ::  :  .    *             
+
+gene_2690768_TARA_ION_RAW_Burk      ---------LRRASLWNT--------------DLSGADL---SGAD---- 37
+gene_115156_TARA_PSW_RAW_Scyto      ---------WQ--EYYNSEG-----------RDMTDCDL---EGAN---- 45
+gene_4959455_TARA_PSE_RAW_--_n      LREEIDVGVQRRLRGWLSDPSPPRGDAQGLPRDAAAATLLWVSGETPSLY 450
+                                              :    : :              * : . *   .*      
+
+gene_2690768_TARA_ION_RAW_Burk      -------LSGAYFNEPNLSGAKFWSADLYEVEFWSADLAGADLSGANLRS 80
+gene_115156_TARA_PSW_RAW_Scyto      -------LSYAKFRGANLTNAILEGANLERANLTDANLEGANLEGANLEG 88
+gene_4959455_TARA_PSE_RAW_--_n      RDQRPLLLRGAHLAGVSQPGAVLTACDLSRVDLGQARLEGASLREARLVA 500
+                                           *  * :   . ..* : ..:* ..:: .* * **.*  *.* .
+
+gene_2690768_TARA_ION_RAW_Burk      VRFFEVNFSNADLRRSDLSGAYFKSGTDLSGADLSGADLSDARLNKADFS 130
+gene_115156_TARA_PSW_RAW_Scyto      ARFYRADLSGADLRKADLEAASFTM-ANLEGASFYRAFLQRANLREANLE 137
+gene_4959455_TARA_PSE_RAW_--_n      TRALNAAFDGADFGEATLLNARFDR-ASLRGARLERLRATRCSLRQASLQ 549
+                                    .*  .. :..**: .: *  * *   :.* ** :       . *.:*.:.
+
+gene_2690768_TARA_ION_RAW_Burk      GANLSRAEFWRADLSGARLNKANLTRANLPSANLSGAHLSGANLSDAYL- 179
+gene_115156_TARA_PSW_RAW_Scyto      GADLESADFRKANFEGANLEGVDFNKAILEEANLEG-----ANLTNAIL- 181
+gene_4959455_TARA_PSE_RAW_--_n      GAVATGAWFDGCAFDAADLTRADLSDASLVECGLEGASVASLRLCGAKLL 599
+                                    **    * *  . :..* *  .::. * * ...*.*      .* .* * 
+
+gene_2690768_TARA_ION_RAW_Burk      -------SG---ANLSGAWLSGANLSDVNLSDVN-----LSDANFNKADL 214
+gene_115156_TARA_PSW_RAW_Scyto      -------EG---VDLERAFLLRANLEGANLRYAK-----FPGANLTNAIL 216
+gene_4959455_TARA_PSE_RAW_--_n      RMDLREADGVALADLRGAVLTRCALTGLDLRELAGAGLRLQRCELAGADL 649
+                                           .*   .:*  * *  . * . :*         :  .::  * *
+
+gene_2690768_TARA_ION_RAW_Burk      SGANLSRA----VQLSKSAHSRTSFFEANLSRVNLSEANLSG--VDLRGA 258
+gene_115156_TARA_PSW_RAW_Scyto      EGANLER--------------------ANLERANLTNAILEG--V--RSS 242
+gene_4959455_TARA_PSE_RAW_--_n      SGADLREARLDECWLPGTQLVGADLRGAQLLRVDFGSAEGEGSRADLRGA 699
+                                    .**:* .                    *:* *.:: .*  .*  .  *.:
+
+gene_2690768_TARA_ION_RAW_Burk      NLTGANLTRAFLPDLDLSDVDLTDADLSGAILPEES-- 294
+gene_115156_TARA_PSW_RAW_Scyto      RIRGK---PASLPK-GWS---LVDGRL---IKKDGE-- 268
+gene_4959455_TARA_PSE_RAW_--_n      DLRGATLRGVDLRDVDLRG-ALLDERLRSNAARMGAWL 736
+                                     : *     . * . .     * *  *           

@@ -1,0 +1,92 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_1493147_TARA_IOS_RAW_Rhod      --------------------------------------------------
+gene_1145508_TARA_PSW_RAW_Rhod      --------------------------------------------------
+gene_3265768_TARA_ANE_RAW_Rhod      --------------------------------------------------
+gene_1136591_TARA_ASW_RAW_Rhod      --------------------------------------------------
+gene_2665768_TARA_IOS_RAW_Agro      --------------------------------------------------
+gene_2770605_TARA_ANE_RAW_Meso      --------------------------------------------------
+gene_3682062_TARA_ANE_RAW_--_n      PYEEGDLVPEPYENIEPEPCLGIASVTLQLDTEVVLGFRDSFTDDVGDVI 50
+gene_640303_TARA_ASW_RAW_Marib      --------------------------------------------------
+                                                                                      
+
+gene_1493147_TARA_IOS_RAW_Rhod      ----------------------------------MVTLMNN------FF- 9
+gene_1145508_TARA_PSW_RAW_Rhod      ----------------------------------MVTLMNN------FF- 9
+gene_3265768_TARA_ANE_RAW_Rhod      ----------------------------------MVTLMNN------FF- 9
+gene_1136591_TARA_ASW_RAW_Rhod      ----------------------------------MVTLMNN------FF- 9
+gene_2665768_TARA_IOS_RAW_Agro      --------------------------------------MKN------VF- 5
+gene_2770605_TARA_ANE_RAW_Meso      -----------------------------------LHPLSK------YYG 9
+gene_3682062_TARA_ANE_RAW_--_n      DLVDERKLTSGGHCEDDSACVAGVILDQIRNVREAMERLQRGWWDEPFFM 100
+gene_640303_TARA_ASW_RAW_Marib      -------------MRKELN-----IHEWSR--KEHFNFFSK-------F- 22
+                                                                          :..       : 
+
+gene_1493147_TARA_IOS_RAW_Rhod      ESPFKG------MTLD-------RQI--------NNPN------------ 26
+gene_1145508_TARA_PSW_RAW_Rhod      ESPFKG------MTLD-------RQI--------NNPN------------ 26
+gene_3265768_TARA_ANE_RAW_Rhod      ESPFKG------MTLD-------RQI--------NNPN------------ 26
+gene_1136591_TARA_ASW_RAW_Rhod      ESPFKG------MTLD-------RQI--------NNPN------------ 26
+gene_2665768_TARA_IOS_RAW_Agro      ESPFKG------ITLD-------RLV--------TNPN------------ 22
+gene_2770605_TARA_ANE_RAW_Meso      NNSFGSN-----CRIY-------RSV--------TLNN------------ 27
+gene_3682062_TARA_ANE_RAW_--_n      KASYNNTQLQVNATIDDLFIDGLRAIKAHVCFALSDKNEADACIPISQES 150
+gene_640303_TARA_ASW_RAW_Marib      SEPFYG----ITAKTD-------CST--------AYKK------------ 41
+                                    . .: .                               :            
+
+gene_1493147_TARA_IOS_RAW_Rhod      -------IIAGR-------YS-----------------------YYSGYY 39
+gene_1145508_TARA_PSW_RAW_Rhod      -------IIAGR-------YS-----------------------YYSGYY 39
+gene_3265768_TARA_ANE_RAW_Rhod      -------IIAGR-------YS-----------------------YYSGYY 39
+gene_1136591_TARA_ASW_RAW_Rhod      -------IIAGR-------YS-----------------------YYSGYY 39
+gene_2665768_TARA_IOS_RAW_Agro      -------IRVGR-------YS-----------------------YYSGYY 35
+gene_2770605_TARA_ANE_RAW_Meso      -------VIIGN-------YS-----------------------YVN--- 37
+gene_3682062_TARA_ANE_RAW_--_n      YEVPFQATVTGASPGAHTVYAWMEAAGSDDECRDLLRRDRQTIEYFVPAW 200
+gene_640303_TARA_ASW_RAW_Marib      -------SKENG-------YS-----------------------FFMYYL 54
+                                              .        *:                       :     
+
+gene_1493147_TARA_IOS_RAW_Rhod      HG---HSFDDCARY----------------------LLPEPGVDRLVIGS 64
+gene_1145508_TARA_PSW_RAW_Rhod      HG---HSFDDCARY----------------------LLPEPGVDRLVIGS 64
+gene_3265768_TARA_ANE_RAW_Rhod      HG---HSFDDCARY----------------------LLPEPGVDRLVIGS 64
+gene_1136591_TARA_ASW_RAW_Rhod      HG---HSFDDCARY----------------------LLPEPGVDRLVIGS 64
+gene_2665768_TARA_IOS_RAW_Agro      HG---HGFDECARF----------------------LLPEEGVDKLVIGS 60
+gene_2770605_TARA_ANE_RAW_Meso      ------TFSEISN-------------------------TE-------IGA 49
+gene_3682062_TARA_ANE_RAW_--_n      TNSYWEPFRNYTRKSQIGYPVNIVQGKGTYGIDSVRILAYGGPEKLVVGN 250
+gene_640303_TARA_ASW_RAW_Marib      HKS-LKAANSITAF----------------------KYRIEG-DK--VYE 78
+                                             . :                                   :  
+
+gene_1493147_TARA_IOS_RAW_Rhod      FCSIGTGTAFIMA-GNQGHRS-DWISTFPFFW--MSEVPAFAGAENGYQP 110
+gene_1145508_TARA_PSW_RAW_Rhod      FCSIGTGTAFIMA-GNQGHRS-DWISTFPFFW--MSEVPAFAGAENGYQP 110
+gene_3265768_TARA_ANE_RAW_Rhod      FCSIGTGAAFIMA-GNQGHRS-DWISTFPFFW--MSEVPAFAGAENGYQP 110
+gene_1136591_TARA_ASW_RAW_Rhod      FCSIGTGAAFIMA-GNQGHRS-DWISTFPFFW--MSEVPAFAGAENGYQP 110
+gene_2665768_TARA_IOS_RAW_Agro      FCSIGSGAAFIMA-GNQGHRR-DWISTFPFYW--MPEIDAFEGARNGFEP 106
+gene_2770605_TARA_ANE_RAW_Meso      FCSIGN--RVKIG-GFGSHIM-G-ASTHPSFYDPIPPTKSFH-KDYSFQP 93
+gene_3682062_TARA_ANE_RAW_--_n      FSSIGPGVSILLG-G--EHRY-GWTSTFPFPA--FDPRAAALTQKHAVS- 293
+gene_640303_TARA_ASW_RAW_Marib      YDVINASPTINRSNGTFGFSYLDYHEDFNTFCDLAAPRIEEVKNSKSLMP 128
+                                    :  *.    .  . *   .   .  . .                  .   
+
+gene_1493147_TARA_IOS_RAW_Rhod      --AGDTLIG-NDV-WIGAEAIIMPG-VTIGDGA-VIGTRALVTRN-VEPY 153
+gene_1145508_TARA_PSW_RAW_Rhod      --AGDTLIG-NDV-WIGAEAIIMPG-VTIGDGA-VIGTRALVTRN-VEPY 153
+gene_3265768_TARA_ANE_RAW_Rhod      --AGDTLIG-NDV-WIGAEAIIMPG-VTIGDGA-VIGTRALVTRN-VEPY 153
+gene_1136591_TARA_ASW_RAW_Rhod      --AGDTLIG-NDV-WIGAEAIIMPG-VTIGDGA-VIGTRALVTRN-VEPY 153
+gene_2665768_TARA_IOS_RAW_Agro      --AGDTVIG-NDV-WIGTEAIVMPG-VKIGHGA-VIGTRALVTKD-VEPY 149
+gene_2770605_TARA_ANE_RAW_Meso      --YKKVKIG-NDV-WVGDRSIILDG-VEVGDGA-IIAAGAVVPKN-VPPY 136
+gene_3682062_TARA_ANE_RAW_--_n      --KGDVVIG-SDV-FVGADAKILSG-VQIGHGA-VIGAGAVVAKN-VRPY 336
+gene_640303_TARA_ASW_RAW_Marib      ALSGENVIHFSSLPWIDFTSLSHARHFDFPDSCPKISFGKMNTVDGIQKM 178
+                                        .  *  ..: ::.  :      . . ...  *.   : . : :   
+
+gene_1493147_TARA_IOS_RAW_Rhod      AIVGGNPAKMIRKRFDDA-DIALLRE--MAWWDWSDAQLSQAMPILTSGD 200
+gene_1145508_TARA_PSW_RAW_Rhod      AIVGGNPAKMIRKRFDDA-DIALLRE--MAWWDWSDAQLSQAMPILTSGD 200
+gene_3265768_TARA_ANE_RAW_Rhod      AIVGGNPAKMIRKRFDDA-DIALLRE--MAWWDWSDAQLSQAMPILTSGD 200
+gene_1136591_TARA_ASW_RAW_Rhod      AIVGGNPAKMIRKRFDDA-DIALLRE--MAWWVWSDAQLSQAMPILTSGD 200
+gene_2665768_TARA_IOS_RAW_Agro      AIVGGNPSKTLRMRFVEA-DIARLLE--LRWWDWSDDELKAAMPLLTYGD 196
+gene_2770605_TARA_ANE_RAW_Meso      AIIGGNPMRLIRYRFSEE-DIANLLK--TKWWELHEEELNKLGPLMSK-E 182
+gene_3682062_TARA_ANE_RAW_--_n      AIVVGNPAKEIKRRFDDA-TVQRLLD--QAWWA----------------- 366
+gene_640303_TARA_ASW_RAW_Marib      PVSV-----HVHHGLADGLHVGQFFEKLQEFMDFDD-------------- 209
+                                    .:        ::  : :   :  : .    :                   
+
+gene_1493147_TARA_IOS_RAW_Rhod      IAALHHYW-------- 208
+gene_1145508_TARA_PSW_RAW_Rhod      IAALHHYWRKHIMTDD 216
+gene_3265768_TARA_ANE_RAW_Rhod      IAALHHYWRKHIMTDD 216
+gene_1136591_TARA_ASW_RAW_Rhod      IAALHHYWRKHIMTDD 216
+gene_2665768_TARA_IOS_RAW_Agro      ISALYRHWQTAIKPLQ 212
+gene_2770605_TARA_ANE_RAW_Meso      IKNFLISYKKNYNKD- 197
+gene_3682062_TARA_ANE_RAW_--_n      ----------------
+gene_640303_TARA_ASW_RAW_Marib      ----------------
+                                                    

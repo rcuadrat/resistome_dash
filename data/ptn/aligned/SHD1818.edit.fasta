@@ -1,0 +1,26 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_2088037_TARA_PSW_RAW_Tena      MKIIVSVFF--LAALVTITSLLMSSSFHNECKDIYEEHGTTGSFVLYDHK 48
+gene_616540_TARA_PON_RAW_Bacte      ---LLSLFLSLLAANASIG-LAQNVQYSPALNQARESGGFHGAIVTLDTA 46
+                                       ::*:*:  *** .:*  *  . .:    ::  *. *  *::*  *  
+
+gene_2088037_TARA_PSW_RAW_Tena      NDSYDYCNEIR-CEKRFCPASTFKIPNSIIGLETGAIDPDEKFKWDGKQR 97
+gene_616540_TARA_PON_RAW_Bacte      SDKY-LASDTKMVHTGFIPASTFKIFSSLVALETGVVSHDDLLIWDGVVR 95
+                                    .*.*  ..: :  .. * ******* .*::.****.:. *: : ***  *
+
+gene_2088037_TARA_PSW_RAW_Tena      AIPSWNQDHVLKSAYRHSVVPYYKELARRVGEKKMRAYLKKFDYGNMDCS 147
+gene_616540_TARA_PON_RAW_Bacte      DRSEINRDLTLVEAFALSALPHYQQLVREIGKAEMKRFLTSVGYGNANMD 145
+                                      .. *:* .* .*:  *.:*:*::*.*.:*: :*: :*....*** : .
+
+gene_2088037_TARA_PSW_RAW_Tena      GKIDEFWLNGVLKITQKEQIEFLKKLFDKKLGISRRTDSIMNDIMIFRQT 197
+gene_616540_TARA_PON_RAW_Bacte      GGLDRFWIDGGLRISPIQQVQFLERLLANRLPFSLETMKTVKKLLL--NA 193
+                                    * :*.**::* *:*:  :*::**::*: ::* :* .* . ::.:::  ::
+
+gene_2088037_TARA_PSW_RAW_Tena      Y-KYTIRAKTG-ASIVDK-IGWFVGW-VETDDNVYFFANNIEFDGKLTRE 243
+gene_616540_TARA_PON_RAW_Bacte      YPDPSISAKTGWTDIEGQNFGWWVGWKVNQGDPV-VFAT-ILLTDSPGDG 241
+                                    * . :* **** :.* .: :**:*** *: .* * .**. * : ..    
+
+gene_2088037_TARA_PSW_RAW_Tena      FMKKRIDTALDILKKKGIIKN 264
+gene_616540_TARA_PON_RAW_Bacte      FGKARIDVTRKVLS----LDR 258
+                                    * * ***.: .:*.    :..

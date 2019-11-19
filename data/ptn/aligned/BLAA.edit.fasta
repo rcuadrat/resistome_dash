@@ -1,0 +1,26 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_2640054_TARA_ANW_RAW_Duga      VVDQVSSPHKKCCDKIHRYGGRLGVYAMDLASGHVFALNATQRFPLCSTS 50
+gene_1621027_TARA_ANW_RAW_Bact      --------NN---DTV--------AY-------H-----ATQRFPICSTS 19
+                                            ::   *.:        .*       *     ******:****
+
+gene_2640054_TARA_ANW_RAW_Duga      KVMTVAAVLKKSMNEPGLLRHVVHYTAKAVAQSGYAPVVSRHVKRGMTVK 100
+gene_1621027_TARA_ANW_RAW_Bact      KAMAVGASLKKSMQDRAFLNKVVHYSKSDVIESGYAPITKLHIKTGMTLK 69
+                                    *.*:*.* *****:: .:*.:****: . * :*****:.. *:* ***:*
+
+gene_2640054_TARA_ANW_RAW_Duga      ALCLAAVRDSDNAAANLLMRQVGGPDGVTAFARSIGDQTFNLTRWEPELN 150
+gene_1621027_TARA_ANW_RAW_Bact      ALCAAAVSYSDNNAANLLMDQLAGPKGVTKFARSIGDTKFYLVRWEPELN 119
+                                    *** ***  *** ****** *:.**.*** ******* .* *.*******
+
+gene_2640054_TARA_ANW_RAW_Duga      TAYPGDVRDTSTPSAMARSLAKIVFGHVLAEKQRRLFVDSMLSSTTGGSR 200
+gene_1621027_TARA_ANW_RAW_Bact      TATPGDKRDTSTPRAMTQSLQKLVLGNVLASKQRKMLTSWLVDNTTGNAG 169
+                                    ** *** ****** **::** *:*:*:***.***:::.. ::..***.: 
+
+gene_2640054_TARA_ANW_RAW_Duga      IRTAVPGGWLVADKTGTGDYGVTNDIAVIWSPRGRPIVLTVFYRQPLRHA 250
+gene_1621027_TARA_ANW_RAW_Bact      IRAGTPKNWTVGDKTGAGAYGTSNDIAVIWPAYCKPIVLSIYYTQSAKNT 219
+                                    **:..* .* *.****:* **.:*******..  :****:::* *. :::
+
+gene_2640054_TARA_ANW_RAW_Duga      LANSAIVAQAAAVVVAAFS-HAD---------- 272
+gene_1621027_TARA_ANW_RAW_Bact      KPNSKIIAAATGSIIHDFSKYDDCLKKISKEAA 252
+                                     .** *:* *:. ::  ** : *          

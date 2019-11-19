@@ -1,0 +1,18 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_286866_TARA_MED_RAW_uncul      MITLIAAHDKNQLIGGKNKLLWHLPKDLMRFKKLTSGHPIIMGRKTFESI 50
+gene_2720856_TARA_PSE_RAW_Legi      M-------DKNNLIGKNNKIPWHIPGELKRFRAITMGKPIIMGRKTFESI 43
+                                    *       ***:*** :**: **:* :* **: :* *:************
+
+gene_286866_TARA_MED_RAW_uncul      GKPLPNRTNIVVTRNKKWNYPNVLVSSRVSEAIK-MANDIDENIFIVGGA 99
+gene_2720856_TARA_PSE_RAW_Legi      GKPLDGRENVVLTNNKSYKQDGVKTYNNISEVISDFTNH-DE-IFVIGGS 91
+                                    **** .* *:*:*.**.::  .* . ..:**.*. ::*. ** **::**:
+
+gene_286866_TARA_MED_RAW_uncul      EIYKQGIL-YCSNLEITEVHGVFRGDAWL----CN--------------- 129
+gene_2720856_TARA_PSE_RAW_Legi      EIYAL-LLPLAHKLYITKIDKIYDGDTWFPKIHYNEWKIQESIQITEETT 140
+                                    ***   :*  . :* **::. :: **:*:     *               
+
+gene_286866_TARA_MED_RAW_uncul      --------------
+gene_2720856_TARA_PSE_RAW_Legi      QTRYENIIYTKISG 154
+                                                  

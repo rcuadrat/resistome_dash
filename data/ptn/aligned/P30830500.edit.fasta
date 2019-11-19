@@ -1,0 +1,18 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_3162413_TARA_MED_RAW_Pseu      MIDSDPLTIEVLTTP-SAAWLSLRGALWPH-DPRASHQQEVRQFLAEPAR 48
+gene_3656817_TARA_PON_RAW_Kleb      MIE----IIE-MSNPGDTSWLEMRGQLWPHLD-KISHQNELEHLLIEPSR 44
+                                    **:     ** ::.* .::**.:** **** * : ***:*:.::* **:*
+
+gene_3162413_TARA_MED_RAW_Pseu      FHHLMAVDPSGQALGFIEGSIRSDYVNGTTSSPVGYIEGLYVIKTHRRLG 98
+gene_3656817_TARA_PON_RAW_Kleb      FIAFLAVHPDGQAIGFAETTVRTDYVNGCDSRPVAFLEGIYVKPEFREIG 94
+                                    *  ::**.*.***:** * ::*:*****  * **.::**:**   .*.:*
+
+gene_3162413_TARA_MED_RAW_Pseu      VARRLIDALSVW-FTAHHCTEIASDTAPSNLPSIATHLALGFEETERSVF 147
+gene_3656817_TARA_PON_RAW_Kleb      VAKKLCEAVEHWGYS-QGCTELASDAVLSNTISHQMHHNLGFKETERVVY 143
+                                    **::* :*:. * :: : ***:***:. **  *   *  ***:**** *:
+
+gene_3162413_TARA_MED_RAW_Pseu      FKKRIAH 154
+gene_3656817_TARA_PON_RAW_Kleb      FKKSLAL 150
+                                    *** :* 

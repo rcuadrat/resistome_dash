@@ -1,0 +1,34 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_2197999_TARA_MED_RAW_Bdel      MKKAYITIFILVATELIGFGLIIPVLPQISEQYTSSGILIGILLASYSFA 50
+gene_50351_TARA_ASE_RAW_Burkho      ----------------------------LSEG----ALTYGFLAALYAFM 18
+                                                                :**     .:  *:* * *:* 
+
+gene_2197999_TARA_MED_RAW_Bdel      QFFAAPLLGQWSDRIGRKPILILSKIGTIISYIILAYSNSYYLLLISRLL 100
+gene_50351_TARA_ASE_RAW_Burkho      QFLCAPLLGSLSDRFGRRPVILLSLLGGGLDYFLLAFAPDLTWFVIGRII 68
+                                    **:.*****. ***:**:*:::** :*  :.*::**:: .   ::*.*::
+
+gene_2197999_TARA_MED_RAW_Bdel      DGFTGGNISVARAYLSDISSEENRSKAMAIVGISFALGFILGPAIGGFCY 150
+gene_50351_TARA_ASE_RAW_Burkho      AGVTGANFAAATAYIADVSPPEKRAANFGLVGAAFGMGFVIGPAIGGWLG 118
+                                     *.**.*::.* **::*:*. *:*:  :.:** :*.:**::******:  
+
+gene_2197999_TARA_MED_RAW_Bdel      QISNTFSIAGIIGASLSTISLLITFFGIKE---P-NRKGIKSNK-NLIST 195
+gene_50351_TARA_ASE_RAW_Burkho      HYS--FRLPFIVAGCLTLLNWLYGLFVLPESLKPENRRVFSWKRSNPVGA 166
+                                    : *  * :. *:...*: :. *  :* : *   * **: :. :: * :.:
+
+gene_2197999_TARA_MED_RAW_Bdel      LKSASNEIIIILVTYGLIMITFSG--FETSFSVYTNSRFGLSESDNSFLF 243
+gene_50351_TARA_ASE_RAW_Burkho      LLALRHYPMVLGLSWTFFLINLAHQVFPATWVLYTGYRFDWGPSQVGMSL 216
+                                    * :  :  ::: ::: :::*.::   * ::: :**. **. . *: .: :
+
+gene_2197999_TARA_MED_RAW_Bdel      LLLGITAFFVQGSLMKITIRPFN---LALFVTTFSIGTGLILTNLIPTMW 290
+gene_50351_TARA_ASE_RAW_Burkho      AFVGVMAALVQGGLTRKVVPKLGEKRTALLGLTISIFS-YIAYGLASQGW 265
+                                     ::*: * :***.* : .:  :.    **:  *:** :  *  .* .  *
+
+gene_2197999_TARA_MED_RAW_Bdel      PSLAILILLVFGIGIANTHFPAELTR-LHSNEKGAILGIYESIGSISRII 339
+gene_50351_TARA_ASE_RAW_Burkho      MVYAIIVWGSLG-GLATPAIQGIVSQQVGADEQGGVQG---SLTSLSSVA 311
+                                       **::   :* *:*.. : . ::: : ::*:*.: *   *: *:* : 
+
+gene_2197999_TARA_MED_RAW_Bdel      GPLIVYFLLYENIKSLYLILGSVVLISSILILLFKKINIPVKRST 384
+gene_50351_TARA_ASE_RAW_Burkho      G--IL---------------------------------------- 314
+                                    *  *:                                        

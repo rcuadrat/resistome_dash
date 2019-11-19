@@ -1,0 +1,34 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_1090755_TARA_PSE_RAW_Eryt      MNRSALTRIVAPLALALAPFTSAPAQAQDLESAFDSAFGTEVREPEQFLP 50
+gene_3355552_TARA_PON_RAW_Algo      MKN----RLKKSIGINF--FI--------LVLLFTN----------QLVS 26
+                                    *:.    *:  .:.: :  *         *   * .          *::.
+
+gene_1090755_TARA_PSE_RAW_Eryt      DPDSPLERRIAQIANGRDGRIGVAAIDLATGEQVSVLGDQLFPMASTSKI 100
+gene_3355552_TARA_PON_RAW_Algo      --QNALQRQFEQLADTIKGNIGVSALNIETGESISFNGNEKFPMQSVYKF 74
+                                      :..*:*:: *:*:  .*.***:*::: ***.:*. *:: *** *. *:
+
+gene_1090755_TARA_PSE_RAW_Eryt      AIAATFLEGVDQGRWSLTSEFPLLWAVRSQRFSTR-VAPVRE----GEYL 145
+gene_3355552_TARA_PON_RAW_Algo      PIAMVMLNEIDNGNFSLKDTI-LIN--ESEYIPTAGHSPIRDKYPNGIKL 121
+                                    .** .:*: :*:*.:**.. : *:   .*: :.*   :*:*:    *  *
+
+gene_1090755_TARA_PSE_RAW_Eryt      PASQLIDLMITRSSNPATDALLAAVGGPSAVNDWALRA-GLTGFSLDRDI 194
+gene_3355552_TARA_PON_RAW_Algo      TIKEILEYNISQSDGTACDVLLRLLGGTDKVEK-SIHALGVKDIAISTTE 170
+                                    . .::::  *::*...* *.**  :**.. *:. :::* *:..:::.   
+
+gene_1090755_TARA_PSE_RAW_Eryt      ATLVRDDGEFDPTYHIDPRDAATPETMVRLLAGIYQ-GEWLSAESRDVIL 243
+gene_3355552_TARA_PON_RAW_Algo      MVQVAND-----T--IQYQNWATPNAMNRLLE-IFQNGNYLTEQSKNLLL 212
+                                     . * :*     *  *: :: ***::* ***  *:* *::*: :*::::*
+
+gene_1090755_TARA_PSE_RAW_Eryt      NAMERTRTGRNR-IRGMMPAGVTVSHKTGT------LNRMAGDIGIVEMP 286
+gene_3355552_TARA_PON_RAW_Algo      GFMSVSNKWFDRRIKRLLPKETKLAHKTGTSSTYNGLTRATNDVGIITLP 262
+                                    . *. :..  :* *: ::*  ..::*****      *.* :.*:**: :*
+
+gene_1090755_TARA_PSE_RAW_Eryt      DGRAIAMAIFVTGQSASQAHENANKSEARRLRDARIASIARALYDGYAER 336
+gene_3355552_TARA_PON_RAW_Algo      DGSHLAISIFIS-----DSYDSQKK------REMTIAQAAKAAYD-YWTR 300
+                                    **  :*::**::     ::::. :*      *:  **. *:* ** *  *
+
+gene_1090755_TARA_PSE_RAW_Eryt      ANARQYASAQHQSAAAAR 354
+gene_3355552_TARA_PON_RAW_Algo      KN---------------- 302
+                                     *                

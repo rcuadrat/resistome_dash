@@ -1,0 +1,134 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_1367741_TARA_ASE_RAW_SAR8      ---MS--------IIKTVDLKRSFKMGTQSVEALKGIDLNVQPGEFIAIM 39
+gene_1102242_TARA_PON_RAW_SAR8      ---MN--------IIEVKNITKHYLLGTQTVEALRGVSFGIEQGEFIAIM 39
+gene_1358192_TARA_ASW_RAW_Form      ---M----------IEATNIHKYY----NNLHVLKGVDLKVRKKEIISIV 33
+gene_2016099_TARA_IOS_RAW_Ferr      ---MSK------EILKIIDVKKTYKHMNKSITLFENLNLKIDQGELVALV 41
+gene_1192837_TARA_PSW_RAW_Cand      ---MN-------DMIKIDNINKSFENVQK-IKVLKSISFKFKKGKIYSLI 39
+gene_795933_TARA_ANW_RAW_uncul      ---M----------LAVSGLKKGFGSGRRRLEVLKGIDLKIESGELVALM 37
+gene_3352723_TARA_PSE_RAW_Stap      MTTTDTRQDAHMPLLSVRDLSVAFTQNGATNLAVDRISFDIDKGETVALV 50
+gene_932556_TARA_PSE_RAW_Pseud      ---VDK-------ILEIKNLVIDFESKESTFRAVNNISLEITKGKTLSLV 40
+gene_3201999_TARA_MED_RAW_uncl      ---MS---------LIVQDLDVSFGAN----TVISNLNFEMKSGDIVAII 34
+                                                  :   .:   :         .  :.: .   .  :::
+
+gene_1367741_TARA_ASE_RAW_SAR8      GPSGSGKT-TLMNIIG-CLDTPTSG-----KYFL--NNQEVSTLLDDDL- 79
+gene_1102242_TARA_PON_RAW_SAR8      GPSGSGKS-TLMNIIG-CLDSPTHG-----TYHL--NNQEVSTLEADEL- 79
+gene_1358192_TARA_ASW_RAW_Form      GPSGAGKT-TLLQILG-TITSPSKNE----KFKLEINSKSIISFSNNEL- 76
+gene_2016099_TARA_IOS_RAW_Ferr      GPSGSGKS-SLLHIIG-LLDEPSKG-----KIFI--NNQDTSSFSNSEK- 81
+gene_1192837_TARA_PSW_RAW_Cand      GPSGSGKS-TLLNLLS-LIDRPNSG-----LISI--DN-TTINFDKTNKN 79
+gene_795933_TARA_ANW_RAW_uncul      GPSGCGKS-TLLNIIGGLLEA-DSG-----SISL--TDFEYGTYPPNRV- 77
+gene_3352723_TARA_PSE_RAW_Stap      GESGSGKSVSALSTVR-LLPYPAASHPT-GEVLF--NGEDVLKADDAAL- 95
+gene_932556_TARA_PSE_RAW_Pseud      GESGSGKSVTALSVLQ-LLPEGTVRYSKESSIEF--EGRQIIGGSKKDI- 86
+gene_3201999_TARA_MED_RAW_uncl      GPSGCGKT-TLLRAIS-GLLKPTKG-----TIVL--NGKNIEK-QPCEQ- 73
+                                    * **.**: : :  :   :              :   .            
+
+gene_1367741_TARA_ASE_RAW_SAR8      AMIRNKEIGFVFQS-FHLLARSSALD-NVMLPLKYA-GEKKSKA-IERAK 125
+gene_1102242_TARA_PON_RAW_SAR8      AGIRNKEIGFVFQN-FHLLARNTALD-NVMLPLKYA-GVDKEDQ-IKRAK 125
+gene_1358192_TARA_ASW_RAW_Form      AKFRNESLGFIFQS-NQLLPEFSALE-NVCIP-SYIRGDSKKNAKIK-AE 122
+gene_2016099_TARA_IOS_RAW_Ferr      DRIRSNSVSIIFQD-NNLLTDFTALE-NVMMP-LIIKDENKKIV-LKKAK 127
+gene_1192837_TARA_PSW_RAW_Cand      DILRANKIGIIYQQ-DNLLPDFTAIE-NIYFA-GLAAQKDKKSS-ISKAR 125
+gene_795933_TARA_ANW_RAW_uncul      VDVRRKGVGWIFQD-YHLIDRLSALD-NVIFALELA-GVPSAQA-ESQAM 123
+gene_3352723_TARA_PSE_RAW_Stap      RRIRGNEISMIFQEPMTSLNPLHPVEKQIAEVLKIHRGMSDQAA-RARVL 144
+gene_932556_TARA_PSE_RAW_Pseud      TSLRGNRISMIFQEPMTSLNPYQKVGYQIDESLIIHRGLSKKEA-RQKTL 135
+gene_3201999_TARA_MED_RAW_uncl      ---R--EVGMLFQR--PVLFPFKDVLGNVLFA--YK---RKKDADMDQVN 111
+                                       *   :. ::*     :     :  ::           .       . 
+
+gene_1367741_TARA_ASE_RAW_SAR8      KALLD-VGLDD---RMDHSPSELSGGQQQRVAIARALVNSPSILFADEPT 171
+gene_1102242_TARA_PON_RAW_SAR8      NTLSQ-VGLES---RMDHQPSELSGGQQQRVAIARALVNHPSILFADEPT 171
+gene_1358192_TARA_ASW_RAW_Form      K-LLDFLQLKD---RLKHMPSELSGGEQQRVAVARALINDPLVVLADEPS 168
+gene_2016099_TARA_IOS_RAW_Ferr      KILKD-LRIEN---RHDHFPNQLSGGEQQRVAIARAIVAETNLILADEPT 173
+gene_1192837_TARA_PSW_RAW_Cand      ILLKK-VGLLN---RADHYPYQLSGGEKQRVSIARALINDPQILLADEPT 171
+gene_795933_TARA_ANW_RAW_uncul      DALRK-VGLSD---RMNFIPDQLSGGQRQRVAIARAISGSRPLILADEPT 169
+gene_3352723_TARA_PSE_RAW_Stap      QLLNQ-VGIRDPESRLASYPHQLSGGQRQRVMIAMALANEPDLLIADEPT 193
+gene_932556_TARA_PSE_RAW_Pseud      DLLKK-VKIPEPEIKVNSYPHQLSGGQRQRIMIAMALANEPELLIADEPT 184
+gene_3201999_TARA_MED_RAW_uncl      AILGE-LGLTG---KENQAIETLSGGEAQRVVLARALLTHPRLMLLDEPL 157
+                                      * . : :     :       ****: **: :* *:     ::: *** 
+
+gene_1367741_TARA_ASE_RAW_SAR8      GNLDSQTGADVMN-LFKELHHN--GQTIIIITHEEEVANQ-AQRVITIK- 216
+gene_1102242_TARA_PON_RAW_SAR8      GNLDSQTGHDVMQ-LFHDLHQQ--GQTIIIITHENEVAAE-AQRTIFIK- 216
+gene_1358192_TARA_ASW_RAW_Form      GNLDSKS-ANLLHKLFIELRETF-GHTYIIVTHNEKFAEM-ADRKITII- 214
+gene_2016099_TARA_IOS_RAW_Ferr      GNLDYKTSDEIFS-LFLKLKKLN--KTIIFATHNRELANK-ADYKLFIS- 218
+gene_1192837_TARA_PSW_RAW_Cand      GSLDLETAKEIFK-I-LK-NQINSDRLIVFATHNRFFANK-SDCILELV- 216
+gene_795933_TARA_ANW_RAW_uncul      GNLDVKSAEGILD-LFKELCEDY-GISVLMVTHDPNLASK-ADRMLLLR- 215
+gene_3352723_TARA_PSE_RAW_Stap      TALDVTVQAQILQ-LLKDIQRDT-GMAMLFITHDLGIVRKVADRVCVMT- 240
+gene_932556_TARA_PSE_RAW_Pseud      TALDVTVEKALLE-LLADLQKEF-GMSILFITHDLNIVKKFSDDVCVMK- 231
+gene_3201999_TARA_MED_RAW_uncl      SALDVDLRRKIAH-EIRSVLKAR-GIPAIHVTHDPEEAAIIGDQVLHWKD 205
+                                      **      :      .  .       :  **:   .   .:       
+
+gene_1367741_TARA_ASE_RAW_SAR8      ----DG-LIES-D---KLV------------------------------- 226
+gene_1102242_TARA_PON_RAW_SAR8      ----DG-LIES-DTR-KETL------------------------------ 229
+gene_1358192_TARA_ASW_RAW_Form      ----DG-QIA---------------------------------------- 219
+gene_2016099_TARA_IOS_RAW_Ferr      ----DG-IIKRVNAH-K--------------------------------- 229
+gene_1192837_TARA_PSW_RAW_Cand      ----NG-NIKTINVR-K--------------------------------- 227
+gene_795933_TARA_ANW_RAW_uncul      ----DG-VTAASDIR-SAWGEGGNP------------------------- 234
+gene_3352723_TARA_PSE_RAW_Stap      ----KGKIVESGPVE-RIFTAPEHSYTQHLLAAEPKGDPPVTDDRKPIVV 285
+gene_932556_TARA_PSE_RAW_Pseud      ----DGQIVEAGRVK-ELFDDPKHPYTIKLLNSIP-G-------KK---- 264
+gene_3201999_TARA_MED_RAW_uncl      LQSSDDSLNEHSQSNTQIMGEPSSAPPNSITEQDTNDD------------ 243
+                                        ..                                            
+
+gene_1367741_TARA_ASE_RAW_SAR8      --------------------------------------------------
+gene_1102242_TARA_PON_RAW_SAR8      --------------------------------------------------
+gene_1358192_TARA_ASW_RAW_Form      --------------------------------------------------
+gene_2016099_TARA_IOS_RAW_Ferr      --------------------------------------------------
+gene_1192837_TARA_PSW_RAW_Cand      --------------------------------------------------
+gene_795933_TARA_ANW_RAW_uncul      --------------------------------------------------
+gene_3352723_TARA_PSE_RAW_Stap      EAEDLKVWFPVRRGLLRRTVDHIKAVDGIDVTVREGQTLGIVGESGSGKT 335
+gene_932556_TARA_PSE_RAW_Pseud      --EKL--------------------------------------------- 267
+gene_3201999_TARA_MED_RAW_uncl      --------------------------------------------------
+                                                                                      
+
+gene_1367741_TARA_ASE_RAW_SAR8      --------------------------------------------------
+gene_1102242_TARA_PON_RAW_SAR8      --------------------------------------------------
+gene_1358192_TARA_ASW_RAW_Form      --------------------------------------------------
+gene_2016099_TARA_IOS_RAW_Ferr      --------------------------------------------------
+gene_1192837_TARA_PSW_RAW_Cand      --------------------------------------------------
+gene_795933_TARA_ANW_RAW_uncul      --------------------------------------------------
+gene_3352723_TARA_PSE_RAW_Stap      TLGLALMRMISSTGKIRFGSREIDGLNSKEMRPLRRDMQVVFQDPFGSLS 385
+gene_932556_TARA_PSE_RAW_Pseud      --------------------------------------------------
+gene_3201999_TARA_MED_RAW_uncl      --------------------------------------------------
+                                                                                      
+
+gene_1367741_TARA_ASE_RAW_SAR8      --------------------------------------------------
+gene_1102242_TARA_PON_RAW_SAR8      --------------------------------------------------
+gene_1358192_TARA_ASW_RAW_Form      --------------------------------------------------
+gene_2016099_TARA_IOS_RAW_Ferr      --------------------------------------------------
+gene_1192837_TARA_PSW_RAW_Cand      --------------------------------------------------
+gene_795933_TARA_ANW_RAW_uncul      --------------------------------------------------
+gene_3352723_TARA_PSE_RAW_Stap      PRMSVADIVGEGLEVHFPSISADERDAKVSAALVEVGLDANTRFRYPHEF 435
+gene_932556_TARA_PSE_RAW_Pseud      --------------------------------------------------
+gene_3201999_TARA_MED_RAW_uncl      --------------------------------------------------
+                                                                                      
+
+gene_1367741_TARA_ASE_RAW_SAR8      --------------------------------------------------
+gene_1102242_TARA_PON_RAW_SAR8      --------------------------------------------------
+gene_1358192_TARA_ASW_RAW_Form      --------------------------------------------------
+gene_2016099_TARA_IOS_RAW_Ferr      --------------------------------------------------
+gene_1192837_TARA_PSW_RAW_Cand      --------------------------------------------------
+gene_795933_TARA_ANW_RAW_uncul      --------------------------------------------------
+gene_3352723_TARA_PSE_RAW_Stap      SGGQRQRISIARAMVLEPKFVMLDEPTSALDMSVQAQVVDLLRDLQKRHN 485
+gene_932556_TARA_PSE_RAW_Pseud      --------------------------------------------------
+gene_3201999_TARA_MED_RAW_uncl      --------------------------------------------------
+                                                                                      
+
+gene_1367741_TARA_ASE_RAW_SAR8      --------------------------------------------------
+gene_1102242_TARA_PON_RAW_SAR8      --------------------------------------------------
+gene_1358192_TARA_ASW_RAW_Form      --------------------------------------------------
+gene_2016099_TARA_IOS_RAW_Ferr      --------------------------------------------------
+gene_1192837_TARA_PSW_RAW_Cand      --------------------------------------------------
+gene_795933_TARA_ANW_RAW_uncul      --------------------------------------------------
+gene_3352723_TARA_PSE_RAW_Stap      LAYLFISHDLKVVRALANEVVVMRAGKVVEAGPAASVFDAPETDYTKALM 535
+gene_932556_TARA_PSE_RAW_Pseud      --------------------------------------------------
+gene_3201999_TARA_MED_RAW_uncl      --------------------------------------------------
+                                                                                      
+
+gene_1367741_TARA_ASE_RAW_SAR8      ----------------
+gene_1102242_TARA_PON_RAW_SAR8      ----------------
+gene_1358192_TARA_ASW_RAW_Form      ----------------
+gene_2016099_TARA_IOS_RAW_Ferr      ----------------
+gene_1192837_TARA_PSW_RAW_Cand      ----------------
+gene_795933_TARA_ANW_RAW_uncul      ----------------
+gene_3352723_TARA_PSE_RAW_Stap      AAAFRLETAGAGIVSE 551
+gene_932556_TARA_PSE_RAW_Pseud      ----------------
+gene_3201999_TARA_MED_RAW_uncl      ----------------
+                                                    

@@ -1,0 +1,14 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_1872147_TARA_MED_RAW_Afip      MPTLIARILDWPYFAMLARIVLTFPFWGSGLSKLIDFPGGVAEMAQYGLK 50
+gene_1225384_TARA_PSE_RAW_Rhiz      MP-LIRALLGSRWFPLLARITLTFVFWSAGLAGLFDFEGKMAEMRSVGLV 49
+                                    ** **  :*.  :*.:****.*** **.:**: *:** * :*** . ** 
+
+gene_1872147_TARA_MED_RAW_Afip      PPMLINCLVIFTQLGGSLLIIANRRAWSGAGALAIFTLLTIPIAHDFWNL 100
+gene_1225384_TARA_PSE_RAW_Rhiz      PAGAYAIAVTFVQLAGAGLIIANRLPWLGAGALGIFLALTIPIAHPFWNM 99
+                                    *.      * *.**.*: ****** .* *****.**  ******* ***:
+
+gene_1872147_TARA_MED_RAW_Afip      KGEAAK-FEFYVAVEHISLIGGLMLAAIL------ 128
+gene_1225384_TARA_PSE_RAW_Rhiz      S-EPQRTFEFYIVMEHISLIGGLMVAAVIHNNHEK 133
+                                    . *. : ****:.:**********:**::      

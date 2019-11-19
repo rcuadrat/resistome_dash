@@ -7,9 +7,10 @@ import pandas as pd
 import flask
 import os
 import dash_table
-import plotly.io as pio
 import plotly.graph_objs as go
 import base64
+import dash_bio as dashbio
+from six import PY3
 
 #### Load data ########################################
 #df=pd.read_table("data/table_for_maps.tsv")
@@ -48,7 +49,8 @@ dimensions3= [ "Environmental parameters"]
 
 image_filename = 'images/resistomedblogo.png' 
 encoded_image = base64.b64encode(open(image_filename, 'rb').read())
-
+# with open('data/ptn/aligned/MCR1.edit.fasta' ,'r') as content_file:
+#          data = content_file.read()
 #######################################################
 
 app = dash.Dash(__name__)
@@ -97,7 +99,7 @@ app.layout = html.Div(
         html.Div(className="pretty_container",
                             children=
             [
-                dcc.Markdown("**Total Antibiotic Resistance Genes (ARGs):** "+ str(arg_count)),
+                dcc.Markdown("**Total Antibiotic Resistance Genes (ARGs):** "+ str(arg_count)+ "   **Total ORFs: **"+str(len(deep))),
                 dcc.Markdown("**Total  antibiotic classes: **" + str(class_count),style={"padding": "2.8px"})             
             ],
             style={"width": "39.4%","float": "right"},
@@ -173,7 +175,14 @@ app.layout = html.Div(
                 ],
         page_current=0,
         page_size=PAGE_SIZE,
-        page_action='custom'),
+        page_action='custom',
+        style_table={'overflowX': 'scroll'},
+            style_cell={
+                'height': 'auto',
+                'minWidth': '0px', 'maxWidth': '180px',
+                'whiteSpace': 'normal'
+            }
+        ),
         html.Br(),
 
         dcc.Markdown("Columns description: 'ORF_ID': identifier of the ORF predicted from Tara Ocean co-assembly; 'contig_id': ID of the contig; 'predicted_ARG-class': \
@@ -183,10 +192,20 @@ app.layout = html.Div(
         html.Br(),      
         html.A(id='download-link', children='Download Protein Fasta File',style={'marginBottom': '1.5em'},
                ),
-        ])
+        ]),
       #html.Div(html.A(id='download-link2', children='Download Nucleotide Fasta File',style={'marginBottom': '1.5em'},
         #))
-         
+
+        html.Div(id='alignment-viewer-output')
+
+        # html.Div([
+        #     dashbio.AlignmentChart(
+        #         id='my-alignment-viewer',
+        #         extension="clustal",
+        #         data=data
+        #     ),
+        # ])
+
         
     ]
 )
@@ -296,6 +315,8 @@ def make_fig2(arg,taxlevel):
     levels={1:"phylum",2:"order",3:"class",4:"family",5:"genus",6:"species"}
     a=deep[deep["#ARG"]==arg]
     b=a.groupby(levels[taxlevel]).count()[["#ARG"]]
+    b.index = b.index.str.replace("-", "Not Classified").str.replace("0", "Not Classified")
+    # not use colors if level is species (too many colors)
     if taxlevel==6:
         fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',title="Number of Tara ARGs found per taxonomic group (Kaiju).").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
     else:
@@ -328,6 +349,32 @@ def make_env_fig(arg,env_var2,feat22):
     width=1200     
     )
     return fig
+
+
+@app.callback(
+    Output('alignment-viewer-output','children'),
+    [Input('arg', 'value')]
+)
+def alig(arg):
+    dropdown_value = str(arg).replace("-", "").replace("(", "").replace(")", "").replace("''", "").replace(
+        "'", "").replace("_", "")
+    relative_filename = os.path.join(
+        'data/ptn/aligned',
+        '{}.edit.fasta'.format(dropdown_value))
+    with open(relative_filename, 'r') as content_file:
+        data = content_file.read()
+
+    if len(data)==0:
+        return ''
+    else:
+        return dashbio.AlignmentChart(
+
+        data=data,
+        extension="clustal",
+        overview="slider",
+
+
+    )
 
 
 if __name__ == '__main__':

@@ -1,0 +1,34 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_6496347_TARA_PSE_RAW_Alca      DLLPSVSANGDGTRQRVPADLNNSGESTVQSQYGVNVGIAAYELDLFGRI 50
+gene_369646_TARA_PON_RAW_Geoba      ---PTLNATASDTRARTPADLSYTGESGISNTYAVGLQMPAYELDFFGRI 47
+                                       *::.*....** *.****. :*** :.. *.*.: :.*****:****
+
+gene_6496347_TARA_PSE_RAW_Alca      RSLKQSALESYLATEEARHSARITLVSEVANAYLTLMADRENLRISEETL 100
+gene_369646_TARA_PON_RAW_Geoba      LSLKDQALQQYLATEEAERSAEISLVAAVANQYHQLVALKEQAKLAGEAM 97
+                                     ***:.**:.*******.:**.*:**: *** *  *:* :*: ::: *::
+
+gene_6496347_TARA_PSE_RAW_Alca      GAQRESVDLVQGRFDLGLGSELDLRQAQVALETARANRARFQRRVAADRN 150
+gene_369646_TARA_PON_RAW_Geoba      TSAKRAYDINQDSFDAGVGTELDLKTAEAQYQAYRASQLAYLDQVNQAQN 147
+                                     : :.: *: *. ** *:*:****: *:.  :: **.:  :  :*   :*
+
+gene_6496347_TARA_PSE_RAW_Alca      ALAVLVGAPLPALPGDD-LDAPAVATLPEVPAGLPSAVLRQRPDIRQAEH 199
+gene_369646_TARA_PON_RAW_Geoba      ALVWLVGSELPTLSADSSLLQREHAPV-DLPVGLPSELLTRRPDIRAAEH 196
+                                    **. ***: **:*..*. *     *.: ::*.**** :* :***** ***
+
+gene_6496347_TARA_PSE_RAW_Alca      ALRAANANIGAARAAFFPRISLTASAGTASSELSGLFESGSKAWSFSPSV 249
+gene_369646_TARA_PON_RAW_Geoba      TLKAANANIGAARAAFFPSVRLTAFGGTASAELSDLFKSGSAQWSFTPQI 246
+                                    :*:*************** : *** .****:***.**:***  ***:*.:
+
+gene_6496347_TARA_PSE_RAW_Alca      SLPIFSGGRNKANLDVAEVRRDRNVVRYEQTIQTAFQEVADALAARDSLA 299
+gene_369646_TARA_PON_RAW_Geoba      TLPIFTGGRNKANLEVANVEQRIELAQYERAIQTAFREVADALAVRRTID 296
+                                    :****:********:**:*.:  ::.:**::*****:*******.* :: 
+
+gene_6496347_TARA_PSE_RAW_Alca      EEERAQSALVDATARSLTLAEARYREGADDYLAVLDARRELLTARQQRVS 349
+gene_369646_TARA_PON_RAW_Geoba      QRIDAQSARVAAAQRRSTLSNQRFDAGVDSYLPVLLAQQELFSAQRDLVQ 346
+                                    :.  **** * *: *  **:: *:  *.*.**.** *::**::*::: *.
+
+gene_6496347_TARA_PSE_RAW_Alca      VTLDKLNNRITLYRALGGGGAADQATLIGTLDTDAPAATTGNAPRS 395
+gene_369646_TARA_PON_RAW_Geoba      AKLTKLNNQSALFAALGGG-----------LKSDF----------- 370
+                                    ..* ****: :*: *****           *.:*            

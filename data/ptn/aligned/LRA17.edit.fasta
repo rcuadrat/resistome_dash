@@ -1,0 +1,26 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_3033688_TARA_IOS_RAW_--_y      MKKIVTVIFNALLYSISAVGEEDYTQKLRTALPEFEMPPA-WVTNHEPFR 49
+gene_2545694_TARA_PSE_RAW_Muci      MNP--SLRFAALFF-VTHCSVI-FSTAA-TA--QFE-PSAGWVTLHPPFK 42
+                                    *:   :: * **:: ::  .   ::    **  :** *.* *** * **:
+
+gene_3033688_TARA_IOS_RAW_--_y      IIGNLYGVGGQDLAVYFIPSDAGHILINTAAQGSIKHISANVESLGFSLN 99
+gene_2545694_TARA_PSE_RAW_Muci      IIGPLYGVGMLDLSVFLITSEEGHILINTGLMDSTQHIKDNIEVLGFGFQ 92
+                                    *** *****  **:*::*.*: *******.  .* :**. *:* ***.::
+
+gene_3033688_TARA_IOS_RAW_--_y      DVKILLSMQSHFDHTADLAKIRELTGAKMYATKKDAPILEDGGFSDPHFG 149
+gene_2545694_TARA_PSE_RAW_Muci      DIKLLLTMQAHWDHTAAIAEIKALTGAEVWATPNDARILEDGGFGAPHFG 142
+                                    *:*:**:**:*:**** :*:*: ****:::** :** *******. ****
+
+gene_3033688_TARA_IOS_RAW_--_y      GLETFRPVTVDRIVEDGELIEVGSTRLKVHYHPGHTEGSSSYSMEIQENG 199
+gene_2545694_TARA_PSE_RAW_Muci      GRQSFEPLTVDRRITQGDIITLGDLRIEVHEHPGHTEGSSSYTFSVREQG 192
+                                    * ::*.*:**** : :*::* :*. *::** ***********::.::*:*
+
+gene_3033688_TARA_IOS_RAW_--_y      KTYKVLIANMGTINPGKRMILDPTYPGVAEDFNYTYNSQKNIEVDIWVAA 249
+gene_2545694_TARA_PSE_RAW_Muci      RDYEVGVINMGTINSGKRLVVEPTYENVASDFASTYNAQK---------- 232
+                                    : *:* : ******.***::::*** .**.**  ***:**          
+
+gene_3033688_TARA_IOS_RAW_--_y      HKSQYGFDKKYQQGQPYNPDTFVDPEGFI 278
+gene_2545694_TARA_PSE_RAW_Muci      -K----L-----------PD--------- 236
+                                     *    :           **         

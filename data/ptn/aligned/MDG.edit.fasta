@@ -1,0 +1,34 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_10419_TARA_ASE_RAW_Halomo      LRHLQRWLAAALLCALLPASAAVLASTNWYYEVDKQSPWQGDVDARISAI 50
+gene_4147893_TARA_PON_RAW_Halo      LRHLQRWLAAALLCALLPASAAVLASTNWYYEVDKQSPWQGDVDARISAI 50
+                                    **************************************************
+
+gene_10419_TARA_ASE_RAW_Halomo      EEVFGGALGVYVQNLATGEAYSWQADAPWYLASLIKVPVAAQVLAERQAG 100
+gene_4147893_TARA_PON_RAW_Halo      EEVFGGALGVYVQNLATGEAYAWQADAPWYLASLIKVPVAAQVLAERQAG 100
+                                    *********************:****************************
+
+gene_10419_TARA_ASE_RAW_Halomo      SLSLDERLTLARSDFVDGAGPVNWHDPGTPISIRYLLEQMLTVSDNTATD 150
+gene_4147893_TARA_PON_RAW_Halo      TLSLDERLILARSDFVDGAGPVNWHDPGTPISVRYLLEQMLTVSDNTATD 150
+                                    :******* ***********************:*****************
+
+gene_10419_TARA_ASE_RAW_Halomo      MLIDRVGLDAVNARARRMVAASNGQPEHLGPISKLVEVRQGVYGQLHPEA 200
+gene_4147893_TARA_PON_RAW_Halo      MLVDRVGLNAVNARARRMIAASNGQPEHLGPISKLVDVRQGVYGQWHPGA 200
+                                    **:*****:*********:*****************:******** ** *
+
+gene_10419_TARA_ASE_RAW_Halomo      RQLGGLDFIALRQHRVNQRPAALARTLGMGEESFEQPDYDHAFDAYEATG 250
+gene_4147893_TARA_PON_RAW_Halo      RQLSGLDFIALRQYGVNQRSAALARVLDVSEESFGQPDYDHAFDAYEATG 250
+                                    ***.*********: ****.*****.*.:.**** ***************
+
+gene_10419_TARA_ASE_RAW_Halomo      ENVGTLRAYGDLLASLHHGGMEDVNAEQRQTLLAIMQRTKSGERRLKQGM 300
+gene_4147893_TARA_PON_RAW_Halo      ENVGTLRAYGDLLASLHRGGMEDMNAEQRQTLLGIMQRTQSGEHRLKRGM 300
+                                    *****************:*****:*********.*****:***:***:**
+
+gene_10419_TARA_ASE_RAW_Halomo      GSEFTFAHKTGTQHRRSCDAGIASR---ASEAGDAANGPWVIVACTRGPL 347
+gene_4147893_TARA_PON_RAW_Halo      GRAFTFAHKTGTQHRRSCDAGIASRDVLASQESLAENGPWVVVACTRGPL 350
+                                    *  **********************   **: . * *****:********
+
+gene_10419_TARA_ASE_RAW_Halomo      SVQSHERALASVGEALRYSGALGHD 372
+gene_4147893_TARA_PON_RAW_Halo      SVQAHERALAKVGEALRYSGALGHD 375
+                                    ***:******.**************

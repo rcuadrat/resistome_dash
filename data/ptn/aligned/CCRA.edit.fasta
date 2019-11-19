@@ -1,0 +1,50 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_2583925_TARA_ION_RAW_Flam      MKNALLFLTLLCPALFSCNQTKTKNHQQAEQRNTEAAKADSVVYQSQALT 50
+gene_1458084_TARA_PSE_RAW_Flam      MKNALLFLTLLCPALFSCNQTKTKNHQQAEQRNTEAAKADSVVYQSQALT 50
+gene_2435158_TARA_PSW_RAW_Flam      -------------------------------------KADSVVYQSQALT 13
+gene_1807280_TARA_PSW_RAW_Orni      MKQR---LVLICFFLLSLNSFGQK-------------KPKRI---SDNLS 31
+                                                                         *.. :   *: *:
+
+gene_2583925_TARA_ION_RAW_Flam      IIKLTDHTYQHISYLDTDTFGKVPCNGMFVINEGEGIVFDTPTHSENAKE 100
+gene_1458084_TARA_PSE_RAW_Flam      IIKLTDHTYQHISYLDTDTFGKVPCNGMFVINEGEGIVFDTPTHSENAKE 100
+gene_2435158_TARA_PSW_RAW_Flam      IIKLTDHTYQHISYLDTDTFGKVPCNGMFVINEGEGIVFDTPTHSENAKE 63
+gene_1807280_TARA_PSW_RAW_Orni      YTKLNKSTYIIVSH------G--YCNGLVYVDGKEAAIISTPTSDTATKE 73
+                                      **.. **  :*:      *   ***:. ::  *. ::.*** .  :**
+
+gene_2583925_TARA_ION_RAW_Flam      LIIFIRSELKSKITALIPTHFHEDCIGGINEFDTQGIPAFVGTRTIKLLT 150
+gene_1458084_TARA_PSE_RAW_Flam      LIIFIRSELKSKITALIPTHFHEDCIGGINEFDTQGIPAFVGTRTIKLLT 150
+gene_2435158_TARA_PSW_RAW_Flam      LIIFIRSELKSKITALIPTHFHEDCIGGINEFDTQGIPAFVGTRTIKLLT 113
+gene_1807280_TARA_PSW_RAW_Orni      LVQWINTKLKAQVVACIADHWHADAMEGIDVLQAKGIKIYASKKT--QLT 121
+                                    *: :*.::**:::.* *. *:* *.: **: ::::**  :...:*   **
+
+gene_2583925_TARA_ION_RAW_Flam      DNNYNFKTPVNAFNDSLNLKLGNQAVVVHFLGEGHTQDNLVGYFPLDHVL 200
+gene_1458084_TARA_PSE_RAW_Flam      DNNYNFKTPVNAFNDSLNLKLGNQAVVVHFLGEGHTQDNLVGYFPLDHVL 200
+gene_2435158_TARA_PSW_RAW_Flam      DNNYNFKTPVNAFNDSLNLKLGNQAVVVHFLGEGHTQDNLVGYFPLDHVL 163
+gene_1807280_TARA_PSW_RAW_Orni      AIQKHLPIPDISFDNEKIIPVGNKTVVASYFGPTHTADGCMVWLPDEKIL 171
+                                      : ::  *  :*::.  : :**::**. ::*  ** *. : ::* :::*
+
+gene_2583925_TARA_ION_RAW_Flam      FGGCLIKSVGAGKGNLEDANVQQWPATVAKVKRKFPEADLIVPGHGKTGN 250
+gene_1458084_TARA_PSE_RAW_Flam      FGGCLIKSVGAGKGNLEDANVQQWPATVAKVKRKFPEADLIVPGHGKTGN 250
+gene_2435158_TARA_PSW_RAW_Flam      FGGCLIKSVGAGKGNLEDANVQQWPATVAKVKRKFPEADLIVPGHGKTGN 213
+gene_1807280_TARA_PSW_RAW_Orni      FGGCAMKSLGATPGNLGDAHLTEWSTSIEKVKAAYSDAKIVVPGHGKHGD 221
+                                    **** :**:**  *** **:: :*.::: ***  :.:*.::****** *:
+
+gene_2583925_TARA_ION_RAW_Flam      TALLDYTIQLFET-NNQ--------------------------------- 266
+gene_1458084_TARA_PSE_RAW_Flam      TALLDYTIQLFET-NNQ--------------------------------- 266
+gene_2435158_TARA_PSW_RAW_Flam      TALLDYTIQLFET-NNQ--------------------------------- 229
+gene_1807280_TARA_PSW_RAW_Orni      TSLITYTINMFAPFKNTFGGSRRVDYYNFSNGWSKILRYDRDSVANGKYF 271
+                                    *:*: ***::* . :*                                  
+
+gene_2583925_TARA_ION_RAW_Flam      --------------------------------------------------
+gene_1458084_TARA_PSE_RAW_Flam      --------------------------------------------------
+gene_2435158_TARA_PSW_RAW_Flam      --------------------------------------------------
+gene_1807280_TARA_PSW_RAW_Orni      LIDAEVIVNRGDTDNIFITSPALEYDSTHQTINANEGYCYIESTDAVKFK 321
+                                                                                      
+
+gene_2583925_TARA_ION_RAW_Flam      ------------------------------
+gene_1458084_TARA_PSE_RAW_Flam      ------------------------------
+gene_2435158_TARA_PSW_RAW_Flam      ------------------------------
+gene_1807280_TARA_PSW_RAW_Orni      GKFGFMGLTLEPFTDRRGLSIMVDKFIFLR 351
+                                                                  

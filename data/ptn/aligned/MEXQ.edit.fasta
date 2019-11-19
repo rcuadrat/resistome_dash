@@ -1,0 +1,90 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_1543067_TARA_MED_RAW_Syne      MSVSDPFLKRPLLTLVVSMLIVLAGLVSLSGLEIENLPPIAPTRVSVSAT 50
+gene_1078921_TARA_ASW_RAW_Sphi      MTFPRFFVDRPIFAVVLSVLMLIAGGITLFQLPLSEYPSVTPPTVQVTAA 50
+                                    *:..  *:.**::::*:*:*:::** ::*  * :.: *.::*. *.*:*:
+
+gene_1543067_TARA_MED_RAW_Syne      YPGASAEVVEQGVTDLLERQLNSLERLDTLTSTSTANG-ARVNLRFRSGS 99
+gene_1078921_TARA_ASW_RAW_Sphi      YPGASPEVIAETVAAPLEQAINGVENMLYMSSQSATDGRMTISISFKQGT 100
+                                    *****.**: : *:  **: :*.:*.:  ::* *:::*   :.: *:.*:
+
+gene_1543067_TARA_MED_RAW_Syne      G-ELNQINVQNEATLVTRRLPQPVSRQGLRVRRSGNDLLMVLSFSDSSGN 148
+gene_1078921_TARA_ASW_RAW_Sphi      DPDVAQIQVQNRVSRALPRLPEEVQRIGVVTDKTSPDILMVMHMRATSDR 150
+                                    . :: **:***..: .  ***: *.* *: . ::. *:***: :  :*..
+
+gene_1543067_TARA_MED_RAW_Syne      YDRAFISGWLERQVRDPLQRLDGVGEVVLFGSSDLAYRIWLDPTQLTRFD 198
+gene_1078921_TARA_ASW_RAW_Sphi      YDPLYVSNYASLRVKDELARLPGVANVIIGGEGEYAMRAWLDPTKVAARG 200
+                                    **  ::*.: . :*:* * ** **.:*:: *..: * * *****:::  .
+
+gene_1543067_TARA_MED_RAW_Syne      LTIDEVNQALRRENVLAALGQVGDAPAPLDQQYTLPLRMEGRLRSQSELE 248
+gene_1078921_TARA_ASW_RAW_Sphi      LTASDVVAAIREQNIQVAAGSIGQQPN-AQAAYQVSVNALGRLTTEEQFG 249
+                                    ** .:*  *:*.:*: .* *.:*: *   :  * :.:.  *** ::.:: 
+
+gene_1543067_TARA_MED_RAW_Syne      NLLIKPLGGGNSVRLRDLGRVSLGEERYGSVARNLQGEPTVAVGIFQRDG 298
+gene_1078921_TARA_ASW_RAW_Sphi      DIVVKSGEDGQITRLRDVARIQMGADNY-TLRSMLNGKPAVGMQILMSPG 298
+                                    ::::*.  .*: .****:.*:.:* :.* ::   *:*:*:*.: *:   *
+
+gene_1543067_TARA_MED_RAW_Syne      TNALQVSQAIKAELERASLDFPPGLEIQYIVDVADNVRESIDQAFDALRD 348
+gene_1078921_TARA_ASW_RAW_Sphi      ANALDTSSAVRATMERLKADFPEGIGYEIAYDPTIFVRASLKSVAVTLLE 348
+                                    :***:.*.*::* :** . *** *:  :   * :  ** *:...  :* :
+
+gene_1543067_TARA_MED_RAW_Syne      AVLLVFATLLLGLGNWRLALITAVAVPVALVGSFTLLKLSGGTINTLTLF 398
+gene_1078921_TARA_ASW_RAW_Sphi      ATLLVVLVVVIFLQSWRASIIPLVAVPVSLVGTFAIMYLFGFSLNTLSLF 398
+                                    *.***. .::: * .** ::*. *****:***:*::: * * ::***:**
+
+gene_1543067_TARA_MED_RAW_Syne      GLVLATGVVVDDAIVVSEDIGRRIDMGEPPRLAASHAMQELSGAVIATSL 448
+gene_1078921_TARA_ASW_RAW_Sphi      GLVLSIGIVVDDAIVVVENVERHIALGQSPKEAARKAMDEVTGPILAITS 448
+                                    ****: *:******** *:: *:* :*:.*: ** :**:*::*.::* : 
+
+gene_1543067_TARA_MED_RAW_Syne      VLIVVFLPVLMIPGSLGRLYQPIAVVISSTILFSTINALTFTPVASAVLL 498
+gene_1078921_TARA_ASW_RAW_Sphi      VLAAVFIPSAFLSGLQGEFYRQFALTIAISTILSAINSLTLSPALAGMLL 498
+                                    ** .**:*  ::.*  *.:*: :*:.*: : ::*:**:**::*. :.:**
+
+gene_1543067_TARA_MED_RAW_Syne      G-RKLPPPASWILK-LQRQL----ARSSDWLAHLHQPYERALDWVMRRRR 542
+gene_1078921_TARA_ASW_RAW_Sphi      KPHHGDTPRDRLTRFIDRVFGGVFARFNRFFDKLSDRYVGTVRRAVR-AS 547
+                                      ::  .* . : : ::* :    ** . :: :* : *  ::  .:*   
+
+gene_1543067_TARA_MED_RAW_Syne      GALAVLAAGLL-VTGLGLRALPTGFIPQEDVGQIRGVLLLPEGASLARSE 591
+gene_1078921_TARA_ASW_RAW_Sphi      GIVGLLYAGFLGLTWLGFHQVPAGFVPMQDKYYLLSIAQLPAGASLDRTE 597
+                                    * :.:* **:* :* **:: :*:**:* :*   : .:  ** **** *:*
+
+gene_1543067_TARA_MED_RAW_Syne      AAMRKLQEVVAQEPLIRTGNFYAGRSFGDSA--PNKGIFFLRLKYLSKRG 639
+gene_1078921_TARA_ASW_RAW_Sphi      AVVQQMSETALAEPGVESVVAFPGLDVNGAANLPNSAVMFIMLDSFEDR- 646
+                                    *.::::.*..  ** :.:   :.* ....:*  **..::*: *. :..* 
+
+gene_1543067_TARA_MED_RAW_Syne      TSQSNSTTAVLEQLGPKLRQALGGEGQVFLSQPLPVRGFGSEGGVSLNLL 689
+gene_1078921_TARA_ASW_RAW_Sphi      KGADLSAHAIAGRLMGKFSQIPDGFVGVFP--PPPVPGLGAMGGFKLQIE 694
+                                    .. . *: *:  :*  *: *  .*   **   * ** *:*: **..*:: 
+
+gene_1543067_TARA_MED_RAW_Syne      DVSGGAMSLQQFSDEAEAFSKAAMATGKFRRVGSRFSANSPALQVVPDRE 739
+gene_1078921_TARA_ASW_RAW_Sphi      DRAG--LGFNALAQAQGQIMARAMQTPELAGMLASFQPNAPQVQIDVDRV 742
+                                    * :*  :.:: :::    :   ** * ::  : : *..*:* :*:  ** 
+
+gene_1543067_TARA_MED_RAW_Syne      RMAAVGVNLQELVSAIGDSFGSTYVNDTFED-GRVRRILVQLEGDERNRP 788
+gene_1078921_TARA_ASW_RAW_Sphi      KAKAQGVPLTAIFETMQVNLGSLYVND-FNRFGRTYRVMVQADAPFRQQA 791
+                                    :  * ** *  :..::  .:** **** *:  **. *::** :.  *::.
+
+gene_1543067_TARA_MED_RAW_Syne      EDVLRLTVRNSDGDLIPLSTLVTLKPTTGPTSITHAELSRSISIRAALKP 838
+gene_1078921_TARA_ASW_RAW_Sphi      ENIGQLQVRNATGEMIPLSSLVTITRSTGPDRVMH--------------- 826
+                                    *:: :* ***: *::****:***:. :***  : *               
+
+gene_1543067_TARA_MED_RAW_Syne      GVSSGEAIALLEQVQANRNSPATELLFTGLSREEQQAGGGTWQLFGLGLV 888
+gene_1078921_TARA_ASW_RAW_Sphi      --YNG--------------YPSAD-----IS------GG----------- 838
+                                       .*               *:::     :*      **           
+
+gene_1543067_TARA_MED_RAW_Syne      VVYLVLAALYESAIDPLVILITVPLALLGVVVGLASRGLFLDVYGQVGVL 938
+gene_1078921_TARA_ASW_RAW_Sphi      --------------------------------------------------
+                                                                                      
+
+gene_1543067_TARA_MED_RAW_Syne      VLISLAAKNGILIVEFANQRVKEGHPVSLAIREASSLRLRPILLTGVSSL 988
+gene_1078921_TARA_ASW_RAW_Sphi      --------------------------------------------------
+                                                                                      
+
+gene_1543067_TARA_MED_RAW_Syne      AGFLPLLLARGAGAASRISIGTVVFSGLLLSTALSLFVLPVIYELIKSWE 1038
+gene_1078921_TARA_ASW_RAW_Sphi      --------------------------------------------------
+                                                                                      
+
+gene_1543067_TARA_MED_RAW_Syne      TGDRRKLG 1046
+gene_1078921_TARA_ASW_RAW_Sphi      --------
+                                            

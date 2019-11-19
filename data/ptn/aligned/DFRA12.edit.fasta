@@ -1,0 +1,429 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_2646591_TARA_MED_RAW_Lemi      --------------------------------------------------
+gene_1787881_TARA_ASE_RAW_Lemi      --------------------------------------------------
+gene_1014256_TARA_ANE_RAW_Lemi      --------------------------------------------------
+gene_4571556_TARA_PSE_RAW_Lemi      --------------------------------------------------
+gene_1985040_TARA_PON_RAW_Lemi      --------------------------------------------------
+gene_4041741_TARA_PSE_RAW_uncl      --------------------------------------------------
+gene_855828_TARA_ASE_RAW_Stapp      --------------------------------------------------
+gene_159145_TARA_ANW_RAW_Bacil      --------------------------------------------------
+gene_1410891_TARA_ANE_RAW_Stap      --------------------------------------------------
+gene_2045543_TARA_ANE_RAW_uncu      --------------------------------------------------
+gene_3257168_TARA_ANE_RAW_Opit      --------------------------------------------------
+gene_1745341_TARA_MED_RAW_uncu      --------------------------------------------------
+gene_1602740_TARA_MED_RAW_Baci      --------------------------------------------------
+gene_590020_TARA_ANE_RAW_Bacil      --------------------------------------------------
+gene_1260120_TARA_ASE_RAW_Opit      --------------------------------------------------
+gene_555244_TARA_ANE_RAW_Opitu      --------------------------------------------------
+gene_203466_TARA_ANE_RAW_Bacil      --------------------------------------------------
+gene_1802583_TARA_ANW_RAW_uncu      --------------------------------------------------
+gene_4190637_TARA_PON_RAW_Rhod      --------------------------------------------------
+gene_3815998_TARA_PON_RAW_uncu      --------------------------------------------------
+gene_4175734_TARA_PON_RAW_Pros      --------------------------------------------------
+gene_389487_TARA_ASE_RAW_uncla      --------------------------------------------------
+gene_970550_TARA_PON_RAW_Marin      --------------------------------------------------
+gene_1528650_TARA_ION_RAW_Cryo      MDKSSSKIDQEQIEFLENAQKRIRQKKLLYYHFIIFLFFSSFLFVLNFLL 50
+gene_1450254_TARA_IOS_RAW_Laci      --------------------------------------------------
+gene_1686937_TARA_ASE_RAW_Nitr      --------------------------------------------------
+gene_2744823_TARA_PSE_RAW_Sole      --------------------------------------------------
+gene_1703643_TARA_RED_RAW_Halo      --------------------------------------------------
+gene_483512_TARA_MED_RAW_Anoxy      --------------------------------------------------
+gene_1456597_TARA_MED_RAW_Geot      --------------------------------------------------
+gene_133842_TARA_PON_RAW_Bacil      --------------------------------------------------
+gene_3627948_TARA_IOS_RAW_Sphi      --------------------------------------------------
+gene_3295846_TARA_PON_RAW_Sphi      --------------------------------------------------
+gene_1615482_TARA_MED_RAW_Halo      --------------------------------------------------
+gene_2887318_TARA_PSW_RAW_Dysg      --------------------------------------------------
+gene_2282760_TARA_PON_RAW_Dysg      --------------------------------------------------
+gene_3613168_TARA_PON_RAW_Prev      --------------------------------------------------
+gene_6917819_TARA_PSE_RAW_--_n      --------------------------------------------------
+gene_649598_TARA_PON_RAW_Dysgo      --------------------------------------------------
+gene_736612_TARA_ASE_RAW_Agari      --------------------------------------------------
+gene_1156160_TARA_ION_RAW_Clos      --------------------------------------------------
+gene_3923342_TARA_ION_RAW_Magn      --------------------------------------------------
+gene_398142_TARA_MED_RAW_Candi      --------------------------------------------------
+gene_1779840_TARA_IOS_RAW_Cand      --------------------------------------------------
+gene_3644225_TARA_ANE_RAW_Nitr      --------------------------------------------------
+gene_641797_TARA_ION_RAW_Candi      --------------------------------------------------
+gene_1313350_TARA_IOS_RAW_Nitr      --------------------------------------------------
+gene_2209732_TARA_PSW_RAW_Magn      --------------------------------------------------
+gene_1613630_TARA_PSW_RAW_Nitr      --------------------------------------------------
+gene_862543_TARA_PSE_RAW_Nitra      --------------------------------------------------
+gene_6826095_TARA_PSE_RAW_Cand      --------------------------------------------------
+gene_3883716_TARA_PSE_RAW_Cand      --------------------------------------------------
+gene_2059489_TARA_ANE_RAW_Cand      --------------------------------------------------
+gene_980241_TARA_ANW_RAW_Nitra      --------------------------------------------------
+gene_1061609_TARA_ANE_RAW_Cand      --------------------------------------------------
+gene_2081494_TARA_PON_RAW_Nitr      --------------------------------------------------
+gene_2955243_TARA_IOS_RAW_--_n      --------------------------------------------------
+gene_2263147_TARA_PON_RAW_--_y      --------------------------------------------------
+gene_358549_TARA_ION_RAW_uncul      --------------------------------------------------
+                                                                                      
+
+gene_2646591_TARA_MED_RAW_Lemi      --------------------------------------------------
+gene_1787881_TARA_ASE_RAW_Lemi      --------------------------------------------------
+gene_1014256_TARA_ANE_RAW_Lemi      --------------------------------------------------
+gene_4571556_TARA_PSE_RAW_Lemi      --------------------------------------------------
+gene_1985040_TARA_PON_RAW_Lemi      --------------------------------------------------
+gene_4041741_TARA_PSE_RAW_uncl      --------------------------------------------------
+gene_855828_TARA_ASE_RAW_Stapp      --------------------------------------------------
+gene_159145_TARA_ANW_RAW_Bacil      --------------------------------------------------
+gene_1410891_TARA_ANE_RAW_Stap      --------------------------------------------------
+gene_2045543_TARA_ANE_RAW_uncu      --------------------------------------------------
+gene_3257168_TARA_ANE_RAW_Opit      --------------------------------------------------
+gene_1745341_TARA_MED_RAW_uncu      --------------------------------------------------
+gene_1602740_TARA_MED_RAW_Baci      --------------------------------------------------
+gene_590020_TARA_ANE_RAW_Bacil      --------------------------------------------------
+gene_1260120_TARA_ASE_RAW_Opit      --------------------------------------------------
+gene_555244_TARA_ANE_RAW_Opitu      --------------------------------------------------
+gene_203466_TARA_ANE_RAW_Bacil      --------------------------------------------------
+gene_1802583_TARA_ANW_RAW_uncu      --------------------------------------------------
+gene_4190637_TARA_PON_RAW_Rhod      --------------------------------------------------
+gene_3815998_TARA_PON_RAW_uncu      --------------------------------------------------
+gene_4175734_TARA_PON_RAW_Pros      --------------------------------------------------
+gene_389487_TARA_ASE_RAW_uncla      --------------------------------------------------
+gene_970550_TARA_PON_RAW_Marin      --------------------------------------------------
+gene_1528650_TARA_ION_RAW_Cryo      KIGNELIFLKYSWSVWIFLVWCFLILFHAFDLYVTNRFLGKKWQKKQTRL 100
+gene_1450254_TARA_IOS_RAW_Laci      --------------------------------------------------
+gene_1686937_TARA_ASE_RAW_Nitr      --------------------------------------------------
+gene_2744823_TARA_PSE_RAW_Sole      --------------------------------------------------
+gene_1703643_TARA_RED_RAW_Halo      --------------------------------------------------
+gene_483512_TARA_MED_RAW_Anoxy      --------------------------------------------------
+gene_1456597_TARA_MED_RAW_Geot      --------------------------------------------------
+gene_133842_TARA_PON_RAW_Bacil      --------------------------------------------------
+gene_3627948_TARA_IOS_RAW_Sphi      --------------------------------------------------
+gene_3295846_TARA_PON_RAW_Sphi      --------------------------------------------------
+gene_1615482_TARA_MED_RAW_Halo      --------------------------------------------------
+gene_2887318_TARA_PSW_RAW_Dysg      --------------------------------------------------
+gene_2282760_TARA_PON_RAW_Dysg      --------------------------------------------------
+gene_3613168_TARA_PON_RAW_Prev      --------------------------------------------------
+gene_6917819_TARA_PSE_RAW_--_n      --------------------------------------------------
+gene_649598_TARA_PON_RAW_Dysgo      --------------------------------------------------
+gene_736612_TARA_ASE_RAW_Agari      --------------------------------------------------
+gene_1156160_TARA_ION_RAW_Clos      --------------------------------------------------
+gene_3923342_TARA_ION_RAW_Magn      --------------------------------------------------
+gene_398142_TARA_MED_RAW_Candi      --------------------------------------------------
+gene_1779840_TARA_IOS_RAW_Cand      --------------------------------------------------
+gene_3644225_TARA_ANE_RAW_Nitr      --------------------------------------------------
+gene_641797_TARA_ION_RAW_Candi      --------------------------------------------------
+gene_1313350_TARA_IOS_RAW_Nitr      --------------------------------------------------
+gene_2209732_TARA_PSW_RAW_Magn      --------------------------------------------------
+gene_1613630_TARA_PSW_RAW_Nitr      --------------------------------------------------
+gene_862543_TARA_PSE_RAW_Nitra      --------------------------------------------------
+gene_6826095_TARA_PSE_RAW_Cand      --------------------------------------------------
+gene_3883716_TARA_PSE_RAW_Cand      --------------------------------------------------
+gene_2059489_TARA_ANE_RAW_Cand      --------------------------------------------------
+gene_980241_TARA_ANW_RAW_Nitra      --------------------------------------------------
+gene_1061609_TARA_ANE_RAW_Cand      --------------------------------------------------
+gene_2081494_TARA_PON_RAW_Nitr      --------------------------------------------------
+gene_2955243_TARA_IOS_RAW_--_n      --------------------------------------------------
+gene_2263147_TARA_PON_RAW_--_y      --------------------------------------------------
+gene_358549_TARA_ION_RAW_uncul      --------------------------------------------------
+                                                                                      
+
+gene_2646591_TARA_MED_RAW_Lemi      ----------------------MTGNSLD--KRI-FTAVAAMSCNGVIGN 25
+gene_1787881_TARA_ASE_RAW_Lemi      ----------------------MTGNSLD--KRI-FTAVAAMSCNGVIGN 25
+gene_1014256_TARA_ANE_RAW_Lemi      ----------------------------------------AMSCNGVIGN 10
+gene_4571556_TARA_PSE_RAW_Lemi      ----------------------MTGNSLD--KKI-FTAVAAMSCNGVIGN 25
+gene_1985040_TARA_PON_RAW_Lemi      ----------------------MTGNSLD--KRI-FKAVAAMSCNGVIGN 25
+gene_4041741_TARA_PSE_RAW_uncl      ----------------------MNNTYCD--KPI-FKAVAAMSRNRVIGN 25
+gene_855828_TARA_ASE_RAW_Stapp      ----------------------MSKQSIE--ASYNFKAVAAMSSNRVIGK 26
+gene_159145_TARA_ANW_RAW_Bacil      ----------------------MNNIFKN--ATANLKAVAAMSSNRVIGN 26
+gene_1410891_TARA_ANE_RAW_Stap      ----------------------M---TLK----FKYKAIAAMAKNRVIGN 21
+gene_2045543_TARA_ANE_RAW_uncu      ----------------------M---ALK----FKYKAIAAMAKNRVIGN 21
+gene_3257168_TARA_ANE_RAW_Opit      ----------------------M---ANR----FTYHAIAAMAENRVIGN 21
+gene_1745341_TARA_MED_RAW_uncu      ----------------------M---EHE----FNYRAIAAMAENRVIGN 21
+gene_1602740_TARA_MED_RAW_Baci      ---------------------------VK-----KIKAIAAMAENRVIGN 18
+gene_590020_TARA_ANE_RAW_Bacil      ---------------------------VK-----KIKAIAAMAENRVIGN 18
+gene_1260120_TARA_ASE_RAW_Opit      ----------------------MG--SSK-----NFKAIAAMSENRVIGN 21
+gene_555244_TARA_ANE_RAW_Opitu      ---------------------MMG--SPK-----NFKAIAAMSENRVIGN 22
+gene_203466_TARA_ANE_RAW_Bacil      ----------------------M---MIP----MPFKAIAAMSLNRVIGR 21
+gene_1802583_TARA_ANW_RAW_uncu      ----------------------M---MTP----MPFKAIAAMSLNRVIGR 21
+gene_4190637_TARA_PON_RAW_Rhod      ----------------------MT--DI--------KAIAAVSRNNVIGK 18
+gene_3815998_TARA_PON_RAW_uncu      ----------------------VN--QLH-----PYKAIVAIAEDRVIGR 21
+gene_4175734_TARA_PON_RAW_Pros      -------------------VHAMTIQDLRE-RGIRWHAIVAMASNRVIGR 30
+gene_389487_TARA_ASE_RAW_uncla      ----------------------MN--AAQ------VI-----G--RD-G- 11
+gene_970550_TARA_PON_RAW_Marin      ----------------------MYR-HHK------IIIVAALGNHRELGY 21
+gene_1528650_TARA_ION_RAW_Cryo      LMELQRNKILELKKEHYNEAEVISKSETFYSKSNLITIIAAADENNVIGK 150
+gene_1450254_TARA_IOS_RAW_Laci      --------------------------------------------------
+gene_1686937_TARA_ASE_RAW_Nitr      ------------------MR-VIQ--------------IAAMAGNRTIGN 17
+gene_2744823_TARA_PSE_RAW_Sole      ------------------MTSIIEN----------LSIIAALADNRVIGK 22
+gene_1703643_TARA_RED_RAW_Halo      ----------------------V-----------KAAIVVARSLNGVIGN 17
+gene_483512_TARA_MED_RAW_Anoxy      ----------------------V-----------KTSIVVARSLNGVIGN 17
+gene_1456597_TARA_MED_RAW_Geot      -------------------------------------MIAARSLNGIIGS 13
+gene_133842_TARA_PON_RAW_Bacil      --------------------------------------------------
+gene_3627948_TARA_IOS_RAW_Sphi      ----------------------M-----------SYALIAAMSRNRVIGR 17
+gene_3295846_TARA_PON_RAW_Sphi      ----------------------M-----------SYALIAAMSRNRIIGR 17
+gene_1615482_TARA_MED_RAW_Halo      ----------------------VNP---------SYAIVAARSRNHVIGR 19
+gene_2887318_TARA_PSW_RAW_Dysg      --------------------MNLP----------KYSLIAAMDNNRIIGH 20
+gene_2282760_TARA_PON_RAW_Dysg      --------------------MNLP----------KYSLIAAMDNNRIIGH 20
+gene_3613168_TARA_PON_RAW_Prev      --------------------MNIKI---------NYSIIAAMDNNRIIGH 21
+gene_6917819_TARA_PSE_RAW_--_n      -----------------------------------------MDNNRIIGH 9
+gene_649598_TARA_PON_RAW_Dysgo      --------------------M-LP----------KYSIIAAMDYNKVIGN 19
+gene_736612_TARA_ASE_RAW_Agari      ----------------------MR----------SFKIIACLDKSGGIGK 18
+gene_1156160_TARA_ION_RAW_Clos      -----------------------------------MHLIVALNNKNVIGN 15
+gene_3923342_TARA_ION_RAW_Magn      ---------------------MT-KKKLKN----PIFCIVAMNENRIIGD 24
+gene_398142_TARA_MED_RAW_Candi      ---------------------MTTKKKLKN----PIFCIVAMNENRIIGD 25
+gene_1779840_TARA_IOS_RAW_Cand      ---------------------MINKKKLKN----PIFCIVAMNENRIIGD 25
+gene_3644225_TARA_ANE_RAW_Nitr      ---------------------MINKKKLKN----PIFCIVAMNENRIIGD 25
+gene_641797_TARA_ION_RAW_Candi      ---------------------MIIKKKLKN----PIFCIVAMNENRIIGD 25
+gene_1313350_TARA_IOS_RAW_Nitr      ---------------------------LKN----PIFCIVAMNENRIIGD 19
+gene_2209732_TARA_PSW_RAW_Magn      --------------------------NLKN----PIFCIVAMNEDRIIGD 20
+gene_1613630_TARA_PSW_RAW_Nitr      ---------------------MIIKKNLIN----PIFCIVAMNENRVIGD 25
+gene_862543_TARA_PSE_RAW_Nitra      ---------------------MIIKQNLKN----PIFCIVAMNENRIIGD 25
+gene_6826095_TARA_PSE_RAW_Cand      ---------------------MTIKKKLKN----PIFCIVAMNENRIIGD 25
+gene_3883716_TARA_PSE_RAW_Cand      ---------------------MTIKKKLKN----PIFCIVAMNENRIIGD 25
+gene_2059489_TARA_ANE_RAW_Cand      ---------------------MITKKNLKN----PIFCIVAMNENRIIGD 25
+gene_980241_TARA_ANW_RAW_Nitra      ---------------------MLTKENLKN----PIICIVAMNENRIIGD 25
+gene_1061609_TARA_ANE_RAW_Cand      ---------------------MIRKKDLKN----PIVCIVAMNQNRVIGD 25
+gene_2081494_TARA_PON_RAW_Nitr      ---------------------MIIKKNLKN----PIVCIVAMNKNRVIGD 25
+gene_2955243_TARA_IOS_RAW_--_n      ----------------------MTQKENQ----FLLSMIVAVDNNYLMGS 24
+gene_2263147_TARA_PON_RAW_--_y      ----------------------MIKESSN----VELSIIVAVDQNNLIGS 24
+gene_358549_TARA_ION_RAW_uncul      ----------------------MT-----------VYCILAISDNNVIGV 17
+                                                                                      
+
+gene_2646591_TARA_MED_RAW_Lemi      K-GQLPWH-LSDDLKFFKKLTFGSPVIMGRKTYESIG----RPLPGRKNI 69
+gene_1787881_TARA_ASE_RAW_Lemi      K-GQLPWH-LSDDLKFFKKLTFGSPVIMGRKTYESIG----RPLPGRKNI 69
+gene_1014256_TARA_ANE_RAW_Lemi      K-GQLPWH-LSDDLKFFKKLTFGSPVIMGRKTYESIG----RPLPGRKNI 54
+gene_4571556_TARA_PSE_RAW_Lemi      K-GQLPWH-LSDDLKFFKKLTFGYPVIMGRKTYESIG----RPLPGRKNI 69
+gene_1985040_TARA_PON_RAW_Lemi      K-GQLPWH-LSEDLKFFKKLTYGSPVIMGRKTYESIG----RPLPGRKNI 69
+gene_4041741_TARA_PSE_RAW_uncl      N-GQLPWH-LSDDLKYFKKLTLGSTVIMGRKTFDSIG----KPLPNRKNI 69
+gene_855828_TARA_ASE_RAW_Stapp      N-GELPWH-FSEDLKFFKKLTLNSTVVMGRKTFESIG----RPLPQRKNV 70
+gene_159145_TARA_ANW_RAW_Bacil      N-GELPWY-FSEDLKFFKKLTLNSTVVMGRKTFDSIG----KPLPKRKNI 70
+gene_1410891_TARA_ANE_RAW_Stap      K-GSIPWH-IPEDFKWFKKNTIGQTLLMGRKTFESIG----KPLPQRQTL 65
+gene_2045543_TARA_ANE_RAW_uncu      N-GAIPWY-IPEDFKWFKQNTIGQTLLMGRKTFESIG----RPLPDRQTL 65
+gene_3257168_TARA_ANE_RAW_Opit      A-GAIPWH-LPDDFKWFKKTTMGQTLLMGRKTFESIG----RPLAGRQTL 65
+gene_1745341_TARA_MED_RAW_uncu      Q-NTIPWH-LPEDFKWFKKTTMGQTLLMGRKTFDSIG----RPLPGRQTI 65
+gene_1602740_TARA_MED_RAW_Baci      K-GEIPWH-LPEDFRWFKQATMGGVLVMGRKTYESIG----KPLPGRETY 62
+gene_590020_TARA_ANE_RAW_Bacil      K-GEIPWH-LPEDFRWFKQATMGGVLVMGRKTYESIG----KPLPGRETY 62
+gene_1260120_TARA_ASE_RAW_Opit      S-GGIPWH-LPEDFKWFKKTTMGDILVMGRKTYESIG----RPLPGRDTY 65
+gene_555244_TARA_ANE_RAW_Opitu      S-GGIPWH-LPEDFKWFKKTTMGDILVMGRKTYESIG----RPLPGRDTY 66
+gene_203466_TARA_ANE_RAW_Bacil      G-NSIPWN-LPEDFEWFKKTTMGHVLVMGRRTFESIG----RPLPGRETI 65
+gene_1802583_TARA_ANW_RAW_uncu      G-NSIPWN-LPEDFEWFKKTTMGHVLVMGRRTFESIG----RPLPGRETI 65
+gene_4190637_TARA_PON_RAW_Rhod      K-GDLPWR-IPGELKWFKKITMGHIMIMGRKTWDSLP----GILPGRENW 62
+gene_3815998_TARA_PON_RAW_uncu      N-GDLPWR-LPGDLKWFKKITLGHTLLMGRKTWESLP----GALPGRENW 65
+gene_4175734_TARA_PON_RAW_Pros      D-GTLPWH-FPEDLKLFKKRTMGCPIIMGRNTFLSLPK--QRPLPGRNNV 76
+gene_389487_TARA_ASE_RAW_uncla      ---TLPWH-YSEDLKRFKRLTTGSTIVMGRNTFESIGS---KPLPKRDNR 54
+gene_970550_TARA_PON_RAW_Marin      Q-NNLPWH-LPSDLRFFKKITTGHSLIMGRKTHDSIINRLQKPLPDRHHY 69
+gene_1528650_TARA_ION_RAW_Cryo      E-NKLIWH-LSDDLKHFKNLTKDHHVIMGRKTFESMP----KALPNRTNI 194
+gene_1450254_TARA_IOS_RAW_Laci      --------------RRFKDLTTNHSVIMGRKTFESLP----EPLANRDNI 32
+gene_1686937_TARA_ASE_RAW_Nitr      N-NELPWH-IPKDFKFFKDQTMGKILIMGRKTYESIPP--SG-LPNRKLV 62
+gene_2744823_TARA_PSE_RAW_Sole      E-NKLPWR-LKSDLNNFKRLTMGKPIIMGRKTWESLP----GVLPGRIHN 66
+gene_1703643_TARA_RED_RAW_Halo      G-SKIPWK-VKEEQSLFKQITMGGTLVMGRKTFESI----GRPLPGRETI 61
+gene_483512_TARA_MED_RAW_Anoxy      G-SEIPWK-VKGEQSLFKRITMGGTLVMGRKTFESI----GRPLPGRTTI 61
+gene_1456597_TARA_MED_RAW_Geot      G-DKIPWK-VRDEQRLFKKITMGGTLIMGRKTFVSI----GKALPGRDTI 57
+gene_133842_TARA_PON_RAW_Bacil      ---------VKGEQKLFKEITMGHTLVMGRKTFESI----GRPLPGRDTV 37
+gene_3627948_TARA_IOS_RAW_Sphi      G-DDIPWV-AKGEQALFKKITSGGSVIMGRKTFDSI----GRPLPKRHNI 61
+gene_3295846_TARA_PON_RAW_Sphi      G-DDIPWV-AKGEQALFKKITSGGSVIMGRKTFDSI----GRPLPKRHNI 61
+gene_1615482_TARA_MED_RAW_Halo      G-SDIPWQ-VKGEQALFKKITDGGCLVMGRKTFESI----GRPLPGRLTL 63
+gene_2887318_TARA_PSW_RAW_Dysg      K-NKIPWK-AKGEQALFKRITENSVVIMGRNTYESLPN--G-ALPNRYNA 65
+gene_2282760_TARA_PON_RAW_Dysg      K-NKIPWK-AKGEQALFKRITENSVVIMGRNTYESLPN--G-ALPNRYNA 65
+gene_3613168_TARA_PON_RAW_Prev      K-NKIPWK-AKGEQALFKRITLNSVVIMGRNTFQSLPN--G-ALPNRYNA 66
+gene_6917819_TARA_PSE_RAW_--_n      K-NKIPWK-AKGEQALFKRITHRGVVIMGRNTFQSLPN--G-ALPDRYNA 54
+gene_649598_TARA_PON_RAW_Dysgo      Q-NKIPWK-AKGEQALFKRITLNSVVIMGRNTYESLPT--G-ALSERYNA 64
+gene_736612_TARA_ASE_RAW_Agari      A-NKLAWV-SAYEMAHFRSVTMSSIVIMGRLTYESI----GRYLPHRVNV 62
+gene_1156160_TARA_ION_RAW_Clos      D-NTIPWY-LPSDLKRFKTLTENNIVVMGRKTYDSLP---KKPLKNRINV 60
+gene_3923342_TARA_ION_RAW_Magn      G-KKLLWH-LPGDLKRLKKITMGSPLIMGRKTWNSIG----RPLPGRANI 68
+gene_398142_TARA_MED_RAW_Candi      G-KNLLWH-LPGDLKRLKKMTMGSPLIMGRKTWDSIG----RPLPGRANI 69
+gene_1779840_TARA_IOS_RAW_Cand      G-KNLLWH-LPGDLKRLKKMTMGSPLIMGRKTWDSIG----RPLPGRANI 69
+gene_3644225_TARA_ANE_RAW_Nitr      G-NNLLWH-LPGDLKRLKKMTMGSPLIMGRKTWDSIG----KPLPGRANI 69
+gene_641797_TARA_ION_RAW_Candi      G-KNLLWH-LPGDLKRLKKMTMGSPLIMGRKTWDSIG----RPLPGRANI 69
+gene_1313350_TARA_IOS_RAW_Nitr      G-KNLLWH-LPGDLKRLKKITMGAPLIMGRKTWDSIG----KPLPGRANI 63
+gene_2209732_TARA_PSW_RAW_Magn      G-KSLLWY-LPGDLKRLKKMTMGSPLVMGRKTWDSIG----RPLPGRANI 64
+gene_1613630_TARA_PSW_RAW_Nitr      G-KNLLWY-LPDDLKRLKKITMGSPLIMGRKTWDSIG----KPLAGRANI 69
+gene_862543_TARA_PSE_RAW_Nitra      G-KNLLWY-LPGDLKRLKKITMGSPLIMGRKTWDSIG----KPLPGRANI 69
+gene_6826095_TARA_PSE_RAW_Cand      G-KNLLWH-LPGDLKRLKKMTMGSPLIMGRKTWDSIG----RPLPGRANI 69
+gene_3883716_TARA_PSE_RAW_Cand      G-KNLLWH-LPGDLKRLKKMTMGSPLIMGRKTWDSIG----RPLPGRANI 69
+gene_2059489_TARA_ANE_RAW_Cand      G-KKILWH-LPGDLKRLKKMTMGSPLIMGRKTWDSIG----RPLPGRANI 69
+gene_980241_TARA_ANW_RAW_Nitra      G-KNLLWH-LPGDLKRLKKLTMGSPLIMGRKTWESIG----KPLPGRANI 69
+gene_1061609_TARA_ANE_RAW_Cand      G-DNLLWN-LPGDLKRLKMITMGTPLIMGRKTWDSIG----RPLPGRGSI 69
+gene_2081494_TARA_PON_RAW_Nitr      G-NNLLWH-LPGDLKRLKRITMGTPLIMGRKTWDSIG----KPLPGRASI 69
+gene_2955243_TARA_IOS_RAW_--_n      DLGGLPWSGIERDKIHFRKYVEGKTILTGRKTFEEMK---GWFQPHHTPY 71
+gene_2263147_TARA_PON_RAW_--_y      DSGGLPWKPVNRDKEHFRKYVKGKALLLGRKTFEEMN---GWFNDDHTPF 71
+gene_358549_TARA_ION_RAW_uncul      D-DRLPWR-IPFDLKWFKMHTYGQAIVMGRRTWDSLP---KKPLPGRVSF 62
+                                                    ::  .    :: ** *  .:          :   
+
+gene_2646591_TARA_MED_RAW_Lemi      VISSN-ANIY---GDIEI-HQSIEKLIDVYKD-S-------TE----SLF 102
+gene_1787881_TARA_ASE_RAW_Lemi      VISSN-ANIY---GDIEI-HQSIEELIDVYKD-S-------TE----SLF 102
+gene_1014256_TARA_ANE_RAW_Lemi      VISSN-ANIY---GDIEI-HQSIEELIDVYKD-S-------TE----SLF 87
+gene_4571556_TARA_PSE_RAW_Lemi      VISSN-ANIN---GDIEI-HQSIEELIDVYKD-S-------TE----SLF 102
+gene_1985040_TARA_PON_RAW_Lemi      VISSN-PNVE---GNIET-HQSIEDLIKAYKD-S-------TE----SLF 102
+gene_4041741_TARA_PSE_RAW_uncl      VISRN-PKTI---DKVEF-YQSVDQLLDAYKN-S-------TE----SLF 102
+gene_855828_TARA_ASE_RAW_Stapp      VLSTS-MKPR---EGVHI-FNNVEDLLCQYEN-S-------SE----PVY 103
+gene_159145_TARA_ANW_RAW_Bacil      VISRS-MKKR---DDVLV-YQNIETFLTEHSH-S-------NE----SIF 103
+gene_1410891_TARA_ANE_RAW_Stap      ILSRS-NYRA---KNTFT-VSDMN-SIEQAAQ---------NE----TIW 96
+gene_2045543_TARA_ANE_RAW_uncu      ILSRS-SYIA---EHTIT-VSDMD-SIEKSAE---------NE----NIW 96
+gene_3257168_TARA_ANE_RAW_Opit      ILSRS-DYSA---PKTIT-VEDSQ-SVESVAE---------HS----HIW 96
+gene_1745341_TARA_MED_RAW_uncu      ILSRK-QLSI---PDTVT-LNTID-AVEPVAT---------SD----TIW 96
+gene_1602740_TARA_MED_RAW_Baci      VLSRT-ARFI---EGVHN-FSNLD-ILQEIDT---------DK----TIW 93
+gene_590020_TARA_ANE_RAW_Bacil      VLSRT-ARFI---EGVHN-FSNLD-ILQEIDT---------DK----TIW 93
+gene_1260120_TARA_ASE_RAW_Opit      VLSRT-PREI---AGVNN-FTNLE-TLDHLKT---------NQ----TIW 96
+gene_555244_TARA_ANE_RAW_Opitu      VLSRT-PRKI---EGVHN-FTDLE-TLDHLKT---------NQ----TIW 97
+gene_203466_TARA_ANE_RAW_Bacil      VLTGS-GEPI---AGVRT-VGSLD-ALGKAGDLG-------DR----TIF 98
+gene_1802583_TARA_ANW_RAW_uncu      VLTGS-GEPI---AGVRT-VGSLD-ALGKADDLG-------DR----TIF 98
+gene_4190637_TARA_PON_RAW_Rhod      VLSST-LKPK---SGITI-FSSFESALNEA---G-------SR----TIF 93
+gene_3815998_TARA_PON_RAW_uncu      VLSRS-AQSE---KEMKV-FRSLD-EIKEHLL-P-------KQ----NLF 97
+gene_4175734_TARA_PON_RAW_Pros      VVSGTMAPPE---DDAYTVIPSLEAYLDAVSG---------VG----DAY 110
+gene_389487_TARA_ASE_RAW_uncla      IVT-----R----SNFDN-VDCF-TSLDSAITDC-------PG----DLW 82
+gene_970550_TARA_PON_RAW_Marin      VVTQQ--TRY---SDHPN-ITYIPTPL-SLLNDM-------TE----TVY 101
+gene_1528650_TARA_ION_RAW_Cryo      VITRNSDYVA---DNIT-VVSSLNEALE-K--SK-------ND---KQPF 227
+gene_1450254_TARA_IOS_RAW_Laci      VITRDANYSK---SGIQ-VCSSIEDAIS-L--TK-------TD---TQPF 65
+gene_1686937_TARA_ASE_RAW_Nitr      IVTRNLDYRPKERDDAV-VVTSIAEAYK-YCETQ-------TDKFGDEVW 103
+gene_2744823_TARA_PSE_RAW_Sole      IVTRDKGFFT---DKAE-VFYSLDSAIRNY-----------SD--SEEIM 99
+gene_1703643_TARA_RED_RAW_Halo      IVSRNKNYDQ---DGCN-VCPSIEAALQ-LGDEI-------NK----PIF 95
+gene_483512_TARA_MED_RAW_Anoxy      IISRNEHYRQ---DDCE-VCPSIEAALQ-LGNEI-------EK----PIF 95
+gene_1456597_TARA_MED_RAW_Geot      VISRNKNFSS---DHCK-VCPSLQVAFA-EAKKL-------AK----SIF 91
+gene_133842_TARA_PON_RAW_Bacil      IMSRRNNYRQ---DGCS-VAATLEDALA-IARSL-------RG----DCF 71
+gene_3627948_TARA_IOS_RAW_Sphi      VITRKPRGNT---DQLD-FCESVEAALE-LAASL-------AR----PIF 95
+gene_3295846_TARA_PON_RAW_Sphi      VITRQPRGNT---DQLD-FCESVEAALE-LAASL-------AR----PIF 95
+gene_1615482_TARA_MED_RAW_Halo      IVTRQLDYRR---DGCE-VFDSIDTAMA-FAASS-------AR----PVF 97
+gene_2887318_TARA_PSW_RAW_Dysg      VLSSDSNFEA---IGCF-RFSSFEKALVSMHEEF-------PTC---KIF 101
+gene_2282760_TARA_PON_RAW_Dysg      VLSSDPYFEA---HGCF-KFSSFEKALVSMHEEF-------PTC---EIF 101
+gene_3613168_TARA_PON_RAW_Prev      VLSNDPYFEA---HGCF-TFSSFGEALVSMHEEF-------PTC---KIF 102
+gene_6917819_TARA_PSE_RAW_--_n      VLSTDPHYRA---LGCH-NFQSFEKAINFMHQDF-------PDR---PIF 90
+gene_649598_TARA_PON_RAW_Dysgo      VLTKNVDYEA---TNCF-TYPSFEKALVSMSEKF-------PET---PIF 100
+gene_736612_TARA_ASE_RAW_Agari      VISSKSKEAL---KGADFVFDNLVDAIEFFTTDE-------RN-----MF 97
+gene_1156160_TARA_ION_RAW_Clos      VITTNPTLFS---NENTLFFTNLDNSIELLTRLK-------NET-QKDIY 99
+gene_3923342_TARA_ION_RAW_Magn      VLTNSVSWRA---DGAIV-VNSFKEAIIKADEWIDLNMVNNKNITQKKIF 114
+gene_398142_TARA_MED_RAW_Candi      VLTNSVTWKA---EGAIV-VNSFKDAIIKADEWIDNNMEINQNITQKKIF 115
+gene_1779840_TARA_IOS_RAW_Cand      VLTNSISWRA---AGAIV-VNSFKDAITKADEWIDINMEINHNIIQKKIF 115
+gene_3644225_TARA_ANE_RAW_Nitr      VLTNSISWRA---AGAII-VNSFKDAISKADEWIDNNMEINQNVIQKKIF 115
+gene_641797_TARA_ION_RAW_Candi      VLTNSSSWRA---AGAIV-VNSFRDAITKADEWIDLNLEINKNVVQKKIF 115
+gene_1313350_TARA_IOS_RAW_Nitr      VLTNSTSWRA---HGAIV-VNSFEDAITKADEWIDLNIKINQNITQKKIF 109
+gene_2209732_TARA_PSW_RAW_Magn      VLTNSISWRA---DGAIV-AHSFEDAIARADEWIDLNMKINRNTTQKKIF 110
+gene_1613630_TARA_PSW_RAW_Nitr      VLTNSIYWKA---DGAIV-VNTFEDAIKKADEWIGLNLKINPNTIQKKIF 115
+gene_862543_TARA_PSE_RAW_Nitra      VLTNSISWNA---DGAIV-VNTFEDAINKADEWIDINLEINSNVIQKKIF 115
+gene_6826095_TARA_PSE_RAW_Cand      VLTNSVSWKA---DGAIV-VNSFEDAITRADEWIAHNIEIKQNTIQKKIF 115
+gene_3883716_TARA_PSE_RAW_Cand      VLTNSLSWKA---DGAIV-VNSFEDAIINADEWIKVNIEINQNIIQKKIF 115
+gene_2059489_TARA_ANE_RAW_Cand      VLTNSVSWQA---TGAIV-VNSFKDAITKADEWIQRNIETNQNIIQKKIF 115
+gene_980241_TARA_ANW_RAW_Nitra      VLTNSSSWKA---AGAIV-VNSFEDAVYKADEWIKINKKIKNNEIQRKIF 115
+gene_1061609_TARA_ANE_RAW_Cand      VLTKSLSWKA---EGAIV-ANSFEVAIIKADLWIETNKKMGNRAIQNKIF 115
+gene_2081494_TARA_PON_RAW_Nitr      VLTKSASWKA---KGAII-ANSFESAITKADSWIETNKKIGDEAIQNKIF 115
+gene_2955243_TARA_IOS_RAW_--_n      VLTQKSDYQAT--DDAFV-FNKIEDAISIAEQKG-------VD----EIV 107
+gene_2263147_TARA_PON_RAW_--_y      VLTRNNQYEAG--NNVIA-LNTIEEIINLADEEG-------IK----EIV 107
+gene_358549_TARA_ION_RAW_uncul      VLSRQSKPKG---VRAHW-FNHVNTAIQHATS---------SHT---HTF 96
+                                    :::                                               
+
+gene_2646591_TARA_MED_RAW_Lemi      IIGGAQIYSAFL--NWTKEIYLTYIYKEYS-GD--TYFP----QI--DND 141
+gene_1787881_TARA_ASE_RAW_Lemi      IIGGAQIYSALL--NWTKEIYLTYIYKEYS-GD--TYFP----QI--DND 141
+gene_1014256_TARA_ANE_RAW_Lemi      IIGGAQIYSALL--NWTKEVYLTYIYKKYS-GD--TYFP----QI--DND 126
+gene_4571556_TARA_PSE_RAW_Lemi      IIGGAQIYSALL--NWTKEIYLTYIYKEYS-GD--TYFP----QI--DND 141
+gene_1985040_TARA_PON_RAW_Lemi      IIGGAQIYSALL--NWTKEIYLTYIYKEYS-GD--TYFP----KI--DND 141
+gene_4041741_TARA_PSE_RAW_uncl      IIGGAQIYATLL--NWTKEIYLTYIYKEYP-GD--THFP----EI--DSD 141
+gene_855828_TARA_ASE_RAW_Stapp      IIGGSQIYEALL--NWTKEIFLTYIFNEYS-GD--ASFP----EF--ESK 142
+gene_159145_TARA_ANW_RAW_Bacil      IIGGAQIYSALM--NWTKEIYLTFIFDEYS-GD--AYFP----KF--ENH 142
+gene_1410891_TARA_ANE_RAW_Stap      VAGGAEIYKLML--PQCEDLYLTRVNAEPE-GD--TLFP----EF--EKE 135
+gene_2045543_TARA_ANE_RAW_uncu      VAGGAEIYKLML--PHCDDLYLTRVNAEHE-GD--TLFP----EF--EKD 135
+gene_3257168_TARA_ANE_RAW_Opit      VAGGAEIYKLLL--PICKDLYLTRVHLEPE-GD--THFP----EF--ESQ 135
+gene_1745341_TARA_MED_RAW_uncu      IAGGAEIYQLML--PKCSDLYLTRVHLTPE-GD--TFFP----EF--EHN 135
+gene_1602740_TARA_MED_RAW_Baci      IAGGAEIYEQML--PLCQEIYLSRVHKSYQ-GD--TKFP----VF--ENG 132
+gene_590020_TARA_ANE_RAW_Bacil      IAGGAEIYEQML--PLCQEIYLSRVHKSYQ-GD--TKFP----VF--ENG 132
+gene_1260120_TARA_ASE_RAW_Opit      IAGGGEIYKQML--GKCSELYLTRLHRTVH-GD--AFFP----DF--END 135
+gene_555244_TARA_ANE_RAW_Opitu      VAGGGEIYKQML--GKCSELYLTRVHRTVE-GD--AFFP----DF--ESD 136
+gene_203466_TARA_ANE_RAW_Bacil      ICGGAQVYAQLL--DQCSDLYLSVVKREVE-GD--AFFP----KF--EPM 137
+gene_1802583_TARA_ANW_RAW_uncu      ICGGAQVYAQLL--DQCSDLYLSVVKREVE-GD--AFFP----KF--EPM 137
+gene_4190637_TARA_PON_RAW_Rhod      IIGGGQIYSSLL--PQCSELYITEVQQFIENGD--AFFP----SF--EKE 133
+gene_3815998_TARA_PON_RAW_uncu      IIGGGEIYSLAL--PLCHELFLTEVKQKVSDGD--AFFP----EY--EPA 137
+gene_4175734_TARA_PON_RAW_Pros      LIGGAHLFETGL--ALCETLVLTFVHETYE-GD--VLMP----AF--ECQ 149
+gene_389487_TARA_ASE_RAW_uncla      FIGGAKLYEAAL--CYCDFIDVMWVPDEVT-GDDLVYFP----ELP-PTD 124
+gene_970550_TARA_PON_RAW_Marin      VIGGASLYQYWL--PYAHGMYLTHIHQTFK-AD--VFFP----NIN-ELD 141
+gene_1528650_TARA_ION_RAW_Cryo      IIGGGEIYKLAM--EIADRIELTRVHHEFD-GD--TYFP----------- 261
+gene_1450254_TARA_IOS_RAW_Laci      IIGGGEIYSQTI--NIVDKIELTRVHEEFE-GD--AYFP----EIPL-DI 105
+gene_1686937_TARA_ASE_RAW_Nitr      IAGGAEIYKQTL--AHTDLIILTEIEKEYE-GD--AFFP----EFDK-DK 143
+gene_2744823_TARA_PSE_RAW_Sole      IIGGAEIYSQSI--QYVKRMYLTYVHQLPE-GD--TFFP----EFN---- 136
+gene_1703643_TARA_RED_RAW_Halo      VAGGGEIYRLTL--PIVDTVHITTIQTEVT-GD--VYFP----DFPT-PD 135
+gene_483512_TARA_MED_RAW_Anoxy      VAGGGEIYRLAL--PIVDTVHISTIQTKVT-GD--IYFP----DFPT-RD 135
+gene_1456597_TARA_MED_RAW_Geot      VAGGGEIYKLAL--PFVKTVHISTIETQAQ-GD--IYFP----DFPT-KD 131
+gene_133842_TARA_PON_RAW_Bacil      VAGGGEIYLQAI--PLADGIHLTTIHTEVE-GD--VWFP----DFSE-QA 111
+gene_3627948_TARA_IOS_RAW_Sphi      VIGGGEIYARTI--DHAAALHLTTIDIDVE-GD--VYFP----TFDE-TA 135
+gene_3295846_TARA_PON_RAW_Sphi      VIGGGEIYARTI--DHAAALHLTTIDIDVE-GD--VYFP----TFDE-TA 135
+gene_1615482_TARA_MED_RAW_Halo      VVGGGELYAAMI--QDAHWVHLSTLDIDVS-GD--VYFP----TFPM-NH 137
+gene_2887318_TARA_PSW_RAW_Dysg      VIGGASVYEQTI--ENAEELHITRIERSFE-GD--TYFP----KYDN-DK 141
+gene_2282760_TARA_PON_RAW_Dysg      VIGGASLYEQTI--ENANELHITRIERSFE-GD--AYFP----KYDN-DL 141
+gene_3613168_TARA_PON_RAW_Prev      VIGGASLYEQTI--ENANELHITRIERSYE-GD--TYFP----KYDN-DK 142
+gene_6917819_TARA_PSE_RAW_--_n      VIGGASLYEQTI--ENANELHITRIERSFE-GD--TYFP----KYDN-DK 130
+gene_649598_TARA_PON_RAW_Dysgo      VIGGAKVYEQTI--ENAEELHITRIEASYK-GD--TYFP----NYDN-NK 140
+gene_736612_TARA_ASE_RAW_Agari      VIGGGKLYSEAICFSACRELILSRMLNDYE-CD--VFFP----KIDR-TV 139
+gene_1156160_TARA_ION_RAW_Clos      VIGGSSIYNYFF--KYCTHYHITKVYNDIP-GN--VLFPYSLDLFKNENK 144
+gene_3923342_TARA_ION_RAW_Magn      LFGGAEIYKIGL--KYCDNIEMTKVKFNLK-TG--VKFP----KLN-ESD 154
+gene_398142_TARA_MED_RAW_Candi      LFGGAEIYKIGL--EYCDNIEMTKVKFNLK-TG--IKFP----KLN-ESD 155
+gene_1779840_TARA_IOS_RAW_Cand      LFGGAEIYKIGL--KYCDNIEMTKVKFNLR-SG--IKFP----KLN-ERH 155
+gene_3644225_TARA_ANE_RAW_Nitr      LFGGAEIYKIGL--EYCDNIEMTKVKFNLR-KG--IKFP----KLN-ERD 155
+gene_641797_TARA_ION_RAW_Candi      LFGGAEIYKIGL--EYCDNIEMTKVKNNLK-TG--VKFP----ALN-ESD 155
+gene_1313350_TARA_IOS_RAW_Nitr      LFGGAEIYKIGL--KYCDNIEMTKVKFNLK-TG--TKFP----KLN-ERD 149
+gene_2209732_TARA_PSW_RAW_Magn      LFGGAEIYRIGL--EYCDNIEMTKVKFNLK-TG--IKFP----KLN-ERN 150
+gene_1613630_TARA_PSW_RAW_Nitr      LFGGAEIYKIGL--EYCDNIEMTIVKFNSK-NG--VKFP----KLN-EKD 155
+gene_862543_TARA_PSE_RAW_Nitra      LFGGAEIYKIGL--KYCDNIEMTKVRFNLK-KG--VKFP----KLN-ERD 155
+gene_6826095_TARA_PSE_RAW_Cand      LFGGAEIYKIGL--EYCNNIEMTKVKFYLE-NG--IKFP----KLN-ESD 155
+gene_3883716_TARA_PSE_RAW_Cand      LFGGAEIYKIGL--EYCNNIEMTKVKSDIK-TG--IKFP----KLN-ESD 155
+gene_2059489_TARA_ANE_RAW_Cand      LFGGAEIYKIGL--KYCDNIEITKVKLKLH-AG--IKFP----KLN-END 155
+gene_980241_TARA_ANW_RAW_Nitra      LFGGAEIYKIGL--EYCNFIEMTKVSFNIN-KG--IKFP----KLN-EKE 155
+gene_1061609_TARA_ANE_RAW_Cand      LFGGAQIYEIGL--KYCDTIEMTKVNFCAA-SG--SKFP----KLK-END 155
+gene_2081494_TARA_PON_RAW_Nitr      LFGGAQIYEIGL--NYCDTIEMTKVDFSAV-SG--TKFP----KLK-END 155
+gene_2955243_TARA_IOS_RAW_--_n      VCGGAEIYRLAL--KYSSKIIMTILDSYFGAQGKPKYFP----SIEELTS 151
+gene_2263147_TARA_PON_RAW_--_y      VCGGAEIYKIAL--KYANLIILTVIDDCFDANDASKYFA----SPELLYS 151
+gene_358549_TARA_ION_RAW_uncul      IIGGAEIYKATA--HEVDIWIVTRVHINVDVPN-ATRFEL---PTDLERI 140
+                                    . **. ::             :  :       .    :            
+
+gene_2646591_TARA_MED_RAW_Lemi      FKL---DGIE------FKTDEFEVRKMIRKPVVT------------ 166
+gene_1787881_TARA_ASE_RAW_Lemi      FKL---DGIE------FKTDEFEVRKMIRKPVVT------------ 166
+gene_1014256_TARA_ANE_RAW_Lemi      FKL---DGIE------FKTDEFEVRKMIRKPVVT------------ 151
+gene_4571556_TARA_PSE_RAW_Lemi      FKL---DGIE------FKTEEFEVRKMIRKPVVT------------ 166
+gene_1985040_TARA_PON_RAW_Lemi      FKL---NGIE------FKTEEFEVRKMIRKPILA------------ 166
+gene_4041741_TARA_PSE_RAW_uncl      FVL---NNIE------LQTNEFEVRKFVREPKPN------------ 166
+gene_855828_TARA_ASE_RAW_Stapp      YSL---QEII------FENNDF------------------------ 155
+gene_159145_TARA_ANW_RAW_Bacil      YEL---KEII------FKNNDFEVRRYALEEKR------------- 166
+gene_1410891_TARA_ANE_RAW_Stap      FKL---NSII------ENKELFSIEHWIR----------------- 155
+gene_2045543_TARA_ANE_RAW_uncu      FKL---NSII------ENNKLFSIEHWIR----------------- 155
+gene_3257168_TARA_ANE_RAW_Opit      FVL---NQVL------DQNEQFSIEHWLRS---------------- 156
+gene_1745341_TARA_MED_RAW_uncu      FKL---DSVL------ESNDAFSIEHWKKS---------------- 156
+gene_1602740_TARA_MED_RAW_Baci      FRL---TEKI------IVTQDFDVERWEKS---------------- 153
+gene_590020_TARA_ANE_RAW_Bacil      FRL---TEKI------IVTQDFDVERWEKS---------------- 153
+gene_1260120_TARA_ASE_RAW_Opit      FQL---DSFM------ERNDDFSIERWLKK---------------- 156
+gene_555244_TARA_ANE_RAW_Opitu      FQL---DSVM------ERKDDFSIERWMKK---------------- 157
+gene_203466_TARA_ANE_RAW_Bacil      FDA---GETL------RESGDFDVIHYRRLCQAGGN---------- 164
+gene_1802583_TARA_ANW_RAW_uncu      FDA---GETL------RESGDFDVIHYRRLCQAGGN---------- 164
+gene_4190637_TARA_PON_RAW_Rhod      FTP---TETL------EENKEFVIKKWKRIAS-------------- 156
+gene_3815998_TARA_PON_RAW_uncu      FAP---VETL------EENNDFLLRRWIRVKDGR------------ 162
+gene_4175734_TARA_PON_RAW_Pros      FTF---EKTE------ASFDAFEVRRYVRSE--------------- 171
+gene_389487_TARA_ASE_RAW_uncla      WQAGPKTPLA------EDNRLISQRFYRR----------------- 147
+gene_970550_TARA_PON_RAW_Marin      WDINIHDQDL------EGDLPWTIKYYHAKTPLSLSE--------- 172
+gene_1528650_TARA_ION_RAW_Cryo      ----------------------------------------------
+gene_1450254_TARA_IOS_RAW_Laci      FEL---INEENHNSDLENEFDYSYLTYIKR---------------- 132
+gene_1686937_TARA_ASE_RAW_Nitr      FEL---VKKQEH-SEPEN-FSFCW--YQKK---------------- 166
+gene_2744823_TARA_PSE_RAW_Sole      ------I--------------------------------------- 137
+gene_1703643_TARA_RED_RAW_Halo      FDL---AEER----EYESNVNYVYQRY-EKQN-------------- 159
+gene_483512_TARA_MED_RAW_Anoxy      FEL---AEER----EYESNINYVYQRY-EKSAK------------- 160
+gene_1456597_TARA_MED_RAW_Geot      FIL---IEER----KFESTINYIYQRF-ERRNQITNLYKT------ 163
+gene_133842_TARA_PON_RAW_Bacil      FEL---KREV----RYRSNKDYTYRYF-ERVKR-PG-CKTI----- 142
+gene_3627948_TARA_IOS_RAW_Sphi      FNL---VDTQ----HFETNLKYSYRHY-------LA--KS------ 159
+gene_3295846_TARA_PON_RAW_Sphi      FNL---VDTQ----HFETNLKYSYRHY-------LA--KS------ 159
+gene_1615482_TARA_MED_RAW_Halo      FDL---VETK----HFESNINYIYQRFVNRDQEPLCRTKTE----- 171
+gene_2887318_TARA_PSW_RAW_Dysg      FNL---KNIE----WFHTNMRYIYYHY-------IR--K------- 164
+gene_2282760_TARA_PON_RAW_Dysg      FNL---KNIE----WF------------------------------ 150
+gene_3613168_TARA_PON_RAW_Prev      FNL---KNIE----WFDTNMRYIYYHY-------IR--K------- 165
+gene_6917819_TARA_PSE_RAW_--_n      FNL---KNIE----WFHTNMRYIYYHY-------IR--K------- 153
+gene_649598_TARA_PON_RAW_Dysgo      YSL---KNIE----WYHTNVRYIYYHY-------IR--K------- 163
+gene_736612_TARA_ASE_RAW_Agari      WSL---EKVDT---NLQEKADFVVN--------------------- 158
+gene_1156160_TARA_ION_RAW_Clos      YTL---INNPIG--MSENETDFSYFDY------QINPDNH------ 173
+gene_3923342_TARA_ION_RAW_Magn      WEK---TKLEHN-LATNDVPEHSYWHYKR---II------------ 181
+gene_398142_TARA_MED_RAW_Candi      WEK---IKLEHN-LAKNGVPEHSYWHYRR---II------------ 182
+gene_1779840_TARA_IOS_RAW_Cand      WEK---TKLEHN-FATNEVPEHSYWHYRR---II------------ 182
+gene_3644225_TARA_ANE_RAW_Nitr      WEK---TKLEHN-FATNEVPEHSYWHYRR---II------------ 182
+gene_641797_TARA_ION_RAW_Candi      WEK---TKLEHN-LAINNFPEHSYWHYRR---RV------------ 182
+gene_1313350_TARA_IOS_RAW_Nitr      WEK---TKLEHY-LATNDFPEHSYWHYSR---IV------------ 176
+gene_2209732_TARA_PSW_RAW_Magn      WEK---TKLEHN-FATNDVPEHSFWHYRR---IV------------ 177
+gene_1613630_TARA_PSW_RAW_Nitr      WQK---TKLEHH-LATDNVPEHSYWHYRRIAKIIE----------- 186
+gene_862543_TARA_PSE_RAW_Nitra      WEK---TKLDHY-LATDNVPEHSYWHYKRMVKIIE----------- 186
+gene_6826095_TARA_PSE_RAW_Cand      WEK---TKLEHN-LATNDVPEHSYWHYKR---IF------------ 182
+gene_3883716_TARA_PSE_RAW_Cand      WEK---TKIEHH-LAKNDIPEYSYWRYTR---II------------ 182
+gene_2059489_TARA_ANE_RAW_Cand      WTK---TKLEHY-LATNDVPEYSYWHYKR---IL------------ 182
+gene_980241_TARA_ANW_RAW_Nitra      WIK---TRLENN-EATNDIPEHSFWHYRR---VN------------ 182
+gene_1061609_TARA_ANE_RAW_Cand      WKK---TKLESF-QAT--S------N-------------------- 169
+gene_2081494_TARA_PON_RAW_Nitr      WIK---TKLQYF-EATIDSPAFSYWNYSR---II------------ 182
+gene_2955243_TARA_IOS_RAW_--_n      LGF---EEYK------REKFMLSDQNQ------------------- 169
+gene_2263147_TARA_PON_RAW_--_y      MGF---KVFR------KEKFPKSEKNYVGMSILWLRSD-------- 180
+gene_358549_TARA_ION_RAW_uncul      WCS---KRME------QKGIAFHFEMYRHNALRSGNILLMLDRHGL 177
+                                                                                  

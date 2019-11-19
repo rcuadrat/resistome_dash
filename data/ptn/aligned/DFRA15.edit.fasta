@@ -1,0 +1,37 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+gene_2203872_TARA_RED_RAW_uncl      M---EL--VVAITDNNVIGLDGGMPWHLPADLKHFKEITSG--HAVLMGR 43
+gene_8867_TARA_PSW_RAW_unclass      M---EL--VVAITDNNVIGLDGGMPWHLPADLKHFKDITSG--HAVLMGR 43
+gene_132453_TARA_SOC_RAW_SAR86      M---DISHLVALSNNSVIGVNNDLPWTLKRDLKHFSSYTQN--KAIVMGR 45
+gene_1154729_TARA_ANW_RAW_Cand      MIKNELTIIAAASTNNVIGLDNKLIWNIPKDLKRFKELTQG--HNVIMGR 48
+gene_2893648_TARA_IOS_RAW_Cand      M----YCIIAAISKNYVIGKNNSLPWNISDELKYFKKITTNGKNCLIVGR 46
+                                    *       :.* : * *** :. : * :  :** *.. * .  : :::**
+
+gene_2203872_TARA_RED_RAW_uncl      KTFDSIGKPLPNRLNIVITRSSAFA--PDDVSVVHSIDEAIALAKDM--- 88
+gene_8867_TARA_PSW_RAW_unclass      KTFDSIGKPLPNRLNIVITRSSSFA--PEGVSVVHSVDEAIVLAKDM--- 88
+gene_132453_TARA_SOC_RAW_SAR86      KTFESIGRPLPNRQNIVIS-SSMPA--QESVEVVRSLEEGIAAAEN---- 88
+gene_1154729_TARA_ANW_RAW_Cand      KTFESLPNPLPNRVNIVVTRNTEYK--YEGVIICKSIIEALDHCKD---- 92
+gene_2893648_TARA_IOS_RAW_Cand      KTYENLPN-LKNRDIFVLTKNSDFKLKQENDKVFFSINSLLEYLKDKEYD 95
+                                    **::.: . * **  :*:: .:      :.  :  *: . :   ::    
+
+gene_2203872_TARA_RED_RAW_uncl      RLFVIGGSEIY--ALAMDRINVMHIT--RI-HESID-GDTFFPEYS-NS- 130
+gene_8867_TARA_PSW_RAW_unclass      RLFVIGGSEIY--ALAMDRVKVMYIT--RI-HESID-GDTFFPPLV---- 128
+gene_132453_TARA_SOC_RAW_SAR86      --W----NKKN--ALD-DEV-VL-IGGGRVFEESILIVNKLVLTRV-DC- 125
+gene_1154729_TARA_ANW_RAW_Cand      ------DSQTF--ILGGGEIYSQTIN---I-VDKIE-LTRIFKDYKGDAY 129
+gene_2893648_TARA_IOS_RAW_Cand      KKFIIGGSAIYKIFLEKEIIDEIYLS--KI-NINVK-GDCYFPNYSLDKF 141
+                                           .      *    :    :    :   .:      .        
+
+gene_2203872_TARA_RED_RAW_uncl      --------------------------------------------------
+gene_8867_TARA_PSW_RAW_unclass      --------------------------------------------------
+gene_132453_TARA_SOC_RAW_SAR86      --------------------------------------------------
+gene_1154729_TARA_ANW_RAW_Cand      --------------------------------------------------
+gene_2893648_TARA_IOS_RAW_Cand      SINTIDKKISIDNNTHNYVDINYIHLKRTNNNSERQYLNLIKNILDNGNE 191
+                                                                                      
+
+gene_2203872_TARA_RED_RAW_uncl      ----------
+gene_8867_TARA_PSW_RAW_unclass      ----------
+gene_132453_TARA_SOC_RAW_SAR86      ----------
+gene_1154729_TARA_ANW_RAW_Cand      ----------
+gene_2893648_TARA_IOS_RAW_Cand      TKDRTNIGTI 201
+                                              

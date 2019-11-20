@@ -2,6 +2,8 @@ import plotly_express as px
 import dash
 import dash_html_components as html
 import dash_core_components as dcc
+import dash_bootstrap_components as dbc
+
 from dash.dependencies import Input, Output
 import pandas as pd
 import flask
@@ -13,13 +15,16 @@ import dash_bio as dashbio
 from six import PY3
 
 #### Load data ########################################
-#df=pd.read_table("data/table_for_maps.tsv")
 
 deep=pd.read_csv("data/deep_with_tax_levels.tsv",sep='\t')
-deep=deep[['#ARG','ORF_ID','contig_id', 'predicted_ARG-class','probability','plasmid','taxon_name_kaiju','expressed','class', 
+deep=deep[['#ARG','ORF_ID','contig_id', 'predicted_ARG-class','probability','plasmid','taxon_name_kaiju','expressed','class',
            'order','phylum','family', 'genus', 'species','All ARGs in contig','# ARGs in contig',"description"]]
 
 deep[' index'] = range(1, len(deep) + 1)
+
+# selector = "#ARG"
+# selector = "predicted_ARG-class"
+
 
 env=pd.read_csv("data/table_env.tsv",sep='\t')
 
@@ -47,7 +52,7 @@ dimensions = ["ARG"]
 dimensions2= ["Feature"]
 dimensions3= [ "Environmental parameters"]
 
-image_filename = 'images/resistomedblogo.png' 
+image_filename = 'images/resistomedblogo.png'
 encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 # with open('data/ptn/aligned/MCR1.edit.fasta' ,'r') as content_file:
 #          data = content_file.read()
@@ -60,7 +65,7 @@ server = app.server
 
 app.layout = html.Div(
     [   # app header
-        
+
         html.Div(className="pretty_container",
         children=[
         html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()))
@@ -69,40 +74,40 @@ app.layout = html.Div(
 
         html.Div(className="pretty_container",
         children=[
-        
+
         html.H4("Global ocean resistome revealed: exploring Antibiotic Resistance Genes (ARGs) abundance and distribution on TARA oceans samples through machine learning tools."),
-        html.P("This app allows the user to explore and visualize the Antibiotic Resistance Genes (ARGs) found on Tara Oceans samples."), 
+        html.P("This app allows the user to explore and visualize the Antibiotic Resistance Genes (ARGs) found on Tara Oceans samples."),
         html.P("In short, Tara Oceans contigs (from regional samples co-assembled) \
         were used to screening for ARGs using deepARG tool. Then, the results were manually curated in order to remove false positives and miss annotations. \
         The extracted environmental ARGs were then used as reference for mapping reads from individual Tara Oceans samples and the read counts were normalized \
         by average genome size, sequencing sample deep  (number of reads) and size of ARG (expressed in RPKG - reads per kb per genome equivalent)."),
         dcc.Markdown("Please cite: [Cuadrat at al. 2019](https://doi.org/10.1101/765446)")
         ]),
-               
-        html.Div(className="pretty_container",
-                            children=[
+        html.Div(
+                [
                 html.P([d + ":", dcc.Dropdown(id="arg", options=col_options,value='MCR-1')])
                 for d in dimensions
             ],
+            className="pretty_container",
             style={"width": "25%", "float": "left"},
                 ),
-        
-        html.Div(className="pretty_container",
-                            children=
-            [
+
+        html.Div(
+                 [
                 html.P([d2 + ":", dcc.Dropdown(id="feat", options=col_options2,value='Environmental_Feature')])
                 for d2 in dimensions2
             ],
+            className="pretty_container",
             style={"width": "25%", "float": "left"},
                 ),
-        
-        html.Div(className="pretty_container",
-                            children=
+
+        html.Div(
             [
-                dcc.Markdown("**Total Antibiotic Resistance Genes (ARGs):** "+ str(arg_count)+ "   **Total ORFs: **"+str(len(deep))),
-                dcc.Markdown("**Total  antibiotic classes: **" + str(class_count),style={"padding": "2.8px"})             
+                dcc.Markdown("**Total Antibiotic Resistance Genes (ARGs):** "+ str(arg_count)),
+                dcc.Markdown("**Total  antibiotic classes: **" + str(class_count))
             ],
-            style={"width": "39.4%","float": "right"},
+            className="pretty_container",
+            style={"width": "25%","float": "right"},
                 ),
 
 
@@ -121,7 +126,7 @@ app.layout = html.Div(
                 className="pretty_container",
                 children=[
                 dcc.Graph(id="graph", style={"width": "75%", "display": "inline-block"}),
-                
+
                 ]),
 
         html.Div(
@@ -129,16 +134,16 @@ app.layout = html.Div(
                 children=[
                 dcc.Graph(id="graph2", style={"width": "75%", "display": "inline-block"})
                 ]),
-                
+
         html.Div(
                 className="pretty_container",
                 children=[
                 html.H5('   Taxonomic level:'),
                 html.P(dcc.Slider(id="slider",min=1,max=6,marks={1:"Phylum",2:"Order",3:"Class",4:"Family",5:"Genus",6:"Species"},value=4),
                 style={"width": "95%", "display": "inline-block",'marginBottom': '1.0em','marginLeft':'1.5em'}),
-                
-        
-        
+
+
+
                 dcc.Graph(id="graph3", style={"width": "75%", "display": "inline-block",'marginBottom': '2.5em'}),
                 ]),
 
@@ -155,19 +160,19 @@ app.layout = html.Div(
         html.Br(),
         html.Br(),
         html.Br(),
-       
+
         html.Div(className="pretty_container",
             children=[
             dcc.Graph(id="graph4", style={"width": "75%", "display": "inline-block"}),
             ]),
         html.Br(),
-        
-        
+
+
         html.Div(
         className="pretty_container",
         children=[html.H4('Tara Ocean ORFs extracted from co-assembled contigs (from Oceanic regions), annotated by deepARG.'
                ),
-        
+
         dash_table.DataTable(
         id='datatable-paging',
         columns=[
@@ -189,7 +194,7 @@ app.layout = html.Div(
         antibiotic class; 'probability': DeepARG probability of the ARG annotation; 'plasmid': yes when the ARG was predicted to be in a plasmid by PlasFlow tool; \
         'taxon_name_kaiju': taxonomic classification of the ARG by Kaiju tool (in the deeptest level possible); 'expressed': yes if FPKM > 5 in at least one metatranscriptomic \
         sample from TARA Oceans; 'All ARGs in contig': all the ARGs in that contig; '# ARGs in contig': total of ARGs in that contig"),
-        html.Br(),      
+        html.Br(),
         html.A(id='download-link', children='Download Protein Fasta File',style={'marginBottom': '1.5em'},
                ),
         ]),
@@ -206,10 +211,10 @@ app.layout = html.Div(
         #     ),
         # ])
 
-        
+
     ]
 )
-#########################################################################################################  
+#########################################################################################################
 
 ######### Create callbacks ###########
 
@@ -230,13 +235,13 @@ def make_figure_box(size,feat):
     "size": 22})
         fig.update_layout(autosize=False,
     height=700,
-    width=1200     
+    width=1200
     )
         return fig
 
 @app.callback(Output("graph2", "figure"), [Input("arg", "value"),Input("feat","value")])
 def make_figure(size,feat):
-   
+
     fig= px.box(
         env,
         x=feat,
@@ -248,7 +253,7 @@ def make_figure(size,feat):
     "size": 22})
     fig.update_layout(autosize=False,
     height=700,
-    width=1200     
+    width=1200
     )
     return fig
 
@@ -261,7 +266,7 @@ def update_href(dropdown_value):
         'data/ptn',
         '{}.edit.fasta'.format(dropdown_value)
     )
-    
+
 
     return '/{}'.format(relative_filename)
 
@@ -328,7 +333,7 @@ def make_fig2(arg,taxlevel):
     height=900,
     width=1200,
     margin=go.layout.Margin(
-        b=300       
+        b=300
     )
 )
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
@@ -346,7 +351,7 @@ def make_env_fig(arg,env_var2,feat22):
     fig.update_layout(autosize=False,titlefont={
     "size": 22},
     height=700,
-    width=1200     
+    width=1200
     )
     return fig
 

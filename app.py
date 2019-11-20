@@ -101,16 +101,14 @@ app.layout = html.Div(
             style={"width": "25%", "float": "left"},
                 ),
 
-        html.Div(
-            [
-                dcc.Markdown("**Total Antibiotic Resistance Genes (ARGs):** "+ str(arg_count)),
-                dcc.Markdown("**Total  antibiotic classes: **" + str(class_count))
-            ],
-            className="pretty_container",
-            style={"width": "25%","float": "right"},
-                ),
-
-
+        # html.Div(
+        #     [
+        #         dcc.Markdown("**Total Antibiotic Resistance Genes (ARGs):** "+ str(arg_count)),
+        #         dcc.Markdown("**Total  antibiotic classes: **" + str(class_count))
+        #     ],
+        #     className="pretty_container",
+        #     style={"width": "25%","float": "right"},
+        #         ),
         html.Br(),
         html.Br(),
         html.Br(),
@@ -201,7 +199,7 @@ app.layout = html.Div(
       #html.Div(html.A(id='download-link2', children='Download Nucleotide Fasta File',style={'marginBottom': '1.5em'},
         #))
 
-        html.Div(id='alignment-viewer-output')
+        # html.Div(id='alignment-viewer-output')
 
         # html.Div([
         #     dashbio.AlignmentChart(
@@ -230,13 +228,10 @@ def make_figure_box(size,feat):
         env,
         size=size,
         lat="Latitude [degrees North]",lon="Longitude [degrees East]", color=feat,hover_name="Marine_provinces",projection='equirectangular',
-        title=str(size)+" distribution and abundance (RPKG) on Tara Oceans samples.").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
+        title=str(size)+" distribution and abundance (RPKG)").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
         fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
-    "size": 22})
-        fig.update_layout(autosize=False,
-    height=700,
-    width=1200
-    )
+    "size": 18})
+        fig.update_layout(autosize=True)
         return fig
 
 @app.callback(Output("graph2", "figure"), [Input("arg", "value"),Input("feat","value")])
@@ -247,14 +242,11 @@ def make_figure(size,feat):
         x=feat,
         y=size,
         notched=True,
-        labels={size:size+"  RPKG"},template='plotly_white',title="Antibiotic Resistance Genes (ARGs) abundance on "+str(feat)+"."
+        labels={size:size+"  RPKG"},template='plotly_white',title="ARGs abundance on "+str(feat)+"."
     ).for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
-    "size": 22})
-    fig.update_layout(autosize=False,
-    height=700,
-    width=1200
-    )
+    "size": 18})
+    fig.update_layout(autosize=True)
     return fig
 
 @app.callback(Output('download-link', 'href'),
@@ -323,15 +315,14 @@ def make_fig2(arg,taxlevel):
     b.index = b.index.str.replace("-", "Not Classified").str.replace("0", "Not Classified")
     # not use colors if level is species (too many colors)
     if taxlevel==6:
-        fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',title="Number of Tara ARGs found per taxonomic group (Kaiju).").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
+        fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',title="Number of ARGs found per taxonomic group.").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
     else:
-        fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',color=levels[taxlevel],title="Number of Tara ARGs found per taxonomic group (Kaiju).").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
+        fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',color=levels[taxlevel],title="Number of ARGs found per taxonomic group.").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
 
     fig.update_xaxes(title_text=None)
-    fig.update_layout(autosize=False,titlefont={
-    "size": 22},
-    height=900,
-    width=1200,
+    fig.update_layout(autosize=True,titlefont={
+    "size": 18},
+
     margin=go.layout.Margin(
         b=300
     )
@@ -345,41 +336,40 @@ def make_fig2(arg,taxlevel):
      Input('env_var','value'),
      Input('feat','value')])
 def make_env_fig(arg,env_var2,feat22):
-    fig = px.scatter(env, x=arg, y=env_var2,  marginal_y="violin",title="ARG vs. enviromental parameters.",
+    fig = px.scatter(env, x=arg, y=env_var2,  marginal_y="violin",title="ARG vs. parameters.",
            marginal_x="violin", trendline="ols",template='plotly_white').for_each_trace(lambda t: t.update(name=t.name.replace(str(feat22)+"=","")))
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
-    fig.update_layout(autosize=False,titlefont={
-    "size": 22},
-    height=700,
-    width=1200
+    fig.update_layout(autosize=True,titlefont={
+    "size": 18},
+
     )
     return fig
 
 
-@app.callback(
-    Output('alignment-viewer-output','children'),
-    [Input('arg', 'value')]
-)
-def alig(arg):
-    dropdown_value = str(arg).replace("-", "").replace("(", "").replace(")", "").replace("''", "").replace(
-        "'", "").replace("_", "")
-    relative_filename = os.path.join(
-        'data/ptn/aligned',
-        '{}.edit.fasta'.format(dropdown_value))
-    with open(relative_filename, 'r') as content_file:
-        data = content_file.read()
-
-    if len(data)==0:
-        return ''
-    else:
-        return dashbio.AlignmentChart(
-
-        data=data,
-        extension="clustal",
-        overview="slider",
-
-
-    )
+# @app.callback(
+#     Output('alignment-viewer-output','children'),
+#     [Input('arg', 'value')]
+# )
+# def alig(arg):
+#     dropdown_value = str(arg).replace("-", "").replace("(", "").replace(")", "").replace("''", "").replace(
+#         "'", "").replace("_", "")
+#     relative_filename = os.path.join(
+#         'data/ptn/aligned',
+#         '{}.edit.fasta'.format(dropdown_value))
+#     with open(relative_filename, 'r') as content_file:
+#         data = content_file.read()
+#
+#     if len(data)==0:
+#         return ''
+#     else:
+#         return dashbio.AlignmentChart(
+#
+#         data=data,
+#         extension="clustal",
+#         overview="slider",
+#
+#
+#     )
 
 
 if __name__ == '__main__':

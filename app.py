@@ -122,14 +122,14 @@ app.layout = html.Div(
         html.Div(
                 className="pretty_container",
                 children=[
-                dcc.Graph(id="graph"),
+                dcc.Graph(id="graph",config={"displayModeBar": False}),
 
                 ]),
 
         html.Div(
                 className="pretty_container",
                 children=[
-                dcc.Graph(id="graph2")
+                dcc.Graph(id="graph2",config={"displayModeBar": False})
                 ]),
 
         html.Div(
@@ -141,13 +141,13 @@ app.layout = html.Div(
 
 
 
-                dcc.Graph(id="graph3", style={'marginBottom': '2.5em'}),
+                dcc.Graph(id="graph3", style={'marginBottom': '2.5em'},config={"displayModeBar": False}),
                 ]),
 
         html.Div(
             className="pretty_container",
             children=[
-                html.P(["Please, select the environmental parameter:", dcc.Dropdown(id="env_var", options=col_options3,value='PO4 [umol/L]**')])
+                html.P(["Please, select the environmental parameter:", dcc.Dropdown(id="env_var", options=col_options3,value='Mean_Lat*')])
                 for d3 in dimensions3
             ],
             style={"width": "25%", "float": "left"},
@@ -160,7 +160,7 @@ app.layout = html.Div(
 
         html.Div(className="pretty_container",
             children=[
-            dcc.Graph(id="graph4"),
+            dcc.Graph(id="graph4",config={"displayModeBar": False}),
             ]),
         html.Br(),
 
@@ -190,7 +190,7 @@ app.layout = html.Div(
         dcc.Markdown("**ORF_ID**: identifier of the ORF predicted from Tara Ocean co-assembly; **contig_id**: ID of the contig; **predicted_ARG-class**: \
         antibiotic class; **probability**: DeepARG probability of the ARG annotation; **plasmid**: yes when the ARG was predicted to be in a plasmid by PlasFlow tool; \
         **taxon_name_kaiju**: taxonomic classification of the ARG by Kaiju tool (in the deeptest level possible); **expressed**: yes if FPKM > 5 in at least one metatranscriptomic \
-        sample from TARA Oceans; **All ARGs in contig**: all the ARGs in that contig; '# ARGs in contig': total of ARGs in that contig"),
+        sample from TARA Oceans; **All ARGs in contig**: all the ARGs in that contig; **# ARGs in contig**: total of ARGs in that contig."),
         html.Br(),
         html.A(id='download-link', children='Download Protein Fasta File',style={'marginBottom': '1.5em'},
                ),
@@ -230,9 +230,9 @@ def make_figure_box(size,feat):
         size=size,
         zoom=0.3,
         lat="Latitude [degrees North]",lon="Longitude [degrees East]", color=feat,hover_name="Marine_provinces",
-        title=str(size)+" distribution and abundance (RPKG)").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
+        title=str(size)+" distribution and abundance (RPKG) on Tara Oceans.").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
         fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
-    "size": 18})
+    "size": 20})
         fig.update_layout(autosize=True)
         fig.update_yaxes(automargin=True)
         fig.update_layout(mapbox_style="open-street-map")
@@ -246,10 +246,10 @@ def make_figure(size,feat):
         x=feat,
         y=size,
         notched=True,
-        labels={size:size+"  RPKG"},template='plotly_white',title="ARGs abundance on "+str(feat)+"."
+        labels={size:size+"  RPKG"},template='plotly_white',title="ARGs abundance by "+str(feat).replace("_"," ")+"."
     ).for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
-    "size": 18})
+    "size": 20})
     fig.update_layout(autosize=True)
     fig.update_yaxes(automargin=True)
     return fig
@@ -342,7 +342,7 @@ def make_fig2(arg,taxlevel):
      Input('env_var','value'),
      Input('feat','value')])
 def make_env_fig(arg,env_var2,feat22):
-    fig = px.scatter(env, x=arg, y=env_var2,  marginal_y="violin",title="ARG vs. parameters.",
+    fig = px.scatter(env, x=arg, y=env_var2,  marginal_y="violin",title=str(arg) + " vs. " + str(env_var2)+ " scatterplot with OLS",
            marginal_x="violin", trendline="ols",template='plotly_white').for_each_trace(lambda t: t.update(name=t.name.replace(str(feat22)+"=","")))
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
     fig.update_layout(autosize=True,titlefont={

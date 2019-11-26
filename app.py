@@ -54,8 +54,7 @@ dimensions3= [ "Environmental parameters"]
 
 image_filename = 'images/resistomedblogo.png'
 encoded_image = base64.b64encode(open(image_filename, 'rb').read())
-# with open('data/ptn/aligned/MCR1.edit.fasta' ,'r') as content_file:
-#          data = content_file.read()
+
 #######################################################
 
 app = dash.Dash(__name__)
@@ -85,7 +84,7 @@ app.layout = html.Div(
         ]),
         html.Div(
                 [
-                html.P([d + ":", dcc.Dropdown(id="arg", options=col_options,value='MCR-1')])
+                html.P(["Please, select the ARG:", dcc.Dropdown(id="arg", options=col_options,value='MCR-1')])
                 for d in dimensions
             ],
             className="pretty_container",
@@ -94,7 +93,7 @@ app.layout = html.Div(
 
         html.Div(
                  [
-                html.P([d2 + ":", dcc.Dropdown(id="feat", options=col_options2,value='Environmental_Feature')])
+                html.P(["Please, select the grouping feature:", dcc.Dropdown(id="feat", options=col_options2,value='Environmental_Feature')])
                 for d2 in dimensions2
             ],
             className="pretty_container",
@@ -123,14 +122,14 @@ app.layout = html.Div(
         html.Div(
                 className="pretty_container",
                 children=[
-                dcc.Graph(id="graph", style={"width": "75%", "display": "inline-block"}),
+                dcc.Graph(id="graph"),
 
                 ]),
 
         html.Div(
                 className="pretty_container",
                 children=[
-                dcc.Graph(id="graph2", style={"width": "75%", "display": "inline-block"})
+                dcc.Graph(id="graph2")
                 ]),
 
         html.Div(
@@ -142,13 +141,13 @@ app.layout = html.Div(
 
 
 
-                dcc.Graph(id="graph3", style={"width": "75%", "display": "inline-block",'marginBottom': '2.5em'}),
+                dcc.Graph(id="graph3", style={'marginBottom': '2.5em'}),
                 ]),
 
         html.Div(
             className="pretty_container",
             children=[
-                html.P([d3 + ":", dcc.Dropdown(id="env_var", options=col_options3,value='PO4 [umol/L]**')])
+                html.P(["Please, select the environmental parameter:", dcc.Dropdown(id="env_var", options=col_options3,value='PO4 [umol/L]**')])
                 for d3 in dimensions3
             ],
             style={"width": "25%", "float": "left"},
@@ -161,7 +160,7 @@ app.layout = html.Div(
 
         html.Div(className="pretty_container",
             children=[
-            dcc.Graph(id="graph4", style={"width": "75%", "display": "inline-block"}),
+            dcc.Graph(id="graph4"),
             ]),
         html.Br(),
 
@@ -188,10 +187,10 @@ app.layout = html.Div(
         ),
         html.Br(),
 
-        dcc.Markdown("Columns description: 'ORF_ID': identifier of the ORF predicted from Tara Ocean co-assembly; 'contig_id': ID of the contig; 'predicted_ARG-class': \
-        antibiotic class; 'probability': DeepARG probability of the ARG annotation; 'plasmid': yes when the ARG was predicted to be in a plasmid by PlasFlow tool; \
-        'taxon_name_kaiju': taxonomic classification of the ARG by Kaiju tool (in the deeptest level possible); 'expressed': yes if FPKM > 5 in at least one metatranscriptomic \
-        sample from TARA Oceans; 'All ARGs in contig': all the ARGs in that contig; '# ARGs in contig': total of ARGs in that contig"),
+        dcc.Markdown("**ORF_ID**: identifier of the ORF predicted from Tara Ocean co-assembly; **contig_id**: ID of the contig; **predicted_ARG-class**: \
+        antibiotic class; **probability**: DeepARG probability of the ARG annotation; **plasmid**: yes when the ARG was predicted to be in a plasmid by PlasFlow tool; \
+        **taxon_name_kaiju**: taxonomic classification of the ARG by Kaiju tool (in the deeptest level possible); **expressed**: yes if FPKM > 5 in at least one metatranscriptomic \
+        sample from TARA Oceans; **All ARGs in contig**: all the ARGs in that contig; '# ARGs in contig': total of ARGs in that contig"),
         html.Br(),
         html.A(id='download-link', children='Download Protein Fasta File',style={'marginBottom': '1.5em'},
                ),
@@ -224,14 +223,19 @@ def get_desc(desc):
 
 @app.callback(Output("graph", "figure"), [Input("arg", "value"),Input("feat","value")])
 def make_figure_box(size,feat):
-        fig = px.scatter_geo(
+
+
+        fig = px.scatter_mapbox(
         env,
         size=size,
-        lat="Latitude [degrees North]",lon="Longitude [degrees East]", color=feat,hover_name="Marine_provinces",projection='equirectangular',
+        zoom=0.3,
+        lat="Latitude [degrees North]",lon="Longitude [degrees East]", color=feat,hover_name="Marine_provinces",
         title=str(size)+" distribution and abundance (RPKG)").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
         fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
     "size": 18})
         fig.update_layout(autosize=True)
+        fig.update_yaxes(automargin=True)
+        fig.update_layout(mapbox_style="open-street-map")
         return fig
 
 @app.callback(Output("graph2", "figure"), [Input("arg", "value"),Input("feat","value")])
@@ -247,6 +251,7 @@ def make_figure(size,feat):
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
     "size": 18})
     fig.update_layout(autosize=True)
+    fig.update_yaxes(automargin=True)
     return fig
 
 @app.callback(Output('download-link', 'href'),
@@ -328,6 +333,7 @@ def make_fig2(arg,taxlevel):
     )
 )
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
+
     return fig
 
 @app.callback(

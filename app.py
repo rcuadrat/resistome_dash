@@ -25,7 +25,6 @@ deep[' index'] = range(1, len(deep) + 1)
 # selector = "#ARG"
 # selector = "predicted_ARG-class"
 
-
 env=pd.read_csv("data/table_env.tsv",sep='\t')
 
 
@@ -198,16 +197,8 @@ app.layout = html.Div(
       #html.Div(html.A(id='download-link2', children='Download Nucleotide Fasta File',style={'marginBottom': '1.5em'},
         #))
 
-        # html.Div(id='alignment-viewer-output')
-
-        # html.Div([
-        #     dashbio.AlignmentChart(
-        #         id='my-alignment-viewer',
-        #         extension="clustal",
-        #         data=data
-        #     ),
-        # ])
-
+        html.Div(id='alignment-viewer-output'),
+        #html.Button(id='yourDiv'),
 
     ]
 )
@@ -228,7 +219,7 @@ def make_figure_box(size,feat):
         fig = px.scatter_mapbox(
         env,
         size=size,
-        zoom=0.3,
+        zoom=0.5,
         lat="Latitude [degrees North]",lon="Longitude [degrees East]", color=feat,hover_name="Marine_provinces",
         title=str(size)+" distribution and abundance (RPKG) on Tara Oceans.").for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
         fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
@@ -246,7 +237,7 @@ def make_figure(size,feat):
         x=feat,
         y=size,
         notched=True,
-        labels={size:size+"  RPKG"},template='plotly_white',title="ARGs abundance by "+str(feat).replace("_"," ")+"."
+        labels={size:size+"  RPKG"},template='plotly_white',title="ARG abundance by "+str(feat).replace("_"," ")+"."
     ).for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
     "size": 20})
@@ -325,15 +316,9 @@ def make_fig2(arg,taxlevel):
         fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',color=levels[taxlevel],title="Number of ARGs found per taxonomic group.").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
 
     fig.update_xaxes(title_text=None)
-    fig.update_layout(autosize=True,titlefont={
-    "size": 18},
-
-    margin=go.layout.Margin(
-        b=300
-    )
-)
+    fig.update_layout(autosize=True,titlefont={"size": 20},
+    margin=go.layout.Margin(b=300))
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
-
     return fig
 
 @app.callback(
@@ -346,36 +331,40 @@ def make_env_fig(arg,env_var2,feat22):
            marginal_x="violin", trendline="ols",template='plotly_white').for_each_trace(lambda t: t.update(name=t.name.replace(str(feat22)+"=","")))
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9")
     fig.update_layout(autosize=True,titlefont={
-    "size": 18},
+    "size": 20},
 
     )
     return fig
 
 
-# @app.callback(
-#     Output('alignment-viewer-output','children'),
-#     [Input('arg', 'value')]
-# )
-# def alig(arg):
-#     dropdown_value = str(arg).replace("-", "").replace("(", "").replace(")", "").replace("''", "").replace(
-#         "'", "").replace("_", "")
-#     relative_filename = os.path.join(
-#         'data/ptn/aligned',
-#         '{}.edit.fasta'.format(dropdown_value))
-#     with open(relative_filename, 'r') as content_file:
-#         data = content_file.read()
-#
-#     if len(data)==0:
-#         return ''
-#     else:
-#         return dashbio.AlignmentChart(
-#
-#         data=data,
-#         extension="clustal",
-#         overview="slider",
-#
-#
-#     )
+@app.callback(
+    Output('alignment-viewer-output','children'),
+    [Input('arg', 'value')]
+)
+def alig(arg):
+    dropdown_value = str(arg).replace("-", "").replace("(", "").replace(")", "").replace("''", "").replace(
+        "'", "").replace("_", "")
+    relative_filename = os.path.join(
+        'data/ptn/aligned',
+        '{}.edit.fasta'.format(dropdown_value))
+    with open(relative_filename, 'r') as content_file:
+        data = content_file.read()
+
+    if len(data)==0:
+        return 'Too few sequences for display alignment'
+    if len(data)>100000:
+        return 'Too many sequences for display alignment'
+    else:
+        return dashbio.AlignmentChart(
+
+        data=data,
+        showconsensus=False,
+        extension="clustal",
+        overview="slider",
+        height=len(data)/20)
+
+
+
 
 
 if __name__ == '__main__':

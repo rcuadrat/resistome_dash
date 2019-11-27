@@ -2,8 +2,6 @@ import plotly_express as px
 import dash
 import dash_html_components as html
 import dash_core_components as dcc
-#import dash_bootstrap_components as dbc
-
 from dash.dependencies import Input, Output
 import pandas as pd
 import flask
@@ -12,7 +10,6 @@ import dash_table
 import plotly.graph_objs as go
 import base64
 import dash_bio as dashbio
-from six import PY3
 
 #### Load data ########################################
 
@@ -22,20 +19,27 @@ deep=deep[['#ARG','ORF_ID','contig_id', 'predicted_ARG-class','probability','pla
 
 deep[' index'] = range(1, len(deep) + 1)
 
-# selector = "#ARG"
-# selector = "predicted_ARG-class"
+selector = "#ARG"
+#selector = "predicted_ARG-class"
 
-env=pd.read_csv("data/table_env.tsv",sep='\t')
-
+if selector == "#ARG":
+    env=pd.read_csv("data/table_env.tsv",sep='\t')
+    dimensions = ["ARG"]
+    default="MCR-1"
+    append_text="ARG"
+if selector == "predicted_ARG-class":
+    env=pd.read_csv("data/table_env_class.tsv",sep="\t")
+    dimensions = ["Antibiotic Class"]
+    default="polymyxin"
+    append_text="class"
 
 arg_count=len(set(deep["#ARG"]))
 class_count=len(set(deep["predicted_ARG-class"]))
 
-
 PAGE_SIZE = 20
 
-
 col_options = [dict(label=x, value=x) for x in env.columns[0:-45]]
+
 col_options2=[dict(label=x, value=x) for x in ['Marine_provinces','Environmental_Feature',
                                                'Ocean_sea_regions', 'Biogeographic_biomes'
                                                ]]
@@ -47,7 +51,7 @@ col_options3=[dict(label=x, value=x) for x in ['Mean_Lat*','Mean_Long*','Mean_De
                                                 'FC - heterotrophs [cells/mL]', 'FC - autotrophs [cells/mL]', 'FC - bacteria [cells/mL]',
                                                 'FC - picoeukaryotes [cells/mL]', 'minimum generation time [h]']]
 
-dimensions = ["ARG"]
+
 dimensions2= ["Feature"]
 dimensions3= [ "Environmental parameters"]
 
@@ -81,14 +85,15 @@ app.layout = html.Div(
         by average genome size, sequencing sample deep  (number of reads) and size of ARG (expressed in RPKG - reads per kb per genome equivalent)."),
         dcc.Markdown("Please cite: [Cuadrat at al. 2019](https://doi.org/10.1101/765446)")
         ]),
-        html.Div(
-                [
-                html.P(["Please, select the ARG:", dcc.Dropdown(id="arg", options=col_options,value='MCR-1')])
-                for d in dimensions
-            ],
-            className="pretty_container",
-            style={"width": "25%", "float": "left"},
-                ),
+
+            html.Div(
+                    [
+                    html.P(["Please, select the "+str(append_text), dcc.Dropdown(id="arg", options=col_options,value=default)])
+                    for d in dimensions
+                ],
+                className="pretty_container",
+                style={"width": "25%", "float": "left"},
+                    ),
 
         html.Div(
                  [
@@ -237,7 +242,7 @@ def make_figure(size,feat):
         x=feat,
         y=size,
         notched=True,
-        labels={size:size+"  RPKG"},template='plotly_white',title="ARG abundance by "+str(feat).replace("_"," ")+"."
+        labels={size:size+"  RPKG"},template='plotly_white',title=str(size)+" abundance by "+str(feat).replace("_"," ")+"."
     ).for_each_trace(lambda t: t.update(name=t.name.replace(str(feat)+"=","")))
     fig.update_layout(plot_bgcolor="#F9F9F9",paper_bgcolor="#F9F9F9",titlefont={
     "size": 20})
@@ -295,7 +300,7 @@ def serve_static(path):
      Input('datatable-paging', "page_size"),
      Input('arg','value')])
 def update_table(page_current,page_size,arg):
-    a=deep[deep["#ARG"]==arg]
+    a=deep[deep[selector]==arg]
     return a.iloc[
         page_current*page_size:(page_current+ 1)*page_size
     ].to_dict('records')
@@ -306,14 +311,14 @@ def update_table(page_current,page_size,arg):
      Input('slider','value')])
 def make_fig2(arg,taxlevel):
     levels={1:"phylum",2:"order",3:"class",4:"family",5:"genus",6:"species"}
-    a=deep[deep["#ARG"]==arg]
-    b=a.groupby(levels[taxlevel]).count()[["#ARG"]]
+    a=deep[deep[selector]==arg]
+    b=a.groupby(levels[taxlevel]).count()[[selector]]
     b.index = b.index.str.replace("-", "Not Classified").str.replace("0", "Not Classified")
     # not use colors if level is species (too many colors)
     if taxlevel==6:
-        fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',title="Number of ARGs found per taxonomic group.").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
+        fig = go.Figure(px.bar(b.reset_index(),y=selector,x=levels[taxlevel],template='plotly_white',title="Number of ARGs found per taxonomic group.").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
     else:
-        fig = go.Figure(px.bar(b.reset_index(),y="#ARG",x=levels[taxlevel],template='plotly_white',color=levels[taxlevel],title="Number of ARGs found per taxonomic group.").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
+        fig = go.Figure(px.bar(b.reset_index(),y=selector,x=levels[taxlevel],template='plotly_white',color=levels[taxlevel],title="Number of ARGs found per taxonomic group.").for_each_trace(lambda t: t.update(name=t.name.replace(str(levels[taxlevel])+"=",""))))
 
     fig.update_xaxes(title_text=None)
     fig.update_layout(autosize=True,titlefont={"size": 20},
@@ -347,21 +352,22 @@ def alig(arg):
     relative_filename = os.path.join(
         'data/ptn/aligned',
         '{}.edit.fasta'.format(dropdown_value))
-    with open(relative_filename, 'r') as content_file:
-        data = content_file.read()
+    if selector=="#ARG":
+        with open(relative_filename, 'r') as content_file:
+            data = content_file.read()
 
-    if len(data)==0:
-        return 'Too few sequences for display alignment'
-    if len(data)>100000:
-        return 'Too many sequences for display alignment'
-    else:
-        return dashbio.AlignmentChart(
+        if len(data)==0:
+            return 'Too few sequences for display alignment'
+        if len(data)>100000:
+            return 'Too many sequences for display alignment'
+        else:
+            return dashbio.AlignmentChart(
 
-        data=data,
-        showconsensus=False,
-        extension="clustal",
-        overview="slider",
-        height=len(data)/20)
+            data=data,
+            showconsensus=False,
+            extension="clustal",
+            overview="slider",
+            height=len(data)/20)
 
 
 

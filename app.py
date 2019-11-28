@@ -88,7 +88,7 @@ app.layout = html.Div(
 
             html.Div(
                     [
-                    html.P(["Please, select the "+str(append_text), dcc.Dropdown(id="arg", options=col_options,value=default)])
+                    html.P(["Please, select the "+str(append_text)+":", dcc.Dropdown(id="arg", options=col_options,value=default)])
                     for d in dimensions
                 ],
                 className="pretty_container",

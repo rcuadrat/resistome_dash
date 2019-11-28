@@ -90,13 +90,12 @@ app.layout = html.Div([html.Div(className="pretty_container",
 
                                     html.H4(
                                         "Global ocean resistome revealed: exploring Antibiotic Resistance Genes (ARGs) abundance and distribution on TARA oceans samples through machine learning tools."),
-                                    html.P(
-                                        "This app allows the user to explore and visualize the Antibiotic Resistance Genes (ARGs) found on Tara Oceans samples."),
-                                    html.P("In short, Tara Oceans contigs (from regional samples co-assembled) \
-        were used to screening for ARGs using deepARG tool. Then, the results were manually curated in order to remove false positives and miss annotations. \
+                                    dcc.Markdown("[Cuadrat at al. 2019](https://doi.org/10.1101/765446)"),
+                                    html.P("This app allows the user to explore and visualize the Antibiotic Resistance Genes (ARGs) found on Tara Oceans samples. In short, Tara Oceans contigs (co-assembled by oceanic region) \
+        were screened for ARGs using deepARG tool. Then, the results were manually curated to remove false positives and miss annotations. \
         The extracted environmental ARGs were then used as reference for mapping reads from individual Tara Oceans samples and the read counts were normalized \
         by average genome size, sequencing sample deep  (number of reads) and size of ARG (expressed in RPKG - reads per kb per genome equivalent)."),
-                                    dcc.Markdown("Please cite: [Cuadrat at al. 2019](https://doi.org/10.1101/765446)")
+
                                 ]),
                        dcc.Tabs(className='pretty_container',children=[
                            dcc.Tab(label='Explore by ARG', style=tab_style, selected_style=tab_selected_style, children=[
@@ -317,10 +316,10 @@ app.layout = html.Div([html.Div(className="pretty_container",
                                        ),
                                        html.Br(),
 
-                                       dcc.Markdown("**ORF_ID**: identifier of the ORF predicted from Tara Ocean co-assembly; **contig_id**: ID of the contig; **predicted_ARG-class**: \
-antibiotic class; **probability**: DeepARG probability of the ARG annotation; **plasmid**: yes when the ARG was predicted to be in a plasmid by PlasFlow tool; \
-**taxon_name_kaiju**: taxonomic classification of the ARG by Kaiju tool (in the deeptest level possible); **expressed**: yes if FPKM > 5 in at least one metatranscriptomic \
-sample from TARA Oceans; **All ARGs in contig**: all the ARGs in that contig; **# ARGs in contig**: total of ARGs in that contig."),
+                                       dcc.Markdown("**ORF_ID**: identifier of ORF; **contig_id**: ID of the contig; **predicted_ARG-class**: \
+antibiotic class; **probability**: DeepARG probability; **plasmid**: yes if the ARG was predicted to be in a plasmid by PlasFlow; \
+**taxon_name_kaiju**: taxonomic classification of the ARG by Kaiju tool (in the deepest level); **expressed**: yes if FPKM > 5 in at least one metatranscriptomic \
+sample from TARA Oceans; **All ARGs in contig**: all the ARGs in the contig; **# ARGs in contig**: total of ARGs in the contig."),
                                        html.Br(),
 
                                    ]),
@@ -357,7 +356,7 @@ def make_figure_box(size, feat):
         size=size,
         zoom=0.5,
         lat="Latitude [degrees North]", lon="Longitude [degrees East]", color=feat, hover_name="Marine_provinces",
-        title=str(size) + " distribution and abundance (RPKG) on Tara Oceans.").for_each_trace(
+        title=str(size).capitalize() + " resistance genes distribution and abundance (RPKG) on Tara Oceans.").for_each_trace(
         lambda t: t.update(name=t.name.replace(str(feat) + "=", "")))
     fig.update_layout(plot_bgcolor="#F9F9F9", paper_bgcolor="#F9F9F9", titlefont={
         "size": 20})
@@ -390,7 +389,7 @@ def make_figure(size, feat):
         y=size,
         notched=True,
         labels={size: size + "  RPKG"}, template='plotly_white',
-        title=str(size) + " abundance by " + str(feat).replace("_", " ") + "."
+        title=str(size).capitalize() + " resistance genes abundance by " + str(feat).replace("_", " ") + "."
     ).for_each_trace(lambda t: t.update(name=t.name.replace(str(feat) + "=", "")))
     fig.update_layout(plot_bgcolor="#F9F9F9", paper_bgcolor="#F9F9F9", titlefont={
         "size": 20})
@@ -451,15 +450,16 @@ def make_fig2(arg, taxlevel):
     # not use colors if level is species (too many colors)
     if taxlevel == 6:
         fig = go.Figure(px.bar(b.reset_index(), y="#ARG", x=levels[taxlevel], template='plotly_white',
-                               title="Number of ARGs found per taxonomic group.").for_each_trace(
+                               title="Number of " + str(arg) +" resistance genes found per " + str(levels[taxlevel])).for_each_trace(
             lambda t: t.update(name=t.name.replace(str(levels[taxlevel]) + "=", ""))))
     else:
         fig = go.Figure(
             px.bar(b.reset_index(), y="#ARG", x=levels[taxlevel], template='plotly_white', color=levels[taxlevel],
-                   title="Number of ARGs found per taxonomic group.").for_each_trace(
+                   title="Number of " + str(arg) +" resistance genes found per " + str(levels[taxlevel])).for_each_trace(
                 lambda t: t.update(name=t.name.replace(str(levels[taxlevel]) + "=", ""))))
 
     fig.update_xaxes(title_text=None)
+    fig.update_yaxes(title_text="Number of ORFs")
     fig.update_layout(autosize=True, titlefont={"size": 20},
                       margin=go.layout.Margin(b=300))
     fig.update_layout(plot_bgcolor="#F9F9F9", paper_bgcolor="#F9F9F9")
@@ -477,15 +477,17 @@ def make_fig2(arg, taxlevel):
     # not use colors if level is species (too many colors)
     if taxlevel == 6:
         fig = go.Figure(px.bar(b.reset_index(), y="predicted_ARG-class", x=levels[taxlevel], template='plotly_white',
-                               title="Number of ARGs found per taxonomic group.").for_each_trace(
+                               title="Number of " + str(arg) +" resistance genes found per " + str(levels[taxlevel])).for_each_trace(
             lambda t: t.update(name=t.name.replace(str(levels[taxlevel]) + "=", ""))))
     else:
         fig = go.Figure(
             px.bar(b.reset_index(), y="predicted_ARG-class", x=levels[taxlevel], template='plotly_white', color=levels[taxlevel],
-                   title="Number of ARGs found per taxonomic group.").for_each_trace(
+                   title="Number of " + str(arg) +" resistance genes found per " + str(levels[taxlevel])).for_each_trace(
                 lambda t: t.update(name=t.name.replace(str(levels[taxlevel]) + "=", ""))))
 
     fig.update_xaxes(title_text=None)
+    fig.update_yaxes(title_text="Number of ORFs")
+
     fig.update_layout(autosize=True, titlefont={"size": 20},
                       margin=go.layout.Margin(b=300))
     fig.update_layout(plot_bgcolor="#F9F9F9", paper_bgcolor="#F9F9F9")
@@ -555,4 +557,4 @@ def alig(arg):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False,host="0.0.0.0")
+    app.run_server(debug=True,host="0.0.0.0")

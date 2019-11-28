@@ -350,7 +350,7 @@ def make_figure_box(size, feat):
     fig.update_layout(mapbox_style="open-street-map")
     return fig
 
-@app.callback(Output("graph_class", "figure"), [Input("class", "value"), Input("feat", "value")])
+@app.callback(Output("graph_class", "figure"), [Input("class", "value"), Input("feat2", "value")])
 def make_figure_box(size, feat):
     fig = px.scatter_mapbox(
         env_class,

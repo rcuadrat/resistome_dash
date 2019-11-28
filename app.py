@@ -74,9 +74,9 @@ dimensions3 = ["Environmental parameters"]
 
 image_filename = 'images/resistomedblogo.png'
 encoded_image = base64.b64encode(open(image_filename, 'rb').read())
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+###
+app = dash.Dash(__name__)
 
 app.layout = html.Div([html.Div(className="pretty_container",
                                 children=[
@@ -554,4 +554,4 @@ def alig(arg):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(host="0.0.0.0")

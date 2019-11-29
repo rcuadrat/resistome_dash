@@ -178,7 +178,7 @@ app.layout = html.Div([html.Div(className="pretty_container",
                                         ]),
                                html.Br(),
 
-                               html.Div(id='alignment-viewer-output'),
+
                                html.Div(
                                    className="pretty_container",
                                    children=[html.H4(
@@ -212,6 +212,7 @@ app.layout = html.Div([html.Div(className="pretty_container",
                                              html.A(id='download-link', children='Download Protein Fasta File',
                                                     style={'marginBottom': '1.5em'},
                                                     ),
+                                            html.Div(id='alignment-viewer-output'),
                                              ]),
                            ]),
                            dcc.Tab(label='Explore by antibiotic class', style=tab_style, selected_style=tab_selected_style,children=[
@@ -500,7 +501,9 @@ def make_fig2(arg, taxlevel):
      Input('env_var', 'value'),
      Input('feat', 'value')])
 def make_env_fig(arg, env_var2, feat22):
-    fig = px.scatter(env, x=arg, y=env_var2, marginal_y="violin",
+    tmp=env[[arg,env_var2]]
+
+    fig = px.scatter(tmp.dropna(), x=arg, y=env_var2, marginal_y="violin",
                      title=str(arg) + " vs. " + str(env_var2) + " scatterplot with OLS",
                      marginal_x="violin", trendline="ols", template='plotly_white').for_each_trace(
         lambda t: t.update(name=t.name.replace(str(feat22) + "=", "")))
@@ -517,7 +520,8 @@ def make_env_fig(arg, env_var2, feat22):
      Input('env_var_class', 'value'),
      Input('feat', 'value')])
 def make_env_fig(arg, env_var2, feat22):
-    fig = px.scatter(env_class, x=arg, y=env_var2, marginal_y="violin",
+    tmp = env_class[[arg, env_var2]]
+    fig = px.scatter(tmp.dropna(), x=arg, y=env_var2, marginal_y="violin",
                      title=str(arg) + " vs. " + str(env_var2) + " scatterplot with OLS",
                      marginal_x="violin", trendline="ols", template='plotly_white').for_each_trace(
         lambda t: t.update(name=t.name.replace(str(feat22) + "=", "")))

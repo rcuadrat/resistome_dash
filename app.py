@@ -175,9 +175,14 @@ app.layout = html.Div([html.Div(className="pretty_container",
                                html.Div(className="pretty_container",
                                         children=[
                                             dcc.Graph(id="graph4", config={"displayModeBar": False}),
+                                    dash_table.DataTable(
+
+                                    id = 'ols',
+                                    columns =  [{"name": i, "id": i, } for i in ["-","Coef.","Std.Err.","t",	"P>|t|",	"[0.025",	"0.975]"]]
+
+                                )
                                         ]),
                                html.Br(),
-
 
                                html.Div(
                                    className="pretty_container",
@@ -287,11 +292,14 @@ app.layout = html.Div([html.Div(className="pretty_container",
 
                                html.Div(className="pretty_container",
                                         children=[
-                                            dcc.Graph(id="graph4_class", config={"displayModeBar": False}),
+                                        dcc.Graph(id="graph4_class", config={"displayModeBar": False}),
+                                    dash_table.DataTable(
+
+                                    id = 'ols22',
+                                    columns =  [{"name": i, "id": i, } for i in ["-","Coef.","Std.Err.","t",	"P>|t|",	"[0.025",	"0.975]"]]
+
+                                )
                                         ]),
-                               html.Br(),
-
-
                                html.Div(
                                    className="pretty_container",
                                    children=[html.H4(
@@ -324,6 +332,7 @@ sample from TARA Oceans; **All ARGs in contig**: all the ARGs in the contig; **#
                                        html.Br(),
 
                                    ]),
+                               html.Br(),
 
                            ])
                        ])
@@ -496,7 +505,8 @@ def make_fig2(arg, taxlevel):
 
 
 @app.callback(
-    Output('graph4', 'figure'),
+     [Output('graph4', 'figure'),
+    Output('ols', 'data')],
     [Input('arg', 'value'),
      Input('env_var', 'value'),
      Input('feat', 'value')])
@@ -510,12 +520,21 @@ def make_env_fig(arg, env_var2, feat22):
     fig.update_layout(plot_bgcolor="#F9F9F9", paper_bgcolor="#F9F9F9")
     fig.update_layout(autosize=True, titlefont={
         "size": 20},
-
                       )
-    return fig
+    results = px.get_trendline_results(fig)
+    res = results.px_fit_results.iloc[0].summary2()
+    df = res.tables[1].reset_index()
+    df.rename(columns={"index": "-"}, inplace=True)
+
+    return fig, df.to_dict('rows')
+
+
+
+
 
 @app.callback(
-    Output('graph4_class', 'figure'),
+    [Output('graph4_class', 'figure'),
+    Output('ols22', 'data')],
     [Input('class', 'value'),
      Input('env_var_class', 'value'),
      Input('feat', 'value')])
@@ -530,7 +549,16 @@ def make_env_fig(arg, env_var2, feat22):
         "size": 20},
 
                       )
-    return fig
+
+    results = px.get_trendline_results(fig)
+    res = results.px_fit_results.iloc[0].summary2()
+    df =res.tables[1].reset_index()
+    df.rename(columns={"index":"-"},inplace=True)
+
+    return fig, df.to_dict('rows')
+
+
+
 
 @app.callback(
     Output('alignment-viewer-output', 'children'),

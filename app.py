@@ -585,7 +585,8 @@ def alig(arg):
                 showconsensus=False,
                 extension="clustal",
                 overview="slider",
-                height=len(data) / 20)
+                height=len(data) / 15),
+
 
 
 if __name__ == '__main__':

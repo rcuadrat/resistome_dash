@@ -78,7 +78,7 @@ encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 ###
 app = dash.Dash(__name__)
 server = app.server
-
+app.title = "ResistomeDB"
 app.layout = html.Div([html.Div(className="pretty_container",
                                 children=[
                                     html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()))
@@ -217,7 +217,9 @@ app.layout = html.Div([html.Div(className="pretty_container",
                                              html.A(id='download-link', children='Download Protein Fasta File',
                                                     style={'marginBottom': '1.5em'},
                                                     ),
-                                            html.Div(id='alignment-viewer-output'),
+                                            html.Br(),
+                                            html.Br(),
+                                            html.Div(id='alignment-viewer-output',style={'backgroundColor':'blue'}),
                                              ]),
                            ]),
                            dcc.Tab(label='Explore by antibiotic class', style=tab_style, selected_style=tab_selected_style,children=[

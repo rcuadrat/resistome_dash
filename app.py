@@ -48,8 +48,8 @@ env_class = pd.read_csv("data/table_env_class.tsv", sep="\t")
 dimensions_class = ["Antibiotic Class"]
 default_class = "polymyxin"
 
-# arg_count = len(set(deep["#ARG"]))
-# class_count = len(set(deep["predicted_ARG-class"]))
+arg_count = len(set(deep["#ARG"]))
+class_count = len(set(deep["predicted_ARG-class"]))
 
 PAGE_SIZE = 20
 
@@ -87,14 +87,14 @@ app.layout = html.Div([html.Div(className="pretty_container",
 
                        html.Div(className="pretty_container",
                                 children=[
-
                                     html.H4(
                                         "Global ocean resistome revealed: exploring Antibiotic Resistance Genes (ARGs) abundance and distribution on TARA oceans samples through machine learning tools."),
                                     dcc.Markdown("[Cuadrat at al. 2019](https://doi.org/10.1101/765446)"),
                                     html.P("This app allows the user to explore and visualize the Antibiotic Resistance Genes (ARGs) found on Tara Oceans samples. In short, Tara Oceans contigs (co-assembled by oceanic region) \
         were screened for ARGs using deepARG tool. Then, the results were manually curated to remove false positives and miss annotations. \
         The extracted environmental ARGs were then used as reference for mapping reads from individual Tara Oceans samples and the read counts were normalized \
-        by average genome size, sequencing sample deep  (number of reads) and size of ARG (expressed in RPKG - reads per kb per genome equivalent)."),
+        by average genome size, sequencing sample deep  (number of reads) and size of ARG (expressed in RPKG - reads per kb per genome equivalent). " + "We found a total of "+str(arg_count)
+                                           + " ARGs conferring resistance to " + str(class_count) + " antibitotic classes. You can explore it by individual ARG or grouped  by antibiotic class."),
 
                                 ]),
                        dcc.Tabs(className='pretty_container',children=[
@@ -219,7 +219,7 @@ app.layout = html.Div([html.Div(className="pretty_container",
                                                     ),
                                             html.Br(),
                                             html.Br(),
-                                            html.Div(id='alignment-viewer-output',style={'backgroundColor':'blue'}),
+                                            html.Div(id='alignment-viewer-output'),
                                              ]),
                            ]),
                            dcc.Tab(label='Explore by antibiotic class', style=tab_style, selected_style=tab_selected_style,children=[

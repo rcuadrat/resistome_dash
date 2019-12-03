@@ -219,8 +219,8 @@ app.layout = html.Div([html.Div(className="pretty_container",
                                                     ),
                                             html.Br(),
                                             html.Br(),
-                                            html.Div(id='alignment-viewer-output'),
                                              ]),
+                               html.Div(id='alignment-viewer-output'),
                            ]),
                            dcc.Tab(label='Explore by antibiotic class', style=tab_style, selected_style=tab_selected_style,children=[
                                html.Div(
@@ -580,14 +580,23 @@ def alig(arg):
         return 'Too few sequences for display alignment'
     if len(data) > 100000:
         return 'Too many sequences for display alignment'
+
+    # if len(data) < 18000:
+    #     return dashbio.AlignmentChart(
+    #         data=data,
+    #         showconsensus=False,
+    #         extension="clustal",
+    #         overview="slider",
+    #         height=500,
+    #     ),
     else:
         return dashbio.AlignmentChart(
-
                 data=data,
                 showconsensus=False,
                 extension="clustal",
                 overview="slider",
-                height=len(data) / 15),
+                height=1700,
+                ),
 
 
 

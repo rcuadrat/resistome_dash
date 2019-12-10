@@ -61,7 +61,7 @@ col_options2 = [dict(label=x, value=x) for x in ['Marine_provinces', 'Environmen
                                                  ]]
 
 col_options3 = [dict(label=x, value=x) for x in
-                ['Mean_Lat*', 'Mean_Long*', 'Mean_Depth [m]*', 'Mean_Temperature [deg C]*',
+                ['Latitude [degrees North]', 'Longitude [degrees East]', 'Sampling depth [m]', 'Mean_Temperature [deg C]*',
                  'Mean_Salinity [PSU]*', 'Mean_Oxygen [umol/kg]*', 'Mean_Nitrates[umol/L]*',
                  'NO2 [umol/L]**', 'PO4 [umol/L]**', 'NO2NO3 [umol/L]**', 'SI [umol/L]**', 'miTAG.SILVA.Taxo.Richness',
                  'miTAG.SILVA.Phylo.Diversity', 'miTAG.SILVA.Chao',
@@ -79,7 +79,7 @@ encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 app = dash.Dash(__name__)
 server = app.server
 app.title = "ResistomeDB"
-app.layout = html.Div([html.Div(className="pretty_container",
+app.layout = html.Div(children =[html.Div(className="pretty_container",
                                 children=[
                                     html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()))
                                 ]),
@@ -111,7 +111,7 @@ app.layout = html.Div([html.Div(className="pretty_container",
 
                                html.Div(
                                    [
-                                       html.P(["Please, select the grouping feature:",
+                                       html.P(["Please, select the feature:",
                                                dcc.Dropdown(id="feat", options=col_options2,
                                                             value='Environmental_Feature')])
                                        for d2 in dimensions2
@@ -161,7 +161,7 @@ app.layout = html.Div([html.Div(className="pretty_container",
                                    className="pretty_container",
                                    children=[
                                        html.P(["Please, select the environmental parameter:",
-                                               dcc.Dropdown(id="env_var", options=col_options3, value='Mean_Lat*')])
+                                               dcc.Dropdown(id="env_var", options=col_options3, value='Latitude [degrees North]')])
                                        for d3 in dimensions3
                                    ],
                                    style={"width": "25%", "float": "left"},
@@ -235,7 +235,7 @@ app.layout = html.Div([html.Div(className="pretty_container",
 
                                html.Div(
                                    [
-                                       html.P(["Please, select the grouping feature:",
+                                       html.P(["Please, select the feature:",
                                                dcc.Dropdown(id="feat2", options=col_options2,
                                                             value='Environmental_Feature')])
                                        for d2 in dimensions2
@@ -281,7 +281,7 @@ app.layout = html.Div([html.Div(className="pretty_container",
                                    className="pretty_container",
                                    children=[
                                        html.P(["Please, select the environmental parameter:",
-                                               dcc.Dropdown(id="env_var_class", options=col_options3, value='Mean_Lat*')])
+                                               dcc.Dropdown(id="env_var_class", options=col_options3, value='Latitude [degrees North]')])
                                        for d3 in dimensions3
                                    ],
                                    style={"width": "25%", "float": "left"},

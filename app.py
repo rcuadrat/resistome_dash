@@ -364,6 +364,8 @@ def make_figure_box(size, feat):
     fig = px.scatter_mapbox(
         env_class,
         size=size,
+        opacity=0.7,
+        size_max=25,
         zoom=0.5,
         lat="Latitude [degrees North]", lon="Longitude [degrees East]", color=feat, hover_name="Marine_provinces",
         title=str(size).capitalize() + " resistance genes distribution and abundance (RPKG) on Tara Oceans.").for_each_trace(
@@ -372,7 +374,7 @@ def make_figure_box(size, feat):
         "size": 20})
     fig.update_layout(autosize=True)
     fig.update_yaxes(automargin=True)
-    fig.update_layout(mapbox_style="open-street-map")
+    fig.update_layout(mapbox_style="stamen-watercolor")
     return fig
 
 @app.callback(Output("graph2", "figure"), [Input("arg", "value"), Input("feat", "value")])
@@ -570,9 +572,12 @@ def alig(arg):
     relative_filename = os.path.join(
         'data/ptn/aligned',
         '{}.edit.fasta'.format(dropdown_value))
+    try:
+        with open(relative_filename, 'r') as content_file:
 
-    with open(relative_filename, 'r') as content_file:
-        data = content_file.read()
+            data = content_file.read()
+    except:
+        data=[]
 
     if len(data) == 0:
         return 'Too few sequences for display alignment'

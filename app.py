@@ -15,7 +15,7 @@ import dash_bio as dashbio
 
 deep = pd.read_csv("data/deep_with_tax_levels.tsv", sep='\t')
 deep = deep[
-    ['#ARG', 'ORF_ID', 'contig_id', 'predicted_ARG-class', 'probability', 'plasmid', 'taxon_name_kaiju', 'expressed',
+    ['#ARG', 'ORF_ID', 'contig_id', 'predicted_ARG-class', 'probability', 'plasmid', 'taxon_name_kaiju',
      'class',
      'order', 'phylum', 'family', 'genus', 'species', 'All ARGs in contig', '# ARGs in contig', "description"]]
 
@@ -211,8 +211,7 @@ app.layout = html.Div(children =[html.Div(className="pretty_container",
 
                                              dcc.Markdown("**ORF_ID**: identifier of the ORF predicted from Tara Ocean co-assembly; **contig_id**: ID of the contig; **predicted_ARG-class**: \
         antibiotic class; **probability**: DeepARG probability of the ARG annotation; **plasmid**: yes when the ARG was predicted to be in a plasmid by PlasFlow tool; \
-        **taxon_name_kaiju**: taxonomic classification of the ARG by Kaiju tool (in the deeptest level possible); **expressed**: yes if FPKM > 5 in at least one metatranscriptomic \
-        sample from TARA Oceans; **All ARGs in contig**: all the ARGs in that contig; **# ARGs in contig**: total of ARGs in that contig."),
+        **taxon_name_kaiju**: taxonomic classification of the ARG by Kaiju tool (in the deeptest level possible); **All ARGs in contig**: all the ARGs in that contig; **# ARGs in contig**: total of ARGs in that contig."),
                                              html.Br(),
                                              html.A(id='download-link', children='Download Protein Fasta File',
                                                     style={'marginBottom': '1.5em'},
@@ -329,8 +328,7 @@ app.layout = html.Div(children =[html.Div(className="pretty_container",
 
                                        dcc.Markdown("**ORF_ID**: identifier of ORF; **contig_id**: ID of the contig; **predicted_ARG-class**: \
 antibiotic class; **probability**: DeepARG probability; **plasmid**: yes if the ARG was predicted to be in a plasmid by PlasFlow; \
-**taxon_name_kaiju**: taxonomic classification of the ARG by Kaiju tool (in the deepest level); **expressed**: yes if FPKM > 5 in at least one metatranscriptomic \
-sample from TARA Oceans; **All ARGs in contig**: all the ARGs in the contig; **# ARGs in contig**: total of ARGs in the contig."),
+**taxon_name_kaiju**: taxonomic classification of the ARG by Kaiju tool (in the deepest level); **All ARGs in contig**: all the ARGs in the contig; **# ARGs in contig**: total of ARGs in the contig."),
                                        html.Br(),
 
                                    ]),

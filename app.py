@@ -374,7 +374,7 @@ def make_figure_box(size, feat):
         "size": 20})
     fig.update_layout(autosize=True)
     fig.update_yaxes(automargin=True)
-    fig.update_layout(mapbox_style="stamen-watercolor")
+    fig.update_layout(mapbox_style="open-street-map")
     return fig
 
 @app.callback(Output("graph2", "figure"), [Input("arg", "value"), Input("feat", "value")])

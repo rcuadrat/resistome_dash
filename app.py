@@ -153,6 +153,7 @@ app.layout = html.Div(children =[html.Div(className="pretty_container",
                                               style={"width": "95%", "display": "inline-block", 'marginBottom': '1.0em',
                                                      'marginLeft': '1.5em'}),
 
+
                                        dcc.Graph(id="graph3", style={'marginBottom': '2.5em'},
                                                  config={"displayModeBar": False}),
                                    ]),
@@ -267,7 +268,7 @@ app.layout = html.Div(children =[html.Div(className="pretty_container",
                                    children=[
                                        html.H5('   Taxonomic level:'),
                                        html.P(dcc.Slider(id="slider2", min=1, max=6,
-                                                         marks={1: "Phylum", 2: "Order", 3: "Class", 4: "Family",
+                                                         marks={1: "Phylum", 2: "Class", 3: "Order", 4: "Family",
                                                                 5: "Genus", 6: "Species"}, value=4),
                                               style={"width": "95%", "display": "inline-block", 'marginBottom': '1.0em',
                                                      'marginLeft': '1.5em'}),
@@ -482,7 +483,7 @@ def make_fig2(arg, taxlevel):
     [Input('class', 'value'),
      Input('slider2', 'value')])
 def make_fig2(arg, taxlevel):
-    levels = {1: "phylum", 2: "order", 3: "class", 4: "family", 5: "genus", 6: "species"}
+    levels = {1: "phylum", 2: "class", 3: "order", 4: "family", 5: "genus", 6: "species"}
     a = deep[deep["predicted_ARG-class"] == arg]
     b = a.groupby(levels[taxlevel]).count()[["predicted_ARG-class"]]
     b.index = b.index.str.replace("-", "Not Classified").str.replace("0", "Not Classified")

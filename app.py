@@ -88,8 +88,8 @@ app.layout = html.Div(children =[html.Div(className="pretty_container",
                        html.Div(className="pretty_container",
                                 children=[
                                     html.H4(
-                                        "Global ocean resistome revealed: exploring Antibiotic Resistance Genes (ARGs) abundance and distribution on TARA oceans samples through machine learning tools."),
-                                    dcc.Markdown("[Cuadrat at al. 2019](https://doi.org/10.1101/765446)"),
+                                        "Global ocean resistome revealed: exploring Antibiotic Resistance Gene (ARGs) abundance and distribution on TARA oceans samples"),
+                                    dcc.Markdown("[Cuadrat at al. 2020](https://doi.org/10.1093/gigascience/giaa046)"),
                                     html.P("This app allows the user to explore and visualize the Antibiotic Resistance Genes (ARGs) found on Tara Oceans samples. In short, Tara Oceans contigs (co-assembled by oceanic region) \
         were screened for ARGs using deepARG tool. Then, the results were manually curated to remove false positives and miss annotations. \
         The extracted environmental ARGs were then used as reference for mapping reads from individual Tara Oceans samples and the read counts were normalized \

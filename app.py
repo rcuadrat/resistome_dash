@@ -20,6 +20,7 @@ deep = deep[
      'order', 'phylum', 'family', 'genus', 'species', 'All ARGs in contig', '# ARGs in contig', "description"]]
 
 deep[' index'] = range(1, len(deep) + 1)
+#######################################################
 
 tabs_styles = {
     'height': '40px'
@@ -95,7 +96,7 @@ app.layout = html.Div(children =[html.Div(className="pretty_container",
         The extracted environmental ARGs were then used as reference for mapping reads from individual Tara Oceans samples and the read counts were normalized \
         by average genome size, sequencing sample deep  (number of reads) and size of ARG (expressed in RPKG - reads per kb per genome equivalent). " + "We found a total of "+str(arg_count)
                                            + " ARGs conferring resistance to " + str(class_count) + " antibitotic classes. You can explore it by individual ARG or grouped  by antibiotic class."),
-
+                        dcc.Markdown("Github code and data for this dashboard: [https://github.com/rcuadrat/resistome_dash](https://github.com/rcuadrat/resistome_dash)"),
                                 ]),
                        dcc.Tabs(className='pretty_container',children=[
                            dcc.Tab(label='Explore by ARG', style=tab_style, selected_style=tab_selected_style, children=[
@@ -165,7 +166,7 @@ app.layout = html.Div(children =[html.Div(className="pretty_container",
                                                dcc.Dropdown(id="env_var", options=col_options3, value='Latitude [degrees North]')])
                                        for d3 in dimensions3
                                    ],
-                                   style={"width": "25%", "float": "left"},
+                                   style={"width": "35%", "float": "left",'marginBottom': '1.0em'},
                                ),
                                html.Br(),
                                html.Br(),
@@ -284,7 +285,7 @@ app.layout = html.Div(children =[html.Div(className="pretty_container",
                                                dcc.Dropdown(id="env_var_class", options=col_options3, value='Latitude [degrees North]')])
                                        for d3 in dimensions3
                                    ],
-                                   style={"width": "25%", "float": "left"},
+                                   style={"width": "35%", "float": "left"},
                                ),
                                html.Br(),
                                html.Br(),
@@ -471,11 +472,14 @@ def make_fig2(arg, taxlevel):
                    title="Number of " + str(arg) +" resistance genes found per " + str(levels[taxlevel])).for_each_trace(
                 lambda t: t.update(name=t.name.replace(str(levels[taxlevel]) + "=", ""))))
 
+
     fig.update_xaxes(title_text=None)
-    fig.update_yaxes(title_text="Number of ORFs")
+    fig.update_yaxes(title_text="Number of ORFs",automargin=True)
     fig.update_layout(autosize=True, titlefont={"size": 20},
-                      margin=go.layout.Margin(b=300))
+                     margin=go.layout.Margin(b=0,l=0,r=0)
+                      )
     fig.update_layout(plot_bgcolor="#F9F9F9", paper_bgcolor="#F9F9F9")
+
     return fig
 
 @app.callback(
@@ -502,7 +506,7 @@ def make_fig2(arg, taxlevel):
     fig.update_yaxes(title_text="Number of ORFs")
 
     fig.update_layout(autosize=True, titlefont={"size": 20},
-                      margin=go.layout.Margin(b=300))
+                      margin=go.layout.Margin(b=0,l=0,r=0))
     fig.update_layout(plot_bgcolor="#F9F9F9", paper_bgcolor="#F9F9F9")
     return fig
 

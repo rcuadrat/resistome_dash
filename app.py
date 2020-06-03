@@ -20,6 +20,7 @@ deep = deep[
      'order', 'phylum', 'family', 'genus', 'species', 'All ARGs in contig', '# ARGs in contig', "description"]]
 
 deep[' index'] = range(1, len(deep) + 1)
+
 #######################################################
 
 tabs_styles = {
@@ -155,7 +156,7 @@ app.layout = html.Div(children =[html.Div(className="pretty_container",
                                                      'marginLeft': '1.5em'}),
 
 
-                                       dcc.Graph(id="graph3", style={'marginBottom': '2.5em'},
+                                       dcc.Graph(id="graph3", style={'marginBottom': '1.5em'},
                                                  config={"displayModeBar": False}),
                                    ]),
 
@@ -460,24 +461,23 @@ def make_fig2(arg, taxlevel):
     levels = {1: "phylum", 2: "class", 3: "order", 4: "family", 5: "genus", 6: "species"}
     a = deep[deep["#ARG"] == arg]
     b = a.groupby(levels[taxlevel]).count()[["#ARG"]]
-    b.index = b.index.str.replace("-", "Not Classified").str.replace("0", "Not Classified")
     # not use colors if level is species (too many colors)
     if taxlevel == 6:
         fig = go.Figure(px.bar(b.reset_index(), y="#ARG", x=levels[taxlevel], template='plotly_white',
                                title="Number of " + str(arg) +" resistance genes found per " + str(levels[taxlevel])).for_each_trace(
             lambda t: t.update(name=t.name.replace(str(levels[taxlevel]) + "=", ""))))
+        fig.update_layout(margin=go.layout.Margin(b=200, l=0, r=0))
+
     else:
         fig = go.Figure(
             px.bar(b.reset_index(), y="#ARG", x=levels[taxlevel], template='plotly_white', color=levels[taxlevel],
                    title="Number of " + str(arg) +" resistance genes found per " + str(levels[taxlevel])).for_each_trace(
                 lambda t: t.update(name=t.name.replace(str(levels[taxlevel]) + "=", ""))))
+        fig.update_layout(margin=go.layout.Margin(b=0, l=0, r=0))
 
-
-    fig.update_xaxes(title_text=None)
+    fig.update_xaxes(title_text=None,automargin=True)
     fig.update_yaxes(title_text="Number of ORFs",automargin=True)
-    fig.update_layout(autosize=True, titlefont={"size": 20},
-                     margin=go.layout.Margin(b=0,l=0,r=0)
-                      )
+    fig.update_layout(autosize=True, titlefont={"size": 20})
     fig.update_layout(plot_bgcolor="#F9F9F9", paper_bgcolor="#F9F9F9")
 
     return fig
@@ -490,23 +490,23 @@ def make_fig2(arg, taxlevel):
     levels = {1: "phylum", 2: "class", 3: "order", 4: "family", 5: "genus", 6: "species"}
     a = deep[deep["predicted_ARG-class"] == arg]
     b = a.groupby(levels[taxlevel]).count()[["predicted_ARG-class"]]
-    b.index = b.index.str.replace("-", "Not Classified").str.replace("0", "Not Classified")
     # not use colors if level is species (too many colors)
     if taxlevel == 6:
         fig = go.Figure(px.bar(b.reset_index(), y="predicted_ARG-class", x=levels[taxlevel], template='plotly_white',
                                title="Number of " + str(arg) +" resistance genes found per " + str(levels[taxlevel])).for_each_trace(
             lambda t: t.update(name=t.name.replace(str(levels[taxlevel]) + "=", ""))))
+        fig.update_layout(margin=go.layout.Margin(b=200, l=0, r=0))
     else:
         fig = go.Figure(
             px.bar(b.reset_index(), y="predicted_ARG-class", x=levels[taxlevel], template='plotly_white', color=levels[taxlevel],
                    title="Number of " + str(arg) +" resistance genes found per " + str(levels[taxlevel])).for_each_trace(
                 lambda t: t.update(name=t.name.replace(str(levels[taxlevel]) + "=", ""))))
+        fig.update_layout(margin=go.layout.Margin(b=0, l=0, r=0))
 
     fig.update_xaxes(title_text=None)
     fig.update_yaxes(title_text="Number of ORFs")
 
-    fig.update_layout(autosize=True, titlefont={"size": 20},
-                      margin=go.layout.Margin(b=0,l=0,r=0))
+    fig.update_layout(autosize=True, titlefont={"size": 20})
     fig.update_layout(plot_bgcolor="#F9F9F9", paper_bgcolor="#F9F9F9")
     return fig
 

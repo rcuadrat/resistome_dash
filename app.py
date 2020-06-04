@@ -5,6 +5,7 @@ import dash_core_components as dcc
 from dash.dependencies import Input, Output
 import pandas as pd
 import flask
+from flask import Flask
 import os
 import dash_table
 import plotly.graph_objs as go
@@ -81,6 +82,11 @@ encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 app = dash.Dash(__name__)
 server = app.server
 app.title = "ResistomeDB"
+
+#server = Flask(_name_)
+#app = dash.Dash(_name_, server=server)
+#app.title = "ResistomeDB"
+
 app.layout = html.Div(children =[html.Div(className="pretty_container",
                                 children=[
                                     html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()))
@@ -610,3 +616,6 @@ def alig(arg):
 
 if __name__ == '__main__':
     app.run_server(debug=True,host="0.0.0.0")
+
+#if _name_ == '_main_':
+ #   app.run_server(debug=True, port=8055)
